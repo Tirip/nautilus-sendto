@@ -1,4 +1,16 @@
 ==============
+Version 2.28.5
+==============
+
+Nautilus Sento
+
+- Fix GSEAL compilation
+- Make the last selected medium's widget grab focus
+- Fix thunderbird's mailto command
+- Fix crashers when unloading plugins
+- Fix handling of shadowed mounts in the "Removable device" section
+
+==============
 Version 2.28.4
 ==============
 
