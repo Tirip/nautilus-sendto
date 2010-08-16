@@ -262,7 +262,7 @@ status_label_clear (gpointer data)
 static void
 send_button_cb (GtkWidget *widget, NS_ui *ui)
 {
-	char *f, *error;
+	char *error;
 	NstPlugin *p;
 	GtkWidget *w;
 
@@ -303,11 +303,14 @@ send_button_cb (GtkWidget *widget, NS_ui *ui)
 			       p->info->id);
 
 	if (gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(ui->pack_checkbutton))){
+		char *f;
+
 		f = pack_files (ui);
 		if (f != NULL) {
 			GList *packed_file = NULL;
 			packed_file = g_list_append (packed_file, f);
 			if (!p->info->send_files (p, w, packed_file)) {
+				g_free (f);
 				g_list_free (packed_file);
 				return;
 			}
@@ -316,6 +319,7 @@ send_button_cb (GtkWidget *widget, NS_ui *ui)
 			gtk_widget_set_sensitive (ui->dialog, TRUE);
 			return;
 		}
+		g_free (f);
 	} else {
 		if (!p->info->send_files (p, w, file_list)) {
 			g_list_foreach (file_list, (GFunc) g_free, NULL);
@@ -761,6 +765,7 @@ nautilus_sendto_init (void)
 
 		file = g_file_new_for_commandline_arg (filenames[i]);
 		filename = g_file_get_path (file);
+		g_object_unref (file);
 		if (filename == NULL)
 			continue;
 
