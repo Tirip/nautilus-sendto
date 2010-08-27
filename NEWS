@@ -1,4 +1,14 @@
 ==============
+Version 2.31.7
+==============
+
+Nautilus Sendto
+
+- Remove never_unload struct member for plugins,
+  they are never unloaded now
+- Fix a few memory leaks when sending files
+
+==============
 Version 2.31.6
 ==============
 
