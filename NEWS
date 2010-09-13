@@ -1,3 +1,12 @@
+===============
+Version 2.31.90
+===============
+
+Nautilus Sendto
+
+- Show the contextual menu for non-local files
+- Fix command-line help glitch
+
 ==============
 Version 2.31.7
 ==============
