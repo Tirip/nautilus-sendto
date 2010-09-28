@@ -1,4 +1,13 @@
 ===============
+Version 2.32.0
+===============
+
+Nautilus Sendto
+
+- Remove obsolete call to gconftool-2 on installation
+- Updated translations
+
+===============
 Version 2.31.90
 ===============
 
