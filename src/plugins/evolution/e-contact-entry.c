@@ -38,11 +38,6 @@
 #include <glib.h>
 #include <glib/gi18n.h>
 
-#include <libedataserver/e-source.h>
-#include <libebook/e-book.h>
-#include <libebook/e-book-view.h>
-#include <libebook/e-contact.h>
-
 #include "e-contact-entry.h"
 #include "econtactentry-marshal.h"
 
@@ -59,7 +54,7 @@ static int signals[LAST_SIGNAL] = { 0 };
 /* Properties */
 enum {
   PROP_0, /* TODO: why? */
-  PROP_SOURCE_LIST,
+  PROP_REGISTRY,
   PROP_COMPLETE_LENGTH,
 };
 
@@ -70,7 +65,7 @@ enum {
 struct EContactEntryPriv {
   GtkEntryCompletion *completion;
   GtkListStore *store;
-  ESourceList *source_list;
+  ESourceRegistry *registry;
   /* A list of EntryLookup structs we are searching */
   GList *lookup_entries;
   /* Number of characters to start searching at */
@@ -276,22 +271,13 @@ view_contacts_added_cb (EBook *book, GList *contacts, gpointer user_data)
       return;
 
     photo = e_contact_get (contact, E_CONTACT_PHOTO);
-#ifndef HAVE_ECONTACTPHOTOTYPE
-    if (photo) {
-#else
     if (photo && photo->type == E_CONTACT_PHOTO_TYPE_INLINED) {
-#endif
       GdkPixbufLoader *loader;
 
       loader = gdk_pixbuf_loader_new ();
 
-#ifndef HAVE_ECONTACTPHOTOTYPE
-      if (gdk_pixbuf_loader_write (loader, (guchar *)photo->data,
-			      photo->length, NULL))
-#else
       if (gdk_pixbuf_loader_write (loader, (guchar *)photo->data.inlined.data,
 			      photo->data.inlined.length, NULL))
-#endif
         pixbuf = gdk_pixbuf_loader_get_pixbuf (loader);
 
       if (pixbuf) {
@@ -458,11 +444,12 @@ book_opened_cb (EBook *book, EBookStatus status, gpointer data)
  */
 
 void
-e_contact_entry_set_source_list (EContactEntry *entry,
-    				  ESourceList *source_list)
+e_contact_entry_set_registry (EContactEntry *entry,
+    			      ESourceRegistry *registry)
 {
+  GList *list, *link;
+  const gchar *extension_name;
   GError *error = NULL;
-  GSList *list, *l;
 
   g_return_if_fail (E_IS_CONTACT_ENTRY (entry));
 
@@ -471,64 +458,48 @@ e_contact_entry_set_source_list (EContactEntry *entry,
     g_list_foreach (entry->priv->lookup_entries, (GFunc)lookup_entry_free, NULL);
     g_list_free (entry->priv->lookup_entries);
   }
-  if (entry->priv->source_list) {
-    g_object_unref (entry->priv->source_list);
+  if (entry->priv->registry) {
+    g_object_unref (entry->priv->registry);
   }
 
   /* If we have no new sources, disable and return here */
-  if (source_list == NULL) {
+  if (registry == NULL) {
     g_signal_emit (entry, signals[STATE_CHANGE], 0, FALSE);
-    entry->priv->source_list = NULL;
+    entry->priv->registry = NULL;
     entry->priv->lookup_entries = NULL;
     return;
   }
 
-  entry->priv->source_list = source_list;
-  /* So that the list isn't going away underneath us */
-  g_object_ref (entry->priv->source_list);
+  entry->priv->registry = registry;
+  /* So that the registry isn't going away underneath us */
+  g_object_ref (entry->priv->registry);
 
-  /* That gets us a list of ESourceGroup */
-  list = e_source_list_peek_groups (source_list);
   entry->priv->lookup_entries = NULL;
 
-  for (l = list; l != NULL; l = l->next) {
-    ESourceGroup *group = l->data;
-    GSList *sources = NULL, *m;
-    /* That should give us a list of ESource */
-    sources = e_source_group_peek_sources (group);
-    for (m = sources; m != NULL; m = m->next) {
-      ESource *source = m->data;
-      ESource *s = e_source_copy (source);
-      EntryLookup *lookup;
-      char *uri;
+  extension_name = E_SOURCE_EXTENSION_ADDRESS_BOOK;
+  list = e_source_registry_list_sources (registry, extension_name);
 
-      if (g_strcmp0 (e_source_group_peek_base_uri (group), "local:") == 0)
-        uri = g_strdup_printf ("%s%s", e_source_group_peek_base_uri (group), e_source_peek_relative_uri (source));
-      else
-        uri = g_strdup_printf ("%s/%s", e_source_group_peek_base_uri (group), e_source_peek_relative_uri (source));
-      e_source_set_absolute_uri (s, uri);
-      g_free (uri);
+  for (link = list; link != NULL; link = g_list_next (link)) {
+    ESource *source = E_SOURCE (link->data);
+    EntryLookup *lookup;
 
-      /* Now add those to the lookup entries list */
-      lookup = g_new0 (EntryLookup, 1);
-      lookup->entry = entry;
-      lookup->status = E_BOOK_ERROR_OK;
-      lookup->open = FALSE;
+    /* Now add those to the lookup entries list */
+    lookup = g_new0 (EntryLookup, 1);
+    lookup->entry = entry;
+    lookup->status = E_BOOK_ERROR_OK;
+    lookup->open = FALSE;
 
-      if ((lookup->book = e_book_new (s, &error)) == NULL) {
-        /* TODO handle this better, fire the error signal I guess */
-	if (error) {
-           g_warning ("%s", error->message);
-           g_error_free (error);
-           error = NULL;
-        }
-	g_free (lookup);
-      } else {
-        entry->priv->lookup_entries = g_list_append (entry->priv->lookup_entries, lookup);
-	e_book_async_open(lookup->book, TRUE, (EBookCallback)book_opened_cb, lookup);
+    if ((lookup->book = e_book_new (source, &error)) == NULL) {
+      /* TODO handle this better, fire the error signal I guess */
+      if (error) {
+        g_warning ("%s", error->message);
+        g_error_free (error);
+        error = NULL;
       }
-
-      g_object_unref (s);
+      g_free (lookup);
+    } else {
+      entry->priv->lookup_entries = g_list_append (entry->priv->lookup_entries, lookup);
+      e_book_async_open(lookup->book, TRUE, (EBookCallback)book_opened_cb, lookup);
     }
   }
 
@@ -536,12 +507,12 @@ e_contact_entry_set_source_list (EContactEntry *entry,
     g_signal_emit (entry, signals[STATE_CHANGE], 0, FALSE);
 }
 
-ESourceList *
-e_contact_entry_get_source_list (EContactEntry *entry)
+ESourceRegistry *
+e_contact_entry_get_registry (EContactEntry *entry)
 {
   g_return_val_if_fail (E_IS_CONTACT_ENTRY (entry), NULL);
 
-  return entry->priv->source_list;
+  return entry->priv->registry;
 }
 
 void
@@ -607,8 +578,8 @@ e_contact_entry_set_property (GObject *object, guint property_id, const GValue *
   entry = E_CONTACT_ENTRY (object);
   
   switch (property_id) {
-  case PROP_SOURCE_LIST:
-    e_contact_entry_set_source_list (entry, g_value_get_object (value));
+  case PROP_REGISTRY:
+    e_contact_entry_set_registry (entry, g_value_get_object (value));
     break;
   case PROP_COMPLETE_LENGTH:
     e_contact_entry_set_complete_length (entry, g_value_get_int (value));
@@ -626,8 +597,8 @@ e_contact_entry_get_property (GObject *object, guint property_id, GValue *value,
   entry = E_CONTACT_ENTRY (object);
   
   switch (property_id) {
-  case PROP_SOURCE_LIST:
-    g_value_set_object (value, e_contact_entry_get_source_list (entry));
+  case PROP_REGISTRY:
+    g_value_set_object (value, e_contact_entry_get_registry (entry));
     break;
   case PROP_COMPLETE_LENGTH:
     g_value_set_int (value, e_contact_entry_get_complete_length (entry));
@@ -650,7 +621,7 @@ e_contact_entry_finalize (GObject *object)
     g_list_free (entry->priv->lookup_entries);
     g_object_unref (entry->priv->completion);
     g_object_unref (entry->priv->store);
-    g_object_unref (entry->priv->source_list);
+    g_object_unref (entry->priv->registry);
 
     if (entry->priv->display_destroy) {
       entry->priv->display_destroy (entry->priv->display_func);
@@ -722,9 +693,9 @@ e_contact_entry_class_init (EContactEntryClass *klass)
   object_class->finalize = e_contact_entry_finalize;
 
   /* Properties */
-  g_object_class_install_property (object_class, PROP_SOURCE_LIST,
-                                   g_param_spec_object ("source-list", "Source List", "The source list to search for contacts.",
-                                                        E_TYPE_SOURCE_LIST, G_PARAM_READWRITE));
+  g_object_class_install_property (object_class, PROP_REGISTRY,
+                                   g_param_spec_object ("registry", "Registry", "Data source registry.",
+                                                        E_TYPE_SOURCE_REGISTRY, G_PARAM_READWRITE));
   
   g_object_class_install_property (object_class, PROP_COMPLETE_LENGTH,
                                    g_param_spec_int ("complete-length", "Complete length", "Number of characters to start a search on.",

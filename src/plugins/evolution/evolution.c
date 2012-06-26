@@ -26,7 +26,7 @@
 #include <e-contact-entry.h>
 #include <glib/gi18n-lib.h>
 #include <string.h>
-#include <libedataserverui/e-client-utils.h>
+#include <libedataserverui/libedataserverui.h>
 #include "nautilus-sendto-plugin.h"
 
 #define CONTACT_FORMAT "%s <%s>"
@@ -177,17 +177,32 @@ error_cb (EContactEntry *entry_widget, const char *error, NstPlugin *plugin)
 }
 
 static void
-add_sources (EContactEntry *entry)
+create_registry_cb (GObject *object,
+                    GAsyncResult *result,
+                    gpointer user_data)
 {
-	ESourceList *source_list;
+	ESourceRegistry *registry;
+	EContactEntry *entry;
+	GError *error = NULL;
 
-	if (e_client_utils_get_sources (&source_list,
-					E_CLIENT_SOURCE_TYPE_CONTACTS,
-					NULL)) {
-		e_contact_entry_set_source_list (E_CONTACT_ENTRY (entry),
-						 source_list);
-		g_object_unref (source_list);
+	entry = E_CONTACT_ENTRY (user_data);
+
+	registry = e_source_registry_new_finish (result, &error);
+
+	if (error != NULL) {
+		g_warn_if_fail (registry == NULL);
+		g_warning ("%s: %s", G_STRFUNC, error->message);
+		g_object_unref (entry);
+		g_error_free (error);
+		return;
 	}
+
+	g_return_if_fail (E_IS_SOURCE_REGISTRY (registry));
+
+	e_contact_entry_set_registry (E_CONTACT_ENTRY (entry), registry);
+
+	g_object_unref (registry);
+	g_object_unref (entry);
 }
 
 static
@@ -203,7 +218,8 @@ GtkWidget* get_contacts_widget (NstPlugin *plugin)
 	g_signal_connect (G_OBJECT (entry), "error",
 			  G_CALLBACK (error_cb), plugin);
 
-	add_sources (E_CONTACT_ENTRY (entry));
+	e_source_registry_new (NULL, create_registry_cb,
+			       g_object_ref (entry));
 
 	return entry;
 }
