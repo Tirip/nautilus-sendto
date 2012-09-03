@@ -528,7 +528,7 @@ update_button_image (GtkSettings *settings,
 		gtk_widget_show (widget);
 }
 
-static void
+static NS_ui *
 nautilus_sendto_create_ui (void)
 {
 	GtkBuilder *app;
@@ -638,7 +638,7 @@ nautilus_sendto_create_ui (void)
 		gtk_widget_set_sensitive (ui->pack_checkbutton, FALSE);
 	}
 
-	gtk_widget_show (ui->dialog);
+	return ui;
 }
 
 static void
@@ -809,6 +809,7 @@ int main (int argc, char **argv)
 {
 	GOptionContext *context;
 	GError *error = NULL;
+	NS_ui *ui;
 
 	bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
 	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
@@ -846,7 +847,8 @@ int main (int argc, char **argv)
 		gtk_dialog_run (GTK_DIALOG (error_dialog));
 		return 1;
 	}
-	nautilus_sendto_create_ui ();
+	ui = nautilus_sendto_create_ui ();
+	gtk_widget_show (ui->dialog);
 
 	gtk_main ();
 	g_object_unref(settings);
