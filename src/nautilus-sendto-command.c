@@ -538,6 +538,7 @@ nautilus_sendto_create_ui (void)
 	gboolean supports_dirs;
 	GtkSettings *gtk_settings;
 	GtkWidget *button_image;
+	int last_compress;
 
 	app = gtk_builder_new ();
 	if (!gtk_builder_add_from_file (app, UIDIR "/" "nautilus-sendto.ui", &error))	{
@@ -579,9 +580,8 @@ nautilus_sendto_create_ui (void)
 			  G_CALLBACK (update_button_image), button_image);
 	update_button_image (gtk_settings, NULL, button_image);
 
-	gtk_combo_box_set_active (GTK_COMBO_BOX(ui->pack_combobox),
-				  g_settings_get_int (settings,
-						      NAUTILUS_SENDTO_LAST_COMPRESS));
+	last_compress = g_settings_get_int (settings, NAUTILUS_SENDTO_LAST_COMPRESS);
+	gtk_combo_box_set_active (GTK_COMBO_BOX(ui->pack_combobox), last_compress);
 
 	if (file_list != NULL && file_list->next != NULL)
 		one_file = FALSE;
