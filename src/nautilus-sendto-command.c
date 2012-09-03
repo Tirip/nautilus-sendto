@@ -90,7 +90,8 @@ static const GOptionEntry entries[] = {
 static void 
 destroy_dialog (GtkWidget *widget, gpointer data )
 {
-        gtk_main_quit ();
+	if (gtk_main_level () > 0)
+		gtk_main_quit ();
 }
 
 static char *
