@@ -26,7 +26,6 @@
 #include <e-contact-entry.h>
 #include <glib/gi18n-lib.h>
 #include <string.h>
-#include <libedataserverui/libedataserverui.h>
 #include "nautilus-sendto-plugin.h"
 
 #define CONTACT_FORMAT "%s <%s>"
