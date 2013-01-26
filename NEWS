@@ -1,4 +1,13 @@
 ==============
+Version 3.7.0
+==============
+
+- Remove all plugins, we will only handle sending
+  through e-mail clients for the foreseeable future
+  nautilus-sendto 3.6.x is still available for integrators
+  for which this is a problem.
+
+==============
 Version 2.90.0
 ==============
 
