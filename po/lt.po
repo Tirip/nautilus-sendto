@@ -6,39 +6,48 @@
 #
 # Žygimantas Beručka <zygis@gnome.org>, 2004-2009.
 # Gintautas Miliauskas <gintas@akl.lt>, 2008.
+# Aurimas Černius <aurisc4@gmail.com>, 2013.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus-sendto&component=general\n"
-"POT-Creation-Date: 2011-01-20 18:18+0000\n"
-"PO-Revision-Date: 2011-07-16 22:28+0300\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-12-30 01:33+0000\n"
+"PO-Revision-Date: 2013-03-02 17:58+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
-"Language-Team: Lithuanian <gnome-lt@lists.akl.lt>\n"
+"Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
+"Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
-#: ../src/nautilus-sendto-command.c:79
+#: ../src/nautilus-sendto-command.c:80
 msgid "Run from build directory"
 msgstr "Paleisti iš kūrimo katalogo"
 
-#: ../src/nautilus-sendto-command.c:80
+#: ../src/nautilus-sendto-command.c:81
 msgid "Use XID as parent to the send dialogue"
 msgstr "Naudoti XID kaip tėvą siūntimo dialogui"
 
-#: ../src/nautilus-sendto-command.c:81
-#| msgid "Unable to send file"
+#: ../src/nautilus-sendto-command.c:82
 msgid "Files to send"
 msgstr "Siunčiami failai"
 
+#: ../src/nautilus-sendto-command.c:83
+msgid "Output version information and exit"
+msgstr "Išvesti versijos informaciją ir išeiti"
+
 #. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:669
+#: ../src/nautilus-sendto-command.c:667
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Tikimasi URI arba failų pavadinimų, nurodytų kaip parinčių\n"
 
-#: ../src/nautilus-sendto-command.c:699
+#: ../src/nautilus-sendto-command.c:697
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Nepavyko apdoroti komandų eilutės parinkčių: %s\n"
@@ -100,7 +109,7 @@ msgstr[2] "Bendrinama %d failų"
 msgid "_Send"
 msgstr "_Siųsti"
 
-#: ../src/plugins/nautilus-sendto-packer.c:200
+#: ../src/plugins/nautilus-sendto-packer.c:201
 msgid "Files"
 msgstr "Failai"
 
@@ -112,8 +121,7 @@ msgstr "_Atšaukti"
 msgid "Send _packed in:"
 msgstr "Siųsti su_pakuotą:"
 
-#: ../src/plugins/evolution/evolution.c:308
-#| msgid "Email"
+#: ../src/plugins/evolution/evolution.c:295
 msgid "Mail"
 msgstr "Paštas"
 
@@ -131,109 +139,111 @@ msgstr "Nepavyko surasti kontakto: %s"
 msgid "Cannot create searchable view."
 msgstr "Nepavyko sukurti ieškotino rodinio."
 
-#: ../src/plugins/evolution/e-contact-entry.c:886
+#: ../src/plugins/evolution/e-contact-entry.c:891
 msgid "Success"
 msgstr "Baigtis sėkminga"
 
-#: ../src/plugins/evolution/e-contact-entry.c:888
+#: ../src/plugins/evolution/e-contact-entry.c:893
 msgid "An argument was invalid."
 msgstr "Argumentas netaisyklingas."
 
-#: ../src/plugins/evolution/e-contact-entry.c:890
+#: ../src/plugins/evolution/e-contact-entry.c:895
 msgid "The address book is busy."
 msgstr "Adresų knygutė užimta."
 
-#: ../src/plugins/evolution/e-contact-entry.c:892
+#: ../src/plugins/evolution/e-contact-entry.c:897
 msgid "The address book is offline."
 msgstr "Adresų knyga atsijungimo veiksenoje."
 
-#: ../src/plugins/evolution/e-contact-entry.c:894
+#: ../src/plugins/evolution/e-contact-entry.c:899
 msgid "The address book does not exist."
 msgstr "Adresų knyga neegzistuoja."
 
-#: ../src/plugins/evolution/e-contact-entry.c:896
+#: ../src/plugins/evolution/e-contact-entry.c:901
 msgid "The \"Me\" contact does not exist."
 msgstr "Kontaktas „Aš“ neegzistuoja."
 
-#: ../src/plugins/evolution/e-contact-entry.c:898
+#: ../src/plugins/evolution/e-contact-entry.c:903
 msgid "The address book is not loaded."
 msgstr "Adresų knygutė neįkelta."
 
-#: ../src/plugins/evolution/e-contact-entry.c:900
+#: ../src/plugins/evolution/e-contact-entry.c:905
 msgid "The address book is already loaded."
 msgstr "Adresų knygutė jau įkelta."
 
-#: ../src/plugins/evolution/e-contact-entry.c:902
+#: ../src/plugins/evolution/e-contact-entry.c:907
 msgid "Permission was denied when accessing the address book."
 msgstr "Prieigos prie adresų knygos teisės buvo neduotos."
 
-#: ../src/plugins/evolution/e-contact-entry.c:904
+#: ../src/plugins/evolution/e-contact-entry.c:909
 msgid "The contact was not found."
 msgstr "Kontaktas nerastas."
 
-#: ../src/plugins/evolution/e-contact-entry.c:906
+#: ../src/plugins/evolution/e-contact-entry.c:911
 msgid "This contact ID already exists."
 msgstr "Toks kontakto ID jau yra."
 
-#: ../src/plugins/evolution/e-contact-entry.c:908
+#: ../src/plugins/evolution/e-contact-entry.c:913
 msgid "The protocol is not supported."
 msgstr "Protokolas nepalaikomas"
 
-#: ../src/plugins/evolution/e-contact-entry.c:910
+#: ../src/plugins/evolution/e-contact-entry.c:915
 msgid "The operation was cancelled."
 msgstr "Operacija buvo nutraukta"
 
-#: ../src/plugins/evolution/e-contact-entry.c:912
+#: ../src/plugins/evolution/e-contact-entry.c:917
 msgid "The operation could not be cancelled."
 msgstr "Šios operacijos nepavyko atšaukti."
 
-#: ../src/plugins/evolution/e-contact-entry.c:914
+#: ../src/plugins/evolution/e-contact-entry.c:919
 msgid "The address book authentication failed."
 msgstr "Nepavyko nustatyti tapatybės."
 
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid "Authentication is required to access the address book and was not given."
-msgstr "Norint gauti prieigą prie adresų knygos, reikia nurodyti tapatybę, tačiau ji nenurodyta."
+#: ../src/plugins/evolution/e-contact-entry.c:921
+msgid ""
+"Authentication is required to access the address book and was not given."
+msgstr ""
+"Norint gauti prieigą prie adresų knygos, reikia nurodyti tapatybę, tačiau ji "
+"nenurodyta."
 
-#: ../src/plugins/evolution/e-contact-entry.c:918
+#: ../src/plugins/evolution/e-contact-entry.c:923
 msgid "A secure connection is not available."
 msgstr "Saugus ryšys neprieinamas."
 
-#: ../src/plugins/evolution/e-contact-entry.c:920
+#: ../src/plugins/evolution/e-contact-entry.c:925
 msgid "A CORBA error occurred whilst accessing the address book."
 msgstr "CORBA klaida bandant gauti prieigą prie adresų knygos."
 
-#: ../src/plugins/evolution/e-contact-entry.c:922
+#: ../src/plugins/evolution/e-contact-entry.c:927
 msgid "The address book source does not exist."
 msgstr "Adresų knygos šaltinis neegzistuoja."
 
-#: ../src/plugins/evolution/e-contact-entry.c:924
-#: ../src/plugins/evolution/e-contact-entry.c:927
+#: ../src/plugins/evolution/e-contact-entry.c:929
+#: ../src/plugins/evolution/e-contact-entry.c:932
 msgid "An unknown error occurred."
 msgstr "Įvyko nežinoma klaida."
 
-#: ../src/plugins/gajim/gajim.c:417
+#: ../src/plugins/gajim/gajim.c:418
 msgid "Unable to send file"
 msgstr "Nepavyko išsiųsti failo"
 
-#: ../src/plugins/gajim/gajim.c:418
+#: ../src/plugins/gajim/gajim.c:419
 msgid "There is no connection to gajim remote service."
 msgstr "Nėra ryšio su gajim nutolusia paslauga."
 
-#: ../src/plugins/gajim/gajim.c:442
-#: ../src/plugins/gajim/gajim.c:482
+#: ../src/plugins/gajim/gajim.c:443 ../src/plugins/gajim/gajim.c:483
 msgid "Sending file failed"
 msgstr "Išsiųsti failo nepavyko"
 
-#: ../src/plugins/gajim/gajim.c:443
+#: ../src/plugins/gajim/gajim.c:444
 msgid "Recipient is missing."
 msgstr "Trūksta gavėjo."
 
-#: ../src/plugins/gajim/gajim.c:482
+#: ../src/plugins/gajim/gajim.c:483
 msgid "Unknown recipient."
 msgstr "Nežinomas gavėjas."
 
-#: ../src/plugins/gajim/gajim.c:505
+#: ../src/plugins/gajim/gajim.c:506
 msgid "Instant Message (Gajim)"
 msgstr "Žinute (Gajim)"
 
@@ -284,7 +294,6 @@ msgstr "Prisijungta prie tarnybos „%s“."
 
 #: ../src/plugins/socialweb/socialweb.c:333
 #, c-format
-#| msgid "Could not find contact: %s"
 msgid "Could not log in to service '%s'."
 msgstr "Nepavyko prisijungti prie tarnybos „%s“."
 
@@ -292,91 +301,3 @@ msgstr "Nepavyko prisijungti prie tarnybos „%s“."
 msgid "UPnP Media Server"
 msgstr "UPnP medijos serveris"
 
-#~ msgid "Last plugin used to send"
-#~ msgstr "Paskutinis siuntimui naudotas įskiepis"
-
-#~ msgid "Last type of archive used"
-#~ msgstr "Paskutinio naudoto archyvo tipas"
-
-#~ msgid ""
-#~ "Used to store which plugin was used the last time files were sent using "
-#~ "nautilus-sendto."
-#~ msgstr ""
-#~ "Čia saugoma, koks įskiepis buvo naudotas, kai paskutinį kartą buvo "
-#~ "siunčiami failai naudojant nautilus-sendto."
-
-#~ msgid ""
-#~ "Used to store which type of archive was used the last time (0: zip, 1: "
-#~ "tar.gz, 2: tar.bz2)."
-#~ msgstr ""
-#~ "Čia saugoma, koks archyvo tipas buvo naudotas paskutinį kartą (0: zip, 1: "
-#~ "tar.gz, 2: tar.bz2)."
-
-#~ msgid "_Send to..."
-#~ msgstr "_Siųsti..."
-
-#~ msgid "Send files to remote devices, or people"
-#~ msgstr "Siųsti failus žmonėms ar į nuotolinius įrenginius"
-
-#~ msgid "Send to..."
-#~ msgstr "Siųsti..."
-
-#~ msgid "Send To..."
-#~ msgstr "Siųsti..."
-
-#~ msgid "Send file by mail, instant message..."
-#~ msgstr "Siųsti failą paštu, žinute..."
-
-#~ msgid "Send files by mail, instant message..."
-#~ msgstr "Siųsti failus paštu, žinute..."
-
-#~ msgid "Could not load any plugins."
-#~ msgstr "Nepavyko įkelti jokių įskiepių."
-
-#~ msgid "Please verify your installation"
-#~ msgstr "Patikrinkite, ar programa gerai įdiegta."
-
-#~ msgid "<b>Compression</b>"
-#~ msgstr "<b>Glaudinimas</b>"
-
-#~ msgid "<b>Destination</b>"
-#~ msgstr "<b>Paskirtis</b>"
-
-#~ msgid "Send _as:"
-#~ msgstr "Siųsti _kaip:"
-
-#~ msgid "Send t_o:"
-#~ msgstr "_Gavėjas:"
-
-#~ msgid "Programming error, could not find the device in the list"
-#~ msgstr "Programavimo klaida, nepavyko rasti sąraše esančio įrenginio"
-
-#~ msgid "Obex Push file transfer unsupported"
-#~ msgstr "Obex Push failų siuntimas nepalaikomas"
-
-#~ msgid "Bluetooth (OBEX Push)"
-#~ msgstr "Bluetooth (OBEX Push)"
-
-#~ msgid "The contact selected cannot receive files."
-#~ msgstr "Pasirinktas kontaktas negali gauti failų."
-
-#~ msgid "The contact selected is offline."
-#~ msgstr "Pasirinktas kontaktas yra atsijungęs."
-
-#~ msgid "No error message"
-#~ msgstr "Nėra klaidos pranešimo"
-
-#~ msgid "Instant Message (Empathy)"
-#~ msgstr "Žinute (Empathy)"
-
-#~ msgid "Nautilus Integration"
-#~ msgstr "Nautilus integracija"
-
-#~ msgid "Provides integration with Nautilus"
-#~ msgstr "Suteikia Nautilus integraciją"
-
-#~ msgid "Nautilus Sendto"
-#~ msgstr "Nautilus sendto"
-
-#~ msgid "Instant Message (Gaim)"
-#~ msgstr "Žinute (Gaim)"
