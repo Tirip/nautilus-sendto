@@ -1,15 +1,15 @@
 .TH NAUTILUS-SENDTO 1 2006\-07\-18 "GNOME" "GNOME"
 .SH NAME
-nautilus\-sendto \- convenience application to send a file via email or instant messenger
+nautilus\-sendto \- convenience application to send a file via email
 .SH SYNOPSIS
 .B nautilus-sendto
 .RI [ OPTIONS " " | " " FILES... ]
 .SH DESCRIPTION
-Send FILE(s) via email or instant messenger.
+Send FILE(s) via email.
 
-A dialog window presents a choice of carrier application and recipient of the file(s).
-Recipent names can be selected from a list or autocompleted. The selected application
-is then opened with the file(s) and recipient ready for transfer.
+This command will open the default mailer after having attached the files mentioned
+on the command-line. If a directory is passed instead of files, it will have been
+zipped up before being attached.
 
 The application is intented to integrate with nautilus and is
 written for the GNOME graphical desktop.
