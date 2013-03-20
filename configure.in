@@ -37,8 +37,6 @@ ERROR_CFLAGS="-Wall -Wextra -Werror -Wno_missing_field_initializers -Wno_unused_
 dnl --------------------------------------------------
 
 GLIB_REQUIRED=2.25.9
-GTHREAD_REQUIRED=2.6.0
-GTK_REQUIRED=2.91.7
 
 AC_SUBST(GLIB_REQUIRED)
 AC_SUBST(GTHREAD_REQUIRED)
@@ -46,14 +44,9 @@ AC_SUBST(GTK_REQUIRED)
 
 PKG_CHECK_MODULES(NAUTILUS_SENDTO,		\
 	 glib-2.0 >= $GLIB_REQUIRED		\
-	 gthread-2.0 >= $GTHREAD_REQUIRED	\
-	 gtk+-3.0    >= $GTK_REQUIRED		\
 	 gio-2.0)
 AC_SUBST(NAUTILUS_SENDTO_CFLAGS)
 AC_SUBST(NAUTILUS_SENDTO_LIBS)
-
-GLIB_GENMARSHAL=`$PKG_CONFIG --variable=glib_genmarshal glib-2.0`
-AC_SUBST(GLIB_GENMARSHAL)
 
 IT_PROG_INTLTOOL([0.35.0])
 
