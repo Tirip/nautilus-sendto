@@ -9,9 +9,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-12-30 01:33+0000\n"
-"PO-Revision-Date: 2013-03-18 02:06+0900\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-03-20 14:12+0000\n"
+"PO-Revision-Date: 2013-03-21 00:19+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
 "Language: \n"
@@ -20,264 +21,203 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "빌드 디렉터리에서 실행"
+# 옵션 설명, 문장으로 번역.
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr "빌드 디렉터리에서 실행합니다(무시되는 옵션)"
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
-msgstr "보낼 대화상자에 상위 XID 사용"
+# 옵션 설명, 문장으로 번역.
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "보낼 대화상자에 상위 XID 사용합니다(무시되는 옵션)"
 
-#: ../src/nautilus-sendto-command.c:82
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "보낼 파일"
 
-#: ../src/nautilus-sendto-command.c:83
+# 옵션 설명, 문장으로 번역.
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
-msgstr "버전 정보를 출력하고 나가기"
+msgstr "버전 정보를 출력하고 나갑니다"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:667
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "옵션으로 URI 또는 파일 이름이 전달될 것으로 예상\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:253
+msgid "Archive"
+msgstr "압축"
 
-#: ../src/nautilus-sendto-command.c:697
+#: ../src/nautilus-sendto.c:520
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "명령행 옵션을 분석할 수 없습니다: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:535
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "폴더 %d개 공유중"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "옵션으로 URI 또는 파일 이름이 전달될 것으로 예상\n"
 
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "폴더 %d개와 파일 공유중"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "폴더 %d개 공유중"
 
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "동영상 %d개 공유중"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "폴더 %d개와 파일 공유중"
 
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "사진 %d개 공유중"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "동영상 %d개 공유중"
 
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "그림 %d개 공유중"
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "사진 %d개 공유중"
 
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "텍스트 파일 %d개 공유중"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "그림 %d개 공유중"
 
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "파일 %d개 공유중"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "텍스트 파일 %d개 공유중"
 
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "보내기(_S)"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "파일 %d개 공유중"
 
-#: ../src/plugins/nautilus-sendto-packer.c:201
-msgid "Files"
-msgstr "파일"
+#~ msgid "_Send"
+#~ msgstr "보내기(_S)"
 
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "취소(_C)"
+#~ msgid "Files"
+#~ msgstr "파일"
 
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "묶어서 보내기(_P):"
+#~ msgid "_Cancel"
+#~ msgstr "취소(_C)"
 
-#: ../src/plugins/evolution/evolution.c:295
-msgid "Mail"
-msgstr "메일"
+#~ msgid "Send _packed in:"
+#~ msgstr "묶어서 보내기(_P):"
 
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "연락처를 가져올 수 없습니다: %s"
+#~ msgid "Mail"
+#~ msgstr "메일"
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "연락처를 찾을 수 없습니다: %s"
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "연락처를 가져올 수 없습니다: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "검색 가능 뷰를 만들 수 없습니다."
+#~ msgid "Could not find contact: %s"
+#~ msgstr "연락처를 찾을 수 없습니다: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:891
-msgid "Success"
-msgstr "성공"
+#~ msgid "Cannot create searchable view."
+#~ msgstr "검색 가능 뷰를 만들 수 없습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:893
-msgid "An argument was invalid."
-msgstr "인자가 잘못됐습니다."
+#~ msgid "Success"
+#~ msgstr "성공"
 
-#: ../src/plugins/evolution/e-contact-entry.c:895
-msgid "The address book is busy."
-msgstr "주소록이 사용 중입니다."
+#~ msgid "An argument was invalid."
+#~ msgstr "인자가 잘못됐습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:897
-msgid "The address book is offline."
-msgstr "주소록이 연결 중지 상태입니다."
+#~ msgid "The address book is busy."
+#~ msgstr "주소록이 사용 중입니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:899
-msgid "The address book does not exist."
-msgstr "주소록이 없습니다."
+#~ msgid "The address book is offline."
+#~ msgstr "주소록이 연결 중지 상태입니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:901
-msgid "The \"Me\" contact does not exist."
-msgstr "\"나\" 연락처가 없습니다."
+#~ msgid "The address book does not exist."
+#~ msgstr "주소록이 없습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:903
-msgid "The address book is not loaded."
-msgstr "주소록을 읽어들이지 않았습니다."
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "\"나\" 연락처가 없습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:905
-msgid "The address book is already loaded."
-msgstr "주소록을 이미 읽어들였습니다."
+#~ msgid "The address book is not loaded."
+#~ msgstr "주소록을 읽어들이지 않았습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:907
-msgid "Permission was denied when accessing the address book."
-msgstr "주소록에 접근하는데 권한이 거부되었습니다."
+#~ msgid "The address book is already loaded."
+#~ msgstr "주소록을 이미 읽어들였습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:909
-msgid "The contact was not found."
-msgstr "연락처가 없습니다."
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "주소록에 접근하는데 권한이 거부되었습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:911
-msgid "This contact ID already exists."
-msgstr "이 연락처 ID가 이미 있습니다."
+#~ msgid "The contact was not found."
+#~ msgstr "연락처가 없습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:913
-msgid "The protocol is not supported."
-msgstr "프로토콜을 지원하지 않습니다."
+#~ msgid "This contact ID already exists."
+#~ msgstr "이 연락처 ID가 이미 있습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:915
-msgid "The operation was cancelled."
-msgstr "해당 동작을 취소했습니다."
+#~ msgid "The protocol is not supported."
+#~ msgstr "프로토콜을 지원하지 않습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:917
-msgid "The operation could not be cancelled."
-msgstr "해당 동작은 취소할 수 없습니다."
+#~ msgid "The operation was cancelled."
+#~ msgstr "해당 동작을 취소했습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:919
-msgid "The address book authentication failed."
-msgstr "주소록 인증이 실패했습니다."
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "해당 동작은 취소할 수 없습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:921
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr "주소록에 접근하는데 인증이 필요하지만 인증하지 않았습니다."
+#~ msgid "The address book authentication failed."
+#~ msgstr "주소록 인증이 실패했습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:923
-msgid "A secure connection is not available."
-msgstr "보안 연결을 사용할 수 없습니다."
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr "주소록에 접근하는데 인증이 필요하지만 인증하지 않았습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:925
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "주소록에 접근하는데 CORBA 오류가 발생했습니다."
+#~ msgid "A secure connection is not available."
+#~ msgstr "보안 연결을 사용할 수 없습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "The address book source does not exist."
-msgstr "주소록 소스가 없습니다."
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "주소록에 접근하는데 CORBA 오류가 발생했습니다."
 
-#: ../src/plugins/evolution/e-contact-entry.c:929
-#: ../src/plugins/evolution/e-contact-entry.c:932
-msgid "An unknown error occurred."
-msgstr "알 수 없는 오류가 발생했습니다."
+#~ msgid "The address book source does not exist."
+#~ msgstr "주소록 소스가 없습니다."
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "Unable to send file"
-msgstr "파일을 보낼 수 없음"
+#~ msgid "An unknown error occurred."
+#~ msgstr "알 수 없는 오류가 발생했습니다."
 
-#: ../src/plugins/gajim/gajim.c:419
-msgid "There is no connection to gajim remote service."
-msgstr "gajim 원격 서비스와 연결되지 않음."
+#~ msgid "Unable to send file"
+#~ msgstr "파일을 보낼 수 없음"
 
-#: ../src/plugins/gajim/gajim.c:443 ../src/plugins/gajim/gajim.c:483
-msgid "Sending file failed"
-msgstr "파일 보내기 실패"
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "gajim 원격 서비스와 연결되지 않음."
 
-#: ../src/plugins/gajim/gajim.c:444
-msgid "Recipient is missing."
-msgstr "수신자가 없 습니다."
+#~ msgid "Sending file failed"
+#~ msgstr "파일 보내기 실패"
 
-#: ../src/plugins/gajim/gajim.c:483
-msgid "Unknown recipient."
-msgstr "수신자를 알 수 없습니다."
+#~ msgid "Recipient is missing."
+#~ msgstr "수신자가 없 습니다."
 
-#: ../src/plugins/gajim/gajim.c:506
-msgid "Instant Message (Gajim)"
-msgstr "메신저(Gajim)"
+#~ msgid "Unknown recipient."
+#~ msgstr "수신자를 알 수 없습니다."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "새 CD/DVD"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "메신저(Gajim)"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "기존 CD/DVD"
+#~ msgid "New CD/DVD"
+#~ msgstr "새 CD/DVD"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "CD/DVD 만들기"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "기존 CD/DVD"
 
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "메신저(피진)"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "CD/DVD 만들기"
 
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "이동식 디스크 및 공유"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "메신저(피진)"
 
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "'%s' 업로드 중"
+#~ msgid "Removable disks and shares"
+#~ msgstr "이동식 디스크 및 공유"
 
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "업로드 준비 중"
+#~ msgid "Uploading '%s'"
+#~ msgstr "'%s' 업로드 중"
 
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "'%s' 서비스를 설정하지 않았습니다."
+#~ msgid "Preparing upload"
+#~ msgstr "업로드 준비 중"
 
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "설정(_C)"
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "'%s' 서비스를 설정하지 않았습니다."
 
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "'%s' 서비스에 로그인했습니다."
+#~ msgid "_Configure"
+#~ msgstr "설정(_C)"
 
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "'%s' 서비스에 로그인할 수 없습니다."
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "'%s' 서비스에 로그인했습니다."
 
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "UPnP 미디어 서버"
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "'%s' 서비스에 로그인할 수 없습니다."
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "UPnP 미디어 서버"
