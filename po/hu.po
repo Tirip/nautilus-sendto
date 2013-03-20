@@ -5,292 +5,231 @@
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2012.
 # Szabolcs Varga <shirokuma at shirokuma dot hu>, 2005.
 # Kalman Kemenczy <kkemenczy at novell dot com>, 2008.
+# Balázs Úr <urbalazs at gmail dot com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-01-06 13:05+0000\n"
-"PO-Revision-Date: 2012-02-29 03:23+0100\n"
-"Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
-"Language-Team: Magyar <gnome-hu-list at gnome dot org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-03-20 14:12+0000\n"
+"PO-Revision-Date: 2013-03-20 15:34+0100\n"
+"Last-Translator: Balázs Úr <urbalazs at gmail dot com>\n"
+"Language-Team: Hungarian <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "Futtatás a build könyvtárból"
+#: ../src/nautilus-sendto.c:53
+#| msgid "Run from build directory"
+msgid "Run from build directory (ignored)"
+msgstr "Futtatás a build könyvtárból (mellőzve)"
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
-msgstr "Az XID használata a küldési ablak szülőjeként"
+#: ../src/nautilus-sendto.c:54
+#| msgid "Use XID as parent to the send dialogue"
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "Az XID használata a küldési ablak szülőjeként (mellőzve)"
 
-#: ../src/nautilus-sendto-command.c:82
-#| msgid "Unable to send file"
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "Elküldendő fájlok"
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
 msgstr "Verzióinformációk kiírása és kilépés"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:664
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "URI címekre vagy fájlnevekre számít paraméterekként\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:253
+msgid "Archive"
+msgstr "Archívum"
 
-#: ../src/nautilus-sendto-command.c:694
+#: ../src/nautilus-sendto.c:520
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Nem dolgozhatók fel a parancssori kapcsolók: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:535
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "%d mappa megosztása"
-msgstr[1] "%d mappa megosztása"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "URI címekre vagy fájlnevekre számít paraméterekként\n"
 
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "%d mappa és fájl megosztása"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "%d mappa megosztása"
+#~ msgstr[1] "%d mappa megosztása"
 
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "%d videó megosztása"
-msgstr[1] "%d videó megosztása"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "%d mappa és fájl megosztása"
 
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "%d fénykép megosztása"
-msgstr[1] "%d fénykép megosztása"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "%d videó megosztása"
+#~ msgstr[1] "%d videó megosztása"
 
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "%d kép megosztása"
-msgstr[1] "%d kép megosztása"
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "%d fénykép megosztása"
+#~ msgstr[1] "%d fénykép megosztása"
 
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "%d szövegfájl megosztása"
-msgstr[1] "%d szövegfájl megosztása"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "%d kép megosztása"
+#~ msgstr[1] "%d kép megosztása"
 
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "%d fájl megosztása"
-msgstr[1] "%d fájl megosztása"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "%d szövegfájl megosztása"
+#~ msgstr[1] "%d szövegfájl megosztása"
 
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "_Küldés"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "%d fájl megosztása"
+#~ msgstr[1] "%d fájl megosztása"
 
-#: ../src/plugins/nautilus-sendto-packer.c:200
-msgid "Files"
-msgstr "Fájlok"
+#~ msgid "_Send"
+#~ msgstr "_Küldés"
 
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "Mé_gse"
+#~ msgid "Files"
+#~ msgstr "Fájlok"
 
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "Küldés _tömörítve:"
+#~ msgid "_Cancel"
+#~ msgstr "Mé_gse"
 
-#: ../src/plugins/evolution/evolution.c:308
-#| msgid "Email"
-msgid "Mail"
-msgstr "Levél"
+#~ msgid "Send _packed in:"
+#~ msgstr "Küldés _tömörítve:"
 
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "A névjegy nem kérhető le: %s"
+#~| msgid "Email"
+#~ msgid "Mail"
+#~ msgstr "Levél"
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "A névjegy nem található: %s"
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "A névjegy nem kérhető le: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "A kereshető nézet nem hozható létre."
+#~ msgid "Could not find contact: %s"
+#~ msgstr "A névjegy nem található: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "Success"
-msgstr "Sikerült"
+#~ msgid "Cannot create searchable view."
+#~ msgstr "A kereshető nézet nem hozható létre."
 
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "An argument was invalid."
-msgstr "Egy argumentum érvénytelen."
+#~ msgid "Success"
+#~ msgstr "Sikerült"
 
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is busy."
-msgstr "A címjegyzék foglalt."
+#~ msgid "An argument was invalid."
+#~ msgstr "Egy argumentum érvénytelen."
 
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book is offline."
-msgstr "A címjegyzék nem érhető el."
+#~ msgid "The address book is busy."
+#~ msgstr "A címjegyzék foglalt."
 
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The address book does not exist."
-msgstr "A címjegyzék nem létezik."
+#~ msgid "The address book is offline."
+#~ msgstr "A címjegyzék nem érhető el."
 
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The \"Me\" contact does not exist."
-msgstr "Az „Én” névjegy nem létezik."
+#~ msgid "The address book does not exist."
+#~ msgstr "A címjegyzék nem létezik."
 
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is not loaded."
-msgstr "A címjegyzék nincs betöltve."
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "Az „Én” névjegy nem létezik."
 
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "The address book is already loaded."
-msgstr "A címjegyzék már be van töltve."
+#~ msgid "The address book is not loaded."
+#~ msgstr "A címjegyzék nincs betöltve."
 
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "Permission was denied when accessing the address book."
-msgstr "A hozzáférés megtagadva a címjegyzék elérése közben."
+#~ msgid "The address book is already loaded."
+#~ msgstr "A címjegyzék már be van töltve."
 
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "The contact was not found."
-msgstr "A névjegy nem található."
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "A hozzáférés megtagadva a címjegyzék elérése közben."
 
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "This contact ID already exists."
-msgstr "Ez a névjegy-azonosító már létezik."
+#~ msgid "The contact was not found."
+#~ msgstr "A névjegy nem található."
 
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The protocol is not supported."
-msgstr "A protokoll nem támogatott."
+#~ msgid "This contact ID already exists."
+#~ msgstr "Ez a névjegy-azonosító már létezik."
 
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation was cancelled."
-msgstr "A művelet megszakítva."
+#~ msgid "The protocol is not supported."
+#~ msgstr "A protokoll nem támogatott."
 
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The operation could not be cancelled."
-msgstr "A művelet nem szakítható meg."
+#~ msgid "The operation was cancelled."
+#~ msgstr "A művelet megszakítva."
 
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid "The address book authentication failed."
-msgstr "A címjegyzék hitelesítése meghiúsult."
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "A művelet nem szakítható meg."
 
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr ""
-"A címjegyzék eléréséhez hitelesítés szükséges, ami nem került megadásra."
+#~ msgid "The address book authentication failed."
+#~ msgstr "A címjegyzék hitelesítése meghiúsult."
 
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A secure connection is not available."
-msgstr "Nem áll rendelkezésre biztonságos kapcsolat."
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr ""
+#~ "A címjegyzék eléréséhez hitelesítés szükséges, ami nem került megadásra."
 
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "CORBA hiba történt a címjegyzék elérésekor."
+#~ msgid "A secure connection is not available."
+#~ msgstr "Nem áll rendelkezésre biztonságos kapcsolat."
 
-#: ../src/plugins/evolution/e-contact-entry.c:922
-msgid "The address book source does not exist."
-msgstr "A címjegyzékforrás nem létezik."
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "CORBA hiba történt a címjegyzék elérésekor."
 
-#: ../src/plugins/evolution/e-contact-entry.c:924
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "An unknown error occurred."
-msgstr "Ismeretlen hiba történt."
+#~ msgid "The address book source does not exist."
+#~ msgstr "A címjegyzékforrás nem létezik."
 
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "Nem küldhető el a fájl"
+#~ msgid "An unknown error occurred."
+#~ msgstr "Ismeretlen hiba történt."
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "Nincs kapcsolat a gajim távoli szolgáltatáshoz."
+#~ msgid "Unable to send file"
+#~ msgstr "Nem küldhető el a fájl"
 
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "A fájl küldése meghiúsult"
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "Nincs kapcsolat a gajim távoli szolgáltatáshoz."
 
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "A címzett hiányzik."
+#~ msgid "Sending file failed"
+#~ msgstr "A fájl küldése meghiúsult"
 
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "Ismeretlen címzett."
+#~ msgid "Recipient is missing."
+#~ msgstr "A címzett hiányzik."
 
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "Azonnali üzenet (Gajim)"
+#~ msgid "Unknown recipient."
+#~ msgstr "Ismeretlen címzett."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "Új CD/DVD"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Azonnali üzenet (Gajim)"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "Meglévő CD/DVD"
+#~ msgid "New CD/DVD"
+#~ msgstr "Új CD/DVD"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "CD/DVD-készítő"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "Meglévő CD/DVD"
 
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "Azonnali üzenet (Pidgin)"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "CD/DVD-készítő"
 
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "Cserélhető lemezek és megosztások"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Azonnali üzenet (Pidgin)"
 
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "„%s” feltöltése"
+#~ msgid "Removable disks and shares"
+#~ msgstr "Cserélhető lemezek és megosztások"
 
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "Feltöltés előkészítése"
+#~ msgid "Uploading '%s'"
+#~ msgstr "„%s” feltöltése"
 
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "A(z) „%s” szolgáltatás nincs beállítva."
+#~ msgid "Preparing upload"
+#~ msgstr "Feltöltés előkészítése"
 
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "_Beállítás"
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "A(z) „%s” szolgáltatás nincs beállítva."
 
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "Bejelentkezve a(z) „%s” szolgáltatásba."
+#~ msgid "_Configure"
+#~ msgstr "_Beállítás"
 
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-#| msgid "Could not find contact: %s"
-msgid "Could not log in to service '%s'."
-msgstr "Nem lehet belépni a(z) „%s” szolgáltatásba."
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "Bejelentkezve a(z) „%s” szolgáltatásba."
 
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "UPnP médiakiszolgáló"
+#~| msgid "Could not find contact: %s"
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "Nem lehet belépni a(z) „%s” szolgáltatásba."
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "UPnP médiakiszolgáló"
 
 #~ msgid "Send To..."
 #~ msgstr "Küldés…"
