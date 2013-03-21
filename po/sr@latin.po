@@ -2,14 +2,14 @@
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2010—2012.
 # This file is distributed under the same license as the nautilus-send-to package.
 # Miloš Popović <gpopac@gmail.com>, 2010.
-# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2011, 2012.
+# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2011, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-send-to\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product"
 "=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-01-28 16:44+0000\n"
-"PO-Revision-Date: 2012-02-19 16:57+0200\n"
+"POT-Creation-Date: 2013-03-20 14:12+0000\n"
+"PO-Revision-Date: 2013-03-21 10:09+0200\n"
 "Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
 "Language: sr\n"
@@ -20,362 +20,36 @@ msgstr ""
 "n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Project-Style: gnome\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "Pokreće iz direktorijuma izgradnje"
+#: ../src/nautilus-sendto.c:53
+#| msgid "Run from build directory"
+msgid "Run from build directory (ignored)"
+msgstr "Pokreće iz direktorijuma izgradnje (zanemareno)"
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
-msgstr "Koristi HID kao osnovu za prozorče slanja"
+#: ../src/nautilus-sendto.c:54
+#| msgid "Use XID as parent to the send dialogue"
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "Koristi HID kao osnovu za prozorče slanja (zanemareno)"
 
-#: ../src/nautilus-sendto-command.c:82
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "Datoteke za slanje"
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
 msgstr "Ispisuje podatke o izdanju i izlazi"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:664
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Očekujem unos adresa ili imena datoteka u vidu opcija\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:253
+msgid "Archive"
+msgstr "Arhiva"
 
-#: ../src/nautilus-sendto-command.c:694
+#: ../src/nautilus-sendto.c:520
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr "Ne mogu da raščlanim opcije naredbe: %s\n"
+msgstr "Ne mogu da obradim opcije linije naredbe: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:535
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "Delim %d fasciklu"
-msgstr[1] "Delim %d fascikle"
-msgstr[2] "Delim %d fascikli"
-msgstr[3] "Delim jednu fasciklu"
-
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "Deljenje %d fascikli i datoteka"
-
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "Delim %d video snimak"
-msgstr[1] "Delim %d video snimka"
-msgstr[2] "Delim %d video snimaka"
-msgstr[3] "Delim jedan video snimak"
-
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "Delim %d fotografiju"
-msgstr[1] "Delim %d fotografije"
-msgstr[2] "Delim %d fotografija"
-msgstr[3] "Delim jednu fotografiju"
-
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "Delim %d sliku"
-msgstr[1] "Delim %d slike"
-msgstr[2] "Delim %d slika"
-msgstr[3] "Delim jednu sliku"
-
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "Delim %d tekstualnu datoteku"
-msgstr[1] "Delim %d tekstualne datoteke"
-msgstr[2] "Delim %d tekstualnih datoteka"
-msgstr[3] "Delim jednu tekstualnu datoteku"
-
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "Delim %d datoteku"
-msgstr[1] "Delim %d datoteke"
-msgstr[2] "Delim %d datoteka"
-msgstr[3] "Delim jednu datoteku"
-
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "Po_šalji"
-
-#: ../src/plugins/nautilus-sendto-packer.c:200
-msgid "Files"
-msgstr "Datoteke"
-
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "_Otkaži"
-
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "Pošalji _zapakovano kao:"
-
-#: ../src/plugins/evolution/evolution.c:308
-msgid "Mail"
-msgstr "El. pošta"
-
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "Ne mogu da preuzmem kontakt: %s"
-
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "Ne mogu da nađem kontakt: %s"
-
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "Ne mogu da prikažem pretragu."
-
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "Success"
-msgstr "Uspešno"
-
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "An argument was invalid."
-msgstr "Nije ispravan argument."
-
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is busy."
-msgstr "Adresar je zauzet."
-
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book is offline."
-msgstr "Adresar je van mreže."
-
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The address book does not exist."
-msgstr "Adresar ne postoji."
-
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The \"Me\" contact does not exist."
-msgstr "Ne postoji kontakt sa podacima o vama."
-
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is not loaded."
-msgstr "Adresar nije učitan."
-
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "The address book is already loaded."
-msgstr "Adresar je već učitan."
-
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "Permission was denied when accessing the address book."
-msgstr "Nemate ovlašćenja za pristup adresaru."
-
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "The contact was not found."
-msgstr "Kontakt nije pronađen."
-
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "This contact ID already exists."
-msgstr "Već postoji ovaj IB kontakta."
-
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The protocol is not supported."
-msgstr "Ovaj protokol nije podržan."
-
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation was cancelled."
-msgstr "Radnja je prekinuta."
-
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The operation could not be cancelled."
-msgstr "Ne možete da prekinete ovu radnju."
-
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid "The address book authentication failed."
-msgstr "Ne mogu da se prijavim u adresar."
-
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr "Potrebno je potvrđivanje identiteta za pristup adresaru a nije dato."
-
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A secure connection is not available."
-msgstr "Nije dostupna sigurna veza."
-
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "Došlo je do greške KORBA-e prilikom pristupanja adresaru."
-
-#: ../src/plugins/evolution/e-contact-entry.c:922
-msgid "The address book source does not exist."
-msgstr "Ne postoji izvor adresara."
-
-#: ../src/plugins/evolution/e-contact-entry.c:924
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "An unknown error occurred."
-msgstr "Došlo je do nepoznate greške."
-
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "Ne mogu da pošaljem datoteku"
-
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "Ne postoji veza sa udaljenim Gajim servisom."
-
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "Nije uspelo slanje datoteke"
-
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "Nedostaje primalac."
-
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "Nije poznat primalac."
-
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "Brze poruke (Gajim)"
-
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "Novi CD/DVD"
-
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "Postojeći CD/DVD"
-
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "Mesto za izradu diskova"
-
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "Brze poruke (Golupko)"
-
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "Uklonjive ili deljene diskove"
-
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "Šaljem „%s“"
-
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "Pripremam za slanje"
-
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "Usluga „%s“ nije podešena."
-
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "_Podesi"
-
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "Prijavljeni ste na uslugu „%s“."
-
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "Ne mogu da se prijavim na uslugu „%s“."
-
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "UPnP medijski server"
-
-#~ msgid "Send To..."
-#~ msgstr "Pošalji u..."
-
-#~ msgid "Send file by mail, instant message..."
-#~ msgstr "Šalje datoteku e-poštom ili brzom porukom..."
-
-#~ msgid "Send files by mail, instant message..."
-#~ msgstr "Šalje datoteke e-poštom ili brzom porukom..."
-
-#~ msgid "Could not load any plugins."
-#~ msgstr "Ne mogu da učitam dodatke."
-
-#~ msgid "Please verify your installation"
-#~ msgstr "Proverite da li je program ispravno instaliran."
-
-#~ msgid "<b>Compression</b>"
-#~ msgstr "<b>Pakovanje</b>"
-
-#~ msgid "<b>Destination</b>"
-#~ msgstr "<b>Odredište</b>"
-
-#~ msgid "Send _as:"
-#~ msgstr "Pošalji _u:"
-
-#~ msgid "Send t_o:"
-#~ msgstr "Pošalji _na:"
-
-#~ msgid "Last plugin used to send"
-#~ msgstr "Poslednji dodatak kojim je izvršeno slanje"
-
-#~ msgid "Last type of archive used"
-#~ msgstr "Poslednja vrsta arhive u kojoj je poslato"
-
-#~ msgid ""
-#~ "Used to store which plugin was used the last time files were sent using "
-#~ "nautilus-sendto."
-#~ msgstr ""
-#~ "Služi za pamćenje dodatka kojim je izvršeno poslednje slanje datoteka iz "
-#~ "Nautilusovog pošiljaoca."
-
-#~ msgid ""
-#~ "Used to store which type of archive was used the last time (0: zip, 1: "
-#~ "tar.gz, 2: tar.bz2)."
-#~ msgstr ""
-#~ "Služi za pamćenje vrste arhive u kojoj je izvršeno poslednje slanje datoteka "
-#~ "(0: zip, 1: tar.gz, 2: tar.bz2)."
-
-#~ msgid "_Send to..."
-#~ msgstr "Po_šalji u..."
-
-#~ msgid "Send files to remote devices, or people"
-#~ msgstr "Šalje datoteke udaljenim uređajima ili ljudima"
-
-#~ msgid "Send to..."
-#~ msgstr "Pošalji u..."
-
-#~ msgid "Nautilus Sendto"
-#~ msgstr "Nautilusov pošiljalac"
-
-#~ msgid "Programming error, could not find the device in the list"
-#~ msgstr "Greška u programu. Ne mogu da nađem uređaj unutar spiska"
-
-#~ msgid "Obex Push file transfer unsupported"
-#~ msgstr "Nije podržan prenos datoteka kroz Obeks"
-
-#~ msgid "Bluetooth (OBEX Push)"
-#~ msgstr "Blutut (kroz Obeks)"
-
-#~ msgid "The contact selected cannot receive files."
-#~ msgstr "Izabrani kontakt ne može da primi datoteke."
-
-#~ msgid "The contact selected is offline."
-#~ msgstr "Izabrani kontakt je van mreže."
-
-#~ msgid "No error message"
-#~ msgstr "Nema poruke o grešci"
-
-#~ msgid "Instant Message (Empathy)"
-#~ msgstr "Brze poruke (Internet pismonoša)"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Očekujem da adrese ili nazivi datoteka budu prosleđeni kao opcije\n"
