@@ -7,13 +7,13 @@
 # Ignacio Casal Quinteiro <icq@svn.gnome.org>, 2007.
 # Fran Diéguez <frandieguez@ubuntu.com>, 2010.
 # Leandro Regueiro <leandro.regueiro@gmail.com>, 2012.
-# Fran Dieguez <frandieguez@gnome.org>, 2012.
+# Fran Dieguez <frandieguez@gnome.org>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-16 23:59+0200\n"
-"PO-Revision-Date: 2012-08-16 23:59+0200\n"
+"POT-Creation-Date: 2013-03-21 19:14+0100\n"
+"PO-Revision-Date: 2013-03-21 19:15+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: gnome-l10n-gl@gnome.org\n"
 "Language: gl\n"
@@ -21,277 +21,213 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.0\n"
+"X-Generator: Virtaal 0.7.1\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "Executar desde o cartafol de construción"
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr "Executar desde o cartafol de construción (ignorada)"
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
-msgstr "Usar o XID como pai para o diálogo de envío"
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "Usar o XID como pai para o diálogo de envío (ignorada)"
 
-#: ../src/nautilus-sendto-command.c:82
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "Ficheiros a enviar"
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
 msgstr "Mostrar a información de versión e saír"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:667
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Expera que se pasen como opcións URIs ou nomes de ficheiros\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:253
+msgid "Archive"
+msgstr "Arquivo"
 
-#: ../src/nautilus-sendto-command.c:697
+#: ../src/nautilus-sendto.c:520
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Non foi posíbel analizar as opcións da liña de ordes: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:535
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "Compartir %d cartafol"
-msgstr[1] "Compartir %d cartafoles"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Expera que se pasen como opcións URIs ou nomes de ficheiros\n"
 
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "Compartir %d cartafoles e ficheiros"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "Compartir %d cartafol"
+#~ msgstr[1] "Compartir %d cartafoles"
 
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "Compartir %d vídeo"
-msgstr[1] "Compartir %d vídeos"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "Compartir %d cartafoles e ficheiros"
 
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "Compartir %d foto"
-msgstr[1] "Compartir %d fotos"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "Compartir %d vídeo"
+#~ msgstr[1] "Compartir %d vídeos"
 
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "Compartir %d imaxe"
-msgstr[1] "Compartir %d imaxes"
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "Compartir %d foto"
+#~ msgstr[1] "Compartir %d fotos"
 
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "Compartir %d ficheiro de texto"
-msgstr[1] "Compartir %d ficheiros de texto"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "Compartir %d imaxe"
+#~ msgstr[1] "Compartir %d imaxes"
 
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "Compartir %d ficheiro"
-msgstr[1] "Compartir %d ficheiros"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "Compartir %d ficheiro de texto"
+#~ msgstr[1] "Compartir %d ficheiros de texto"
 
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "_Enviar"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "Compartir %d ficheiro"
+#~ msgstr[1] "Compartir %d ficheiros"
 
-#: ../src/plugins/nautilus-sendto-packer.c:201
-msgid "Files"
-msgstr "Ficheiros"
+#~ msgid "_Send"
+#~ msgstr "_Enviar"
 
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "_Cancelar"
+#~ msgid "Files"
+#~ msgstr "Ficheiros"
 
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "E_nviar empaquetado en:"
+#~ msgid "_Cancel"
+#~ msgstr "_Cancelar"
 
-#: ../src/plugins/evolution/evolution.c:295
-msgid "Mail"
-msgstr "Correo electrónico"
+#~ msgid "Send _packed in:"
+#~ msgstr "E_nviar empaquetado en:"
 
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "Non foi posíbel obter o contacto: %s"
+#~ msgid "Mail"
+#~ msgstr "Correo electrónico"
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "Non foi posíbel atopar o contacto: %s"
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "Non foi posíbel obter o contacto: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "Non foi posíbel crear a visualización buscábel."
+#~ msgid "Could not find contact: %s"
+#~ msgstr "Non foi posíbel atopar o contacto: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:891
-msgid "Success"
-msgstr "Éxito"
+#~ msgid "Cannot create searchable view."
+#~ msgstr "Non foi posíbel crear a visualización buscábel."
 
-#: ../src/plugins/evolution/e-contact-entry.c:893
-msgid "An argument was invalid."
-msgstr "Un argumento foi inválido"
+#~ msgid "Success"
+#~ msgstr "Éxito"
 
-#: ../src/plugins/evolution/e-contact-entry.c:895
-msgid "The address book is busy."
-msgstr "A axenda de enderezos está ocupada."
+#~ msgid "An argument was invalid."
+#~ msgstr "Un argumento foi inválido"
 
-#: ../src/plugins/evolution/e-contact-entry.c:897
-msgid "The address book is offline."
-msgstr "A axenda de enderezos está fóra de liña."
+#~ msgid "The address book is busy."
+#~ msgstr "A axenda de enderezos está ocupada."
 
-#: ../src/plugins/evolution/e-contact-entry.c:899
-msgid "The address book does not exist."
-msgstr "A axenda de enderezos non existe."
+#~ msgid "The address book is offline."
+#~ msgstr "A axenda de enderezos está fóra de liña."
 
-#: ../src/plugins/evolution/e-contact-entry.c:901
-msgid "The \"Me\" contact does not exist."
-msgstr "O contacto «Eu» non existe."
+#~ msgid "The address book does not exist."
+#~ msgstr "A axenda de enderezos non existe."
 
-#: ../src/plugins/evolution/e-contact-entry.c:903
-msgid "The address book is not loaded."
-msgstr "A axenda de enderezos non está cargada."
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "O contacto «Eu» non existe."
 
-#: ../src/plugins/evolution/e-contact-entry.c:905
-msgid "The address book is already loaded."
-msgstr "A axenda de enderezos xa está cargada."
+#~ msgid "The address book is not loaded."
+#~ msgstr "A axenda de enderezos non está cargada."
 
-#: ../src/plugins/evolution/e-contact-entry.c:907
-msgid "Permission was denied when accessing the address book."
-msgstr "Denegouse o permiso ao acceder á axenda de enderezos."
+#~ msgid "The address book is already loaded."
+#~ msgstr "A axenda de enderezos xa está cargada."
 
-#: ../src/plugins/evolution/e-contact-entry.c:909
-msgid "The contact was not found."
-msgstr "Non se encontrou o contacto."
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "Denegouse o permiso ao acceder á axenda de enderezos."
 
-#: ../src/plugins/evolution/e-contact-entry.c:911
-msgid "This contact ID already exists."
-msgstr "O ID do contacto xa existe."
+#~ msgid "The contact was not found."
+#~ msgstr "Non se encontrou o contacto."
 
-#: ../src/plugins/evolution/e-contact-entry.c:913
-msgid "The protocol is not supported."
-msgstr "O protocolo non é compatíbel."
+#~ msgid "This contact ID already exists."
+#~ msgstr "O ID do contacto xa existe."
 
-#: ../src/plugins/evolution/e-contact-entry.c:915
-msgid "The operation was cancelled."
-msgstr "Cancelouse a operación."
+#~ msgid "The protocol is not supported."
+#~ msgstr "O protocolo non é compatíbel."
 
-#: ../src/plugins/evolution/e-contact-entry.c:917
-msgid "The operation could not be cancelled."
-msgstr "A operación non foi cancelada."
+#~ msgid "The operation was cancelled."
+#~ msgstr "Cancelouse a operación."
 
-#: ../src/plugins/evolution/e-contact-entry.c:919
-msgid "The address book authentication failed."
-msgstr "A autenticación da axenda de enderezos fallou."
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "A operación non foi cancelada."
 
-#: ../src/plugins/evolution/e-contact-entry.c:921
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr ""
-"Requírese autenticación para acceder á axenda de enderezos e non foi "
-"proporcionada."
+#~ msgid "The address book authentication failed."
+#~ msgstr "A autenticación da axenda de enderezos fallou."
 
-#: ../src/plugins/evolution/e-contact-entry.c:923
-msgid "A secure connection is not available."
-msgstr "Non está dispoñíbel unha conexión segura."
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr ""
+#~ "Requírese autenticación para acceder á axenda de enderezos e non foi "
+#~ "proporcionada."
 
-#: ../src/plugins/evolution/e-contact-entry.c:925
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "Produciuse un erro CORBA ao acceder á axenda de enderezos."
+#~ msgid "A secure connection is not available."
+#~ msgstr "Non está dispoñíbel unha conexión segura."
 
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "The address book source does not exist."
-msgstr "A axenda de enderezos orixe non existe."
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "Produciuse un erro CORBA ao acceder á axenda de enderezos."
 
-#: ../src/plugins/evolution/e-contact-entry.c:929
-#: ../src/plugins/evolution/e-contact-entry.c:932
-msgid "An unknown error occurred."
-msgstr "Produciuse un erro descoñecido."
+#~ msgid "The address book source does not exist."
+#~ msgstr "A axenda de enderezos orixe non existe."
 
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "Non foi posíbel enviar o ficheiro"
+#~ msgid "An unknown error occurred."
+#~ msgstr "Produciuse un erro descoñecido."
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "Non hai conexión co servizo remoto gajim."
+#~ msgid "Unable to send file"
+#~ msgstr "Non foi posíbel enviar o ficheiro"
 
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "Produciuse un erro ao enviar o ficheiro"
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "Non hai conexión co servizo remoto gajim."
 
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "Falta o destinatario."
+#~ msgid "Sending file failed"
+#~ msgstr "Produciuse un erro ao enviar o ficheiro"
 
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "Destinatario descoñecido."
+#~ msgid "Recipient is missing."
+#~ msgstr "Falta o destinatario."
 
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "Mensaxe instantánea (Gajim)"
+#~ msgid "Unknown recipient."
+#~ msgstr "Destinatario descoñecido."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "Novo CD/DVD"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Mensaxe instantánea (Gajim)"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "CD/DVD existente"
+#~ msgid "New CD/DVD"
+#~ msgstr "Novo CD/DVD"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "Creador de CD/DVD"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "CD/DVD existente"
 
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "Mensaxe instantánea (Pidgin)"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "Creador de CD/DVD"
 
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "Discos extraíbeis e recursos compartidos"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Mensaxe instantánea (Pidgin)"
 
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "Subindo «%s»"
+#~ msgid "Removable disks and shares"
+#~ msgstr "Discos extraíbeis e recursos compartidos"
 
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "Preparando a subida"
+#~ msgid "Uploading '%s'"
+#~ msgstr "Subindo «%s»"
 
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "O servizo «%s» non está configurado."
+#~ msgid "Preparing upload"
+#~ msgstr "Preparando a subida"
 
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "_Configurar"
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "O servizo «%s» non está configurado."
 
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "Sesión iniciada no servizo «%s»."
+#~ msgid "_Configure"
+#~ msgstr "_Configurar"
 
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "Non foi posíbel iniciar sesión no servizo «%s»."
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "Sesión iniciada no servizo «%s»."
 
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "Servidor multimedia UPnP"
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "Non foi posíbel iniciar sesión no servizo «%s»."
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "Servidor multimedia UPnP"
 
 #~ msgid "Send To..."
 #~ msgstr "Enviar a...."
