@@ -8,285 +8,224 @@ msgstr ""
 "Project-Id-Version: nautilus-sendto.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
 "cgi?product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-01-06 13:05+0000\n"
-"PO-Revision-Date: 2013-03-15 12:28+0530\n"
+"POT-Creation-Date: 2013-03-20 14:12+0000\n"
+"PO-Revision-Date: 2013-03-22 14:42+0530\n"
 "Last-Translator: \n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "બિલ્ડ ડિરેક્ટરીમાંથી ચલાવો"
+#: ../src/nautilus-sendto.c:53
+#| msgid "Run from build directory"
+msgid "Run from build directory (ignored)"
+msgstr "બિલ્ડ ડિરેક્ટરીમાંથી ચલાવો (અવગણેલ)"
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
-msgstr "સંવાદને મેકલવા માટે XID ને મુખ્ય તરીકે વાપરો"
+#: ../src/nautilus-sendto.c:54
+#| msgid "Use XID as parent to the send dialogue"
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "સંવાદને મેકલવા માટે XID ને મુખ્ય તરીકે વાપરો (અવગણેલ)"
 
-#: ../src/nautilus-sendto-command.c:82
-#| msgid "Unable to send file"
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "મોકલવા માટે ફાઇલો"
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
 msgstr "આઉટપુટ આવૃત્તિ જાણકારી અને બહાર નીકળો"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:664
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "વિકલ્પો તરીકે પસાર કરવા માટે URIs અથવા ફાઇલનામો આશા રાખે છે\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:253
+msgid "Archive"
+msgstr "પેટી"
 
-#: ../src/nautilus-sendto-command.c:694
+#: ../src/nautilus-sendto.c:520
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "આદેશ-વાક્ય વિકલ્પોને પદચ્છેદન કરી શકાયુ નહિં: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:535
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "%d ફોલ્ડરને વહેંચી રહ્યા છે"
-msgstr[1] "%d ફોલ્ડરોને વહેંચી રહ્યા છે"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "વિકલ્પો તરીકે પસાર કરવા માટે URIs અથવા ફાઇલનામો આશા રાખે છે\n"
 
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "%d ફોલ્ડરો અને ફાઇલોને વહેંચી રહ્યા છે"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "%d ફોલ્ડરને વહેંચી રહ્યા છે"
+#~ msgstr[1] "%d ફોલ્ડરોને વહેંચી રહ્યા છે"
 
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "%d વિડિયોને વહેંચી રહ્યા છે"
-msgstr[1] "%d વિડિયોને વહેંચી રહ્યા છે"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "%d ફોલ્ડરો અને ફાઇલોને વહેંચી રહ્યા છે"
 
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "%d ફોટોને વહેંચી રહ્યા છે"
-msgstr[1] "%d ફોટાને વહેંચી રહ્યા છે"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "%d વિડિયોને વહેંચી રહ્યા છે"
+#~ msgstr[1] "%d વિડિયોને વહેંચી રહ્યા છે"
 
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "%d ઇમેજને વહેંચી રહ્યા છે"
-msgstr[1] "%d ઇમેજોને વહેંચી રહ્યા છે"
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "%d ફોટોને વહેંચી રહ્યા છે"
+#~ msgstr[1] "%d ફોટાને વહેંચી રહ્યા છે"
 
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "%d લખાણ ફાઇલને વહેંચી રહ્યા છે"
-msgstr[1] "%d લખાણ ફાઇલોને વહેંચી રહ્યા છે"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "%d ઇમેજને વહેંચી રહ્યા છે"
+#~ msgstr[1] "%d ઇમેજોને વહેંચી રહ્યા છે"
 
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "%d ફાઇલને વહેંચી રહ્યા છે"
-msgstr[1] "%d ફાઇલોને વહેંચી રહ્યા છે"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "%d લખાણ ફાઇલને વહેંચી રહ્યા છે"
+#~ msgstr[1] "%d લખાણ ફાઇલોને વહેંચી રહ્યા છે"
 
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "મોકલો (_S)"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "%d ફાઇલને વહેંચી રહ્યા છે"
+#~ msgstr[1] "%d ફાઇલોને વહેંચી રહ્યા છે"
 
-#: ../src/plugins/nautilus-sendto-packer.c:200
-msgid "Files"
-msgstr "ફાઇલો"
+#~ msgid "_Send"
+#~ msgstr "મોકલો (_S)"
 
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "રદ કરો (_C)"
+#~ msgid "Files"
+#~ msgstr "ફાઇલો"
 
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "માં પેક થયેલ ને મોકલો (_p):"
+#~ msgid "_Cancel"
+#~ msgstr "રદ કરો (_C)"
 
-#: ../src/plugins/evolution/evolution.c:308
-#| msgid "Email"
-msgid "Mail"
-msgstr "મેઈલ"
+#~ msgid "Send _packed in:"
+#~ msgstr "માં પેક થયેલ ને મોકલો (_p):"
 
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "સંપર્કને મેળવી શકાતુ નથી: %s"
+#~| msgid "Email"
+#~ msgid "Mail"
+#~ msgstr "મેઈલ"
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "સંપર્કને શોધી શકાયુ નહિં: %s"
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "સંપર્કને મેળવી શકાતુ નથી: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "શોધ કરી શકાય તેવા દ્રશ્યને બનાવી શકાતુ નથી."
+#~ msgid "Could not find contact: %s"
+#~ msgstr "સંપર્કને શોધી શકાયુ નહિં: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "Success"
-msgstr "સફળતા"
+#~ msgid "Cannot create searchable view."
+#~ msgstr "શોધ કરી શકાય તેવા દ્રશ્યને બનાવી શકાતુ નથી."
 
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "An argument was invalid."
-msgstr "દલીલ અયોગ્ય હતી."
+#~ msgid "Success"
+#~ msgstr "સફળતા"
 
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is busy."
-msgstr "સરનામાં ચોપડી એ વ્યસ્ત છે."
+#~ msgid "An argument was invalid."
+#~ msgstr "દલીલ અયોગ્ય હતી."
 
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book is offline."
-msgstr "સરનામાં ચોપડી એ ઓફલાઇન છે."
+#~ msgid "The address book is busy."
+#~ msgstr "સરનામાં ચોપડી એ વ્યસ્ત છે."
 
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The address book does not exist."
-msgstr "સરનામાં ચોપડી અસ્તિત્વ ધરાવતી નથી."
+#~ msgid "The address book is offline."
+#~ msgstr "સરનામાં ચોપડી એ ઓફલાઇન છે."
 
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The \"Me\" contact does not exist."
-msgstr "\"Me\" સંપર્ક અસ્તિત્વ ધરાવતો નથી."
+#~ msgid "The address book does not exist."
+#~ msgstr "સરનામાં ચોપડી અસ્તિત્વ ધરાવતી નથી."
 
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is not loaded."
-msgstr "સરનામાં ચોપડી એ લોડ થયેલ નથી."
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "\"Me\" સંપર્ક અસ્તિત્વ ધરાવતો નથી."
 
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "The address book is already loaded."
-msgstr "સરનામાં ચોપડી એ પહેલેથી જ લોડ થયેલ છે."
+#~ msgid "The address book is not loaded."
+#~ msgstr "સરનામાં ચોપડી એ લોડ થયેલ નથી."
 
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "Permission was denied when accessing the address book."
-msgstr "પરવાનગી રદ કરેલ છે જ્યારે સરનામાંની ચોપડીનો પ્રવેશ કરી રહ્યા હોય ત્યારે."
+#~ msgid "The address book is already loaded."
+#~ msgstr "સરનામાં ચોપડી એ પહેલેથી જ લોડ થયેલ છે."
 
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "The contact was not found."
-msgstr "સંપર્ક શોધાયુ ન હતુ."
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "પરવાનગી રદ કરેલ છે જ્યારે સરનામાંની ચોપડીનો પ્રવેશ કરી રહ્યા હોય ત્યારે."
 
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "This contact ID already exists."
-msgstr "સંપર્ક ID પહેલેથી જ અસ્તિત્વ ધરાવે છે."
+#~ msgid "The contact was not found."
+#~ msgstr "સંપર્ક શોધાયુ ન હતુ."
 
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The protocol is not supported."
-msgstr "પ્રોટોકોલ આધારભૂત નથી."
+#~ msgid "This contact ID already exists."
+#~ msgstr "સંપર્ક ID પહેલેથી જ અસ્તિત્વ ધરાવે છે."
 
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation was cancelled."
-msgstr "ક્રિયા રદ થયેલ હતી."
+#~ msgid "The protocol is not supported."
+#~ msgstr "પ્રોટોકોલ આધારભૂત નથી."
 
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The operation could not be cancelled."
-msgstr "ક્રિયાને રદ કરી શકાઇ નહિં."
+#~ msgid "The operation was cancelled."
+#~ msgstr "ક્રિયા રદ થયેલ હતી."
 
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid "The address book authentication failed."
-msgstr "સરનામાં ચોપડી સત્તાધિકરણ નિષ્ફળ."
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "ક્રિયાને રદ કરી શકાઇ નહિં."
 
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid "Authentication is required to access the address book and was not given."
-msgstr "સરનામાં ચોપડીનાં પ્રવેશ માટે સત્તાધિરણની જરૂર છે અને આપેલ ન હતી."
+#~ msgid "The address book authentication failed."
+#~ msgstr "સરનામાં ચોપડી સત્તાધિકરણ નિષ્ફળ."
 
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A secure connection is not available."
-msgstr "સુરક્ષા જોડાણ એ ઉપલ્બધ નથી."
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr "સરનામાં ચોપડીનાં પ્રવેશ માટે સત્તાધિરણની જરૂર છે અને આપેલ ન હતી."
 
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "CORBA ભૂલ ઉત્પન્ન થયેલ છે જ્યારે સરનામાંની ચોપડીનો પ્રવેશ કરી રહ્યા હોય ત્યારે."
+#~ msgid "A secure connection is not available."
+#~ msgstr "સુરક્ષા જોડાણ એ ઉપલ્બધ નથી."
 
-#: ../src/plugins/evolution/e-contact-entry.c:922
-msgid "The address book source does not exist."
-msgstr "સરનામાં ચોપડી સ્ત્રોત અસ્તિત્વ ધરાવતુ નથી."
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "CORBA ભૂલ ઉત્પન્ન થયેલ છે જ્યારે સરનામાંની ચોપડીનો પ્રવેશ કરી રહ્યા હોય ત્યારે."
 
-#: ../src/plugins/evolution/e-contact-entry.c:924
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "An unknown error occurred."
-msgstr "અજ્ઞાત ભૂલ ઉદ્ભવી."
+#~ msgid "The address book source does not exist."
+#~ msgstr "સરનામાં ચોપડી સ્ત્રોત અસ્તિત્વ ધરાવતુ નથી."
 
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "ફાઇલને મોકલવાનું અસમર્થ"
+#~ msgid "An unknown error occurred."
+#~ msgstr "અજ્ઞાત ભૂલ ઉદ્ભવી."
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "gajim દૂરસ્થ સેવાને જોડાણ નથી."
+#~ msgid "Unable to send file"
+#~ msgstr "ફાઇલને મોકલવાનું અસમર્થ"
 
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "ફાઇલને મોકલવામાં નિષ્ફળ"
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "gajim દૂરસ્થ સેવાને જોડાણ નથી."
 
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "પ્રાપ્તકર્તા ગુમ થયેલ છે."
+#~ msgid "Sending file failed"
+#~ msgstr "ફાઇલને મોકલવામાં નિષ્ફળ"
 
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "અજ્ઞાત પ્રાપ્તકર્તા."
+#~ msgid "Recipient is missing."
+#~ msgstr "પ્રાપ્તકર્તા ગુમ થયેલ છે."
 
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "Instant Message (Gajim)"
+#~ msgid "Unknown recipient."
+#~ msgstr "અજ્ઞાત પ્રાપ્તકર્તા."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "નવું CD/DVD"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Instant Message (Gajim)"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "હાલની CD/DVD"
+#~ msgid "New CD/DVD"
+#~ msgstr "નવું CD/DVD"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "CD/DVD બનાવનાર"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "હાલની CD/DVD"
 
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "Instant Message (Pidgin)"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "CD/DVD બનાવનાર"
 
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "દૂર કરી શકાય તેવી ડિસ્કો અને હિસ્સાઓ"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Instant Message (Pidgin)"
 
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "'%s' અપલોડ કરી રહ્યા છે"
+#~ msgid "Removable disks and shares"
+#~ msgstr "દૂર કરી શકાય તેવી ડિસ્કો અને હિસ્સાઓ"
 
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "અપલોડ માટે તૈયાર કરી રહ્યા છે"
+#~ msgid "Uploading '%s'"
+#~ msgstr "'%s' અપલોડ કરી રહ્યા છે"
 
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "સેવા '%s' રૂપરેખાંકિત થયેલ નથી."
+#~ msgid "Preparing upload"
+#~ msgstr "અપલોડ માટે તૈયાર કરી રહ્યા છે"
 
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "રૂપરેખાંકિત કરો (_C)"
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "સેવા '%s' રૂપરેખાંકિત થયેલ નથી."
 
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "સેવા '%s' માં પ્રવેશેલ છે."
+#~ msgid "_Configure"
+#~ msgstr "રૂપરેખાંકિત કરો (_C)"
 
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-#| msgid "Could not find contact: %s"
-msgid "Could not log in to service '%s'."
-msgstr "સેવા '%s' માં પ્રવેશી શક્યા નહિં."
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "સેવા '%s' માં પ્રવેશેલ છે."
 
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "UPnP મીડિયા સર્વર"
+#~| msgid "Could not find contact: %s"
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "સેવા '%s' માં પ્રવેશી શક્યા નહિં."
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "UPnP મીડિયા સર્વર"
 
 #~ msgid "Last plugin used to send"
 #~ msgstr "મોકલવા માટે વપરાયેલ છેલ્લુ પ્લગઇન"
