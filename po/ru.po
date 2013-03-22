@@ -9,290 +9,209 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-01-28 16:44+0000\n"
-"PO-Revision-Date: 2012-02-11 18:18+0300\n"
-"Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-03-21 07:45+0000\n"
+"PO-Revision-Date: 2013-03-21 13:50+0600\n"
+"Last-Translator: Dmitriy S. Seregin <dseregin@59.ru>\n"
 "Language-Team: Russian <gnome-cyr@gnome.org>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "Запустить из каталога сборки"
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr "Запустить из каталога сборки (игнорируется)"
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
-msgstr "Использовать XID как родителя по отношению к диалогу отправки"
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr ""
+"Использовать XID как родителя по отношению к диалогу отправки (игнорируется)"
 
-#: ../src/nautilus-sendto-command.c:82
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "Файлы для отправки"
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
 msgstr "Показать информацию о версии и выйти"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:664
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Ожидается, что URI или имена файлов будут переданы как параметры\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:253
+msgid "Archive"
+msgstr "Архив"
 
-#: ../src/nautilus-sendto-command.c:694
+#: ../src/nautilus-sendto.c:520
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Не удалось разобрать параметры командной строки: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:535
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "Открывается доступ к %d папке"
-msgstr[1] "Открывается доступ к %d папкам"
-msgstr[2] "Открывается доступ к %d папкам"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Ожидается, что URI или имена файлов будут переданы как параметры\n"
 
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "Открывается доступ к %d папкам и файлам"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "Открывается доступ к %d папке"
+#~ msgstr[1] "Открывается доступ к %d папкам"
+#~ msgstr[2] "Открывается доступ к %d папкам"
 
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "Открывается доступ к %d видео"
-msgstr[1] "Открывается доступ к %d видео"
-msgstr[2] "Открывается доступ к %d видео"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "Открывается доступ к %d папкам и файлам"
 
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "Открывается доступ к %d фотоснимку"
-msgstr[1] "Открывается доступ к %d фотоснимкам"
-msgstr[2] "Открывается доступ к %d фотоснимкам"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "Открывается доступ к %d видео"
+#~ msgstr[1] "Открывается доступ к %d видео"
+#~ msgstr[2] "Открывается доступ к %d видео"
 
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "Открывается доступ к %d изображению"
-msgstr[1] "Открывается доступ к %d изображениям"
-msgstr[2] "Открывается доступ к %d изображениям"
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "Открывается доступ к %d фотоснимку"
+#~ msgstr[1] "Открывается доступ к %d фотоснимкам"
+#~ msgstr[2] "Открывается доступ к %d фотоснимкам"
 
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "Открывается доступ к %d текстовому файлу"
-msgstr[1] "Открывается доступ к %d текстовым файлам"
-msgstr[2] "Открывается доступ к %d текстовым файлам"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "Открывается доступ к %d изображению"
+#~ msgstr[1] "Открывается доступ к %d изображениям"
+#~ msgstr[2] "Открывается доступ к %d изображениям"
 
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "Открывается доступ к %d файлу"
-msgstr[1] "Открывается доступ к %d файлам"
-msgstr[2] "Открывается доступ к %d файлам"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "Открывается доступ к %d текстовому файлу"
+#~ msgstr[1] "Открывается доступ к %d текстовым файлам"
+#~ msgstr[2] "Открывается доступ к %d текстовым файлам"
 
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "_Отправить"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "Открывается доступ к %d файлу"
+#~ msgstr[1] "Открывается доступ к %d файлам"
+#~ msgstr[2] "Открывается доступ к %d файлам"
 
-#: ../src/plugins/nautilus-sendto-packer.c:200
-msgid "Files"
-msgstr "Файлы"
+#~ msgid "_Send"
+#~ msgstr "_Отправить"
 
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "О_тменить"
+#~ msgid "Files"
+#~ msgstr "Файлы"
 
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "Отправить _запакованным в:"
+#~ msgid "_Cancel"
+#~ msgstr "О_тменить"
 
-#: ../src/plugins/evolution/evolution.c:308
-msgid "Mail"
-msgstr "Почта"
+#~ msgid "Send _packed in:"
+#~ msgstr "Отправить _запакованным в:"
 
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "Не удалось получить контакт: %s"
+#~ msgid "Mail"
+#~ msgstr "Почта"
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "Не удалось найти контакт: %s"
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "Не удалось получить контакт: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "Не удалось создать вид с поиском."
+#~ msgid "Could not find contact: %s"
+#~ msgstr "Не удалось найти контакт: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "Success"
-msgstr "Выполнено"
+#~ msgid "Cannot create searchable view."
+#~ msgstr "Не удалось создать вид с поиском."
 
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "An argument was invalid."
-msgstr "Указан неверный аргумент."
+#~ msgid "Success"
+#~ msgstr "Выполнено"
 
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is busy."
-msgstr "Адресная книга занята."
+#~ msgid "An argument was invalid."
+#~ msgstr "Указан неверный аргумент."
 
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book is offline."
-msgstr "Адресная книга отключена."
+#~ msgid "The address book is busy."
+#~ msgstr "Адресная книга занята."
 
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The address book does not exist."
-msgstr "Адресная книга не существует."
+#~ msgid "The address book is offline."
+#~ msgstr "Адресная книга отключена."
 
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The \"Me\" contact does not exist."
-msgstr "Контакт «Я» не существует."
+#~ msgid "The address book does not exist."
+#~ msgstr "Адресная книга не существует."
 
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is not loaded."
-msgstr "Адресная книга не загружена."
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "Контакт «Я» не существует."
 
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "The address book is already loaded."
-msgstr "Адресная книга уже загружена."
+#~ msgid "The address book is not loaded."
+#~ msgstr "Адресная книга не загружена."
 
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "Permission was denied when accessing the address book."
-msgstr "При попытке обращения к адресной книге доступ был запрещён."
+#~ msgid "The address book is already loaded."
+#~ msgstr "Адресная книга уже загружена."
 
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "The contact was not found."
-msgstr "Контакт не найден."
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "При попытке обращения к адресной книге доступ был запрещён."
 
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "This contact ID already exists."
-msgstr "ID контакта уже существует."
+#~ msgid "The contact was not found."
+#~ msgstr "Контакт не найден."
 
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The protocol is not supported."
-msgstr "Протокол не поддерживается."
+#~ msgid "This contact ID already exists."
+#~ msgstr "ID контакта уже существует."
 
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation was cancelled."
-msgstr "Операция отменена."
+#~ msgid "The protocol is not supported."
+#~ msgstr "Протокол не поддерживается."
 
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The operation could not be cancelled."
-msgstr "Операция не может быть отменена."
+#~ msgid "The operation was cancelled."
+#~ msgstr "Операция отменена."
 
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid "The address book authentication failed."
-msgstr "Сбой аутентификации адресной книги."
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "Операция не может быть отменена."
 
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid "Authentication is required to access the address book and was not given."
-msgstr "Для доступа к адресной книге требуется аутентификация."
+#~ msgid "The address book authentication failed."
+#~ msgstr "Сбой аутентификации адресной книги."
 
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A secure connection is not available."
-msgstr "Безопасное соединение недоступно."
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr "Для доступа к адресной книге требуется аутентификация."
 
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "При доступе к адресной книге произошла ошибка CORBA."
+#~ msgid "A secure connection is not available."
+#~ msgstr "Безопасное соединение недоступно."
 
-#: ../src/plugins/evolution/e-contact-entry.c:922
-msgid "The address book source does not exist."
-msgstr "Источник адресной книги не существует."
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "При доступе к адресной книге произошла ошибка CORBA."
 
-#: ../src/plugins/evolution/e-contact-entry.c:924
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "An unknown error occurred."
-msgstr "Произошла неизвестная ошибка."
+#~ msgid "The address book source does not exist."
+#~ msgstr "Источник адресной книги не существует."
 
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "Невозможно отправить файл"
+#~ msgid "An unknown error occurred."
+#~ msgstr "Произошла неизвестная ошибка."
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "Нет соединения с удалённой службой gajim."
+#~ msgid "Unable to send file"
+#~ msgstr "Невозможно отправить файл"
 
-#: ../src/plugins/gajim/gajim.c:442
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "Сбой при отправке файла"
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "Нет соединения с удалённой службой gajim."
 
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "Не указан получатель."
+#~ msgid "Sending file failed"
+#~ msgstr "Сбой при отправке файла"
 
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "Неизвестный получатель."
+#~ msgid "Recipient is missing."
+#~ msgstr "Не указан получатель."
 
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "Мгновенное сообщение (Gajim)"
+#~ msgid "Unknown recipient."
+#~ msgstr "Неизвестный получатель."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "Новый CD/DVD"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Мгновенное сообщение (Gajim)"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "Существующий CD/DVD"
+#~ msgid "New CD/DVD"
+#~ msgstr "Новый CD/DVD"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "Создание CD/DVD"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "Существующий CD/DVD"
 
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "Мгновенное сообщение (Pidgin)"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "Создание CD/DVD"
 
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "Съёмные диски и общие ресурсы"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Мгновенное сообщение (Pidgin)"
 
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "Отправка «%s»"
+#~ msgid "Removable disks and shares"
+#~ msgstr "Съёмные диски и общие ресурсы"
 
-# msgstr "Загрузка «%s»"
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "Подготовка к отправке"
-
-# msgstr "Подготовка загрузки"
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "Служба «%s» не настроена."
-
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "_Настроить"
-
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "Зарегистрирован в службе «%s»."
-
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "Не удалось зарегистрироваться в службе «%s»."
-
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "Медиа-сервер UPnP"
-
+#~ msgid "Uploading '%s'"
+#~ msgstr "Отправка «%s»"
