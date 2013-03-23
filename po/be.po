@@ -1,12 +1,13 @@
 # Alexander Nyakhaychyk <nab@mail.by>, 2008.
 # Ladyko Andrey <fylh.if@gmail.com>, 2009.
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011.
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto.master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-07 12:05+0300\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-03-20 14:12+0000\n"
 "PO-Revision-Date: 2012-01-07 12:05+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
@@ -17,278 +18,35 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "Запусціць з каталога кампіляцыі"
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr "Запусціць з каталога кампіляцыі (ігнаруецца)"
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
-msgstr "Выкарыстаць XID як бацькоўскі для дыялогу пасылкі"
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "Выкарыстаць XID як бацькоўскі для дыялогу пасылкі (ігнаруецца)"
 
-#: ../src/nautilus-sendto-command.c:82
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "Файлы для пасылкі"
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
 msgstr "Вывесці інфармацыю аб версіі праграмы і выйсці"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:664
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Чакае перадачы адрасоў і назваў файлаў праз опцыі\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:253
+msgid "Archive"
+msgstr "Архіў"
 
-#: ../src/nautilus-sendto-command.c:694
+#: ../src/nautilus-sendto.c:520
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Не ўдалося разабраць опцыі загаднага радка: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:535
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "Пасылка %d папкі"
-msgstr[1] "Пасылка %d папак"
-msgstr[2] "Пасылка %d папак"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Чакае перадачы адрасоў і назваў файлаў праз опцыі\n"
 
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "Пасылка %d папак і файлаў"
-
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "Пасылка %d відэа"
-msgstr[1] "Пасылка %d відэа"
-msgstr[2] "Пасылка %d відэа"
-
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "Пасылка %d фатаграфіі"
-msgstr[1] "Пасылка %d фатаграфій"
-msgstr[2] "Пасылка %d фатаграфій"
-
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "Пасылка %d выявы"
-msgstr[1] "Пасылка %d выяў"
-msgstr[2] "Пасылка %d выяў"
-
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "Пасылка %d тэкставага файла"
-msgstr[1] "Пасылка %d тэкставых файлаў"
-msgstr[2] "Пасылка %d тэкставых файлаў"
-
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "Пасылка %d файла"
-msgstr[1] "Пасылка %d файлаў"
-msgstr[2] "Пасылка %d файлаў"
-
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "_Паслаць"
-
-#: ../src/plugins/nautilus-sendto-packer.c:200
-msgid "Files"
-msgstr "Файлы"
-
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "_Скасаваць"
-
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "Паслаць _запакаваным у:"
-
-#: ../src/plugins/evolution/evolution.c:308
-msgid "Mail"
-msgstr "Ліст"
-
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "Не ўдалося атрымаць кантактную інфармацыю: %s"
-
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "Не ўдалося знайсці кантактную інфармацыю: %s"
-
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "Не ўдалося выгляд, прыдатны для пошуку."
-
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "Success"
-msgstr "Поспех"
-
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "An argument was invalid."
-msgstr "Хібны аргумент."
-
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is busy."
-msgstr "Адрасная кніга занятая."
-
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book is offline."
-msgstr "Адрасная кніга недаступная."
-
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The address book does not exist."
-msgstr "Адрасная кніга не існуе."
-
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The \"Me\" contact does not exist."
-msgstr "Кантакт \"Я\" не існуе."
-
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is not loaded."
-msgstr "Адрасная кніга не загружаная."
-
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "The address book is already loaded."
-msgstr "Адрасная кніга ўжо загружаная."
-
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "Permission was denied when accessing the address book."
-msgstr "Доступ да адраснай кнігі забаронены."
-
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "The contact was not found."
-msgstr "Кантактная інфармацыя не знойдзена."
-
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "This contact ID already exists."
-msgstr "Ідэнтыфікатар запісу кантактнай інфармацыі ўжо існуе."
-
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The protocol is not supported."
-msgstr "Пратакол не падтрымліваецца."
-
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation was cancelled."
-msgstr "Аперацыя скасаваная."
-
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The operation could not be cancelled."
-msgstr "Не ўдалося скасаваць аперацыю."
-
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid "The address book authentication failed."
-msgstr "Не ўдалося ідэнтыфікаваць сябе для доступу да адраснай кнігі."
-
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr ""
-"Для доступу да адраснай кнігі трэба ідэнтыфікаваць сябе, але гэта не было "
-"зроблена."
-
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A secure connection is not available."
-msgstr "Бяспечнае злучэнне недаступнае."
-
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "Пры доступе да адраснай кнігі ўзнікла памылка CORBA."
-
-#: ../src/plugins/evolution/e-contact-entry.c:922
-msgid "The address book source does not exist."
-msgstr "Крыніца адраснай кнігі не існуе."
-
-#: ../src/plugins/evolution/e-contact-entry.c:924
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "An unknown error occurred."
-msgstr "Узнікла невядомая памылка."
-
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "Не ўдалося паслаць файл"
-
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "Няма злучэння з аддаленым сэрвісам Gajim."
-
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "Не ўдалося паслаць файл"
-
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "Адрасат адсутнічае."
-
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "Невядомы адрасат."
-
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "Імгненнае паведамленне (Gajim)"
-
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "Новы CD/DVD"
-
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "Існуючы CD/DVD"
-
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "Стваральнік CD/DVD"
-
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "Імгненнае паведамленне (Pidgin)"
-
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "Зменныя дыскі і супольныя рэсурсы"
-
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "Публікацыя \"%s\""
-
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "Падрыхтоўка да публікацыі"
-
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "Паслуга \"%s\" не сканфігуравана."
-
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "_Настроіць"
-
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "Паспяховы ўваход у \"%s\"."
-
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "Не ўдалося ўвайсці ў \"%s\"."
-
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "Медыясервер UPnP"
