@@ -2,297 +2,236 @@
 # Copyright (C) 2004, 2005, 2009 the author(s) of nautilus-sendto.
 # Copyright (C) 2004, 2005 Miloslav Trmac <mitr@volny.cz>.
 # This file is distributed under the same license as the nautilus-sendto package.
-#
 # Miloslav Trmac <mitr@volny.cz>, 2004, 2005.
 # Kamil Páral <ripper42@gmail.com>, 2008, 2009.
-# Petr Kovar <pknbe@volny.cz>, 2008.
+# Petr Kovar <pknbe@volny.cz>, 2008, 2013.
 # Marek Černocký <marek@manet.cz>, 2010, 2011, 2012.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-01-06 13:05+0000\n"
-"PO-Revision-Date: 2012-01-19 16:02+0100\n"
-"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product"
+"=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-03-20 14:12+0000\n"
+"PO-Revision-Date: 2013-03-24 20:58+0200\n"
+"Last-Translator: Petr Kovar <pknbe@volny.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "Spustit ze složky sestavení"
+#: ../src/nautilus-sendto.c:53
+#| msgid "Run from build directory"
+msgid "Run from build directory (ignored)"
+msgstr "Spustit ze složky sestavení (ignorováno)"
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
-msgstr "Použít XID jako rodiče pro dialogové okno odeslání"
+#: ../src/nautilus-sendto.c:54
+#| msgid "Use XID as parent to the send dialogue"
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "Použít XID jako rodiče pro dialogové okno odeslání (ignorováno)"
 
-#: ../src/nautilus-sendto-command.c:82
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "Soubory k odeslání"
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
 msgstr "Vypsat informace o verzi a skončit"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:664
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Očekává se adresa URI nebo názvy souborů zadané jako volby\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:253
+msgid "Archive"
+msgstr "Archiv"
 
-#: ../src/nautilus-sendto-command.c:694
+#: ../src/nautilus-sendto.c:520
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Nelze zpracovat volby příkazové řádky: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:535
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "Sdílí se %d složka"
-msgstr[1] "Sdílí se %d složky"
-msgstr[2] "Sdílí se %d složek"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Očekává se adresa URI nebo názvy souborů zadané jako volby\n"
 
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "Sdílí se %d složek a souborů"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "Sdílí se %d složka"
+#~ msgstr[1] "Sdílí se %d složky"
+#~ msgstr[2] "Sdílí se %d složek"
 
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "Sdílí se %d video"
-msgstr[1] "Sdílí se %d videa"
-msgstr[2] "Sdílí se %d videí"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "Sdílí se %d složek a souborů"
 
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "Sdílí se %d fotografie"
-msgstr[1] "Sdílí se %d fotografie"
-msgstr[2] "Sdílí se %d fotografií"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "Sdílí se %d video"
+#~ msgstr[1] "Sdílí se %d videa"
+#~ msgstr[2] "Sdílí se %d videí"
 
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "Sdílí se %d obrázek"
-msgstr[1] "Sdílí se %d obrázky"
-msgstr[2] "Sdílí se %d obrázků"
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "Sdílí se %d fotografie"
+#~ msgstr[1] "Sdílí se %d fotografie"
+#~ msgstr[2] "Sdílí se %d fotografií"
 
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "Sdílí se %d textový soubor"
-msgstr[1] "Sdílí se %d textové soubory"
-msgstr[2] "Sdílí se %d textových souborů"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "Sdílí se %d obrázek"
+#~ msgstr[1] "Sdílí se %d obrázky"
+#~ msgstr[2] "Sdílí se %d obrázků"
 
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "Sdílí se %d soubor"
-msgstr[1] "Sdílí se %d soubory"
-msgstr[2] "Sdílí se %d souborů"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "Sdílí se %d textový soubor"
+#~ msgstr[1] "Sdílí se %d textové soubory"
+#~ msgstr[2] "Sdílí se %d textových souborů"
 
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "_Odeslat"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "Sdílí se %d soubor"
+#~ msgstr[1] "Sdílí se %d soubory"
+#~ msgstr[2] "Sdílí se %d souborů"
 
-#: ../src/plugins/nautilus-sendto-packer.c:200
-msgid "Files"
-msgstr "Soubory"
+#~ msgid "_Send"
+#~ msgstr "_Odeslat"
 
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "_Zrušit"
+#~ msgid "Files"
+#~ msgstr "Soubory"
 
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "Odeslat za_baleno v:"
+#~ msgid "_Cancel"
+#~ msgstr "_Zrušit"
 
-#: ../src/plugins/evolution/evolution.c:308
-msgid "Mail"
-msgstr "Pošta"
+#~ msgid "Send _packed in:"
+#~ msgstr "Odeslat za_baleno v:"
 
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "Nelze získat kontakt: %s"
+#~ msgid "Mail"
+#~ msgstr "Pošta"
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "Nelze najít kontakt: %s"
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "Nelze získat kontakt: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "Nelze vytvořit prohledávatelný pohled."
+#~ msgid "Could not find contact: %s"
+#~ msgstr "Nelze najít kontakt: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "Success"
-msgstr "Úspěch"
+#~ msgid "Cannot create searchable view."
+#~ msgstr "Nelze vytvořit prohledávatelný pohled."
 
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "An argument was invalid."
-msgstr "Parametr byl neplatný."
+#~ msgid "Success"
+#~ msgstr "Úspěch"
 
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is busy."
-msgstr "Adresář je zaneprázdněn."
+#~ msgid "An argument was invalid."
+#~ msgstr "Parametr byl neplatný."
 
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book is offline."
-msgstr "Adresář je odpojen."
+#~ msgid "The address book is busy."
+#~ msgstr "Adresář je zaneprázdněn."
 
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The address book does not exist."
-msgstr "Adresář neexistuje."
+#~ msgid "The address book is offline."
+#~ msgstr "Adresář je odpojen."
 
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The \"Me\" contact does not exist."
-msgstr "Kontakt \"Já\" neexistuje."
+#~ msgid "The address book does not exist."
+#~ msgstr "Adresář neexistuje."
 
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is not loaded."
-msgstr "Adresář není nahrán."
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "Kontakt \"Já\" neexistuje."
 
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "The address book is already loaded."
-msgstr "Adresář již je nahrán."
+#~ msgid "The address book is not loaded."
+#~ msgstr "Adresář není nahrán."
 
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "Permission was denied when accessing the address book."
-msgstr "Oprávnění bylo zamítnuto během přístupu k adresáři."
+#~ msgid "The address book is already loaded."
+#~ msgstr "Adresář již je nahrán."
 
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "The contact was not found."
-msgstr "Kontakt nebyl nalezen."
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "Oprávnění bylo zamítnuto během přístupu k adresáři."
 
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "This contact ID already exists."
-msgstr "Tento identifikátor kontaktu již existuje."
+#~ msgid "The contact was not found."
+#~ msgstr "Kontakt nebyl nalezen."
 
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The protocol is not supported."
-msgstr "Protokol není podporován."
+#~ msgid "This contact ID already exists."
+#~ msgstr "Tento identifikátor kontaktu již existuje."
 
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation was cancelled."
-msgstr "Operace byla zrušena."
+#~ msgid "The protocol is not supported."
+#~ msgstr "Protokol není podporován."
 
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The operation could not be cancelled."
-msgstr "Operace nemohla být zrušena."
+#~ msgid "The operation was cancelled."
+#~ msgstr "Operace byla zrušena."
 
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid "The address book authentication failed."
-msgstr "Autentizace adresáře selhala."
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "Operace nemohla být zrušena."
 
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr "Autentizace je vyžadována k přístupu k adresáři a nebyla poskytnuta."
+#~ msgid "The address book authentication failed."
+#~ msgstr "Autentizace adresáře selhala."
 
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A secure connection is not available."
-msgstr "Bezpečné spojení není dostupné."
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr ""
+#~ "Autentizace je vyžadována k přístupu k adresáři a nebyla poskytnuta."
 
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "Během přístupu k adresáři nastala chyba CORBA."
+#~ msgid "A secure connection is not available."
+#~ msgstr "Bezpečné spojení není dostupné."
 
-#: ../src/plugins/evolution/e-contact-entry.c:922
-msgid "The address book source does not exist."
-msgstr "Zdroj adresáře neexistuje."
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "Během přístupu k adresáři nastala chyba CORBA."
 
-#: ../src/plugins/evolution/e-contact-entry.c:924
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "An unknown error occurred."
-msgstr "Přihodila se neznámá chyba."
+#~ msgid "The address book source does not exist."
+#~ msgstr "Zdroj adresáře neexistuje."
 
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "Nelze odeslat soubor"
+#~ msgid "An unknown error occurred."
+#~ msgstr "Přihodila se neznámá chyba."
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "Neexistuje spojení ke vzdálené službě gajim."
+#~ msgid "Unable to send file"
+#~ msgstr "Nelze odeslat soubor"
 
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "Odesílání souboru selhalo"
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "Neexistuje spojení ke vzdálené službě gajim."
 
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "Chybí příjemce."
+#~ msgid "Sending file failed"
+#~ msgstr "Odesílání souboru selhalo"
 
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "Neznámý příjemce."
+#~ msgid "Recipient is missing."
+#~ msgstr "Chybí příjemce."
 
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "Rychlá zpráva (Gajim)"
+#~ msgid "Unknown recipient."
+#~ msgstr "Neznámý příjemce."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "Nové CD/DVD"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Rychlá zpráva (Gajim)"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "Existující CD/DVD"
+#~ msgid "New CD/DVD"
+#~ msgstr "Nové CD/DVD"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "Tvůrce CD/DVD"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "Existující CD/DVD"
 
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "Rychlá zpráva (Pidgin)"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "Tvůrce CD/DVD"
 
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "Výměnné disky a sdílené složky"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Rychlá zpráva (Pidgin)"
 
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "Nahrává se „%s“"
+#~ msgid "Removable disks and shares"
+#~ msgstr "Výměnné disky a sdílené složky"
 
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "Připravuje se nahrávání"
+#~ msgid "Uploading '%s'"
+#~ msgstr "Nahrává se „%s“"
 
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "Služba „%s“ není nastavená."
+#~ msgid "Preparing upload"
+#~ msgstr "Připravuje se nahrávání"
 
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "_Nastavit"
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "Služba „%s“ není nastavená."
 
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "Přihlášen ke službě „%s“"
+#~ msgid "_Configure"
+#~ msgstr "_Nastavit"
 
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "Nelze se přihlásit ke službě „%s“"
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "Přihlášen ke službě „%s“"
 
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "Multimediální server UPnP"
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "Nelze se přihlásit ke službě „%s“"
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "Multimediální server UPnP"
