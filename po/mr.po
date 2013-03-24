@@ -2,295 +2,230 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Sandeep Shedmake <sshedmak@redhat.com>, 2009, 2012.
+# Sandeep Shedmake <sshedmak@redhat.com>, 2009, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto.HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-01-06 13:05+0000\n"
-"PO-Revision-Date: 2012-08-17 11:12+0530\n"
+"POT-Creation-Date: 2013-03-20 14:12+0000\n"
+"PO-Revision-Date: 2013-03-24 07:29+0530\n"
 "Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
 "Language-Team: Marathi <maajhe-sanganak@freelists.org>\n"
+"Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"Language: mr\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "बिल्ड डिरेक्ट्रीपासून चालवा"
+#: ../src/nautilus-sendto.c:53
+#| msgid "Run from build directory"
+msgid "Run from build directory (ignored)"
+msgstr "बिल्ड डिरेक्ट्रीपासून चालवा (दुर्लक्ष केले)"
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
-msgstr "संवाद पाठवण्याकरीता XIDचा पॅरेंट म्हणून वापर करा"
+#: ../src/nautilus-sendto.c:54
+#| msgid "Use XID as parent to the send dialogue"
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "पाठवले संवादकरीता XID चा पॅरेंट म्हणून वापर करा (दुर्लक्ष केले)"
 
-#: ../src/nautilus-sendto-command.c:82
-#| msgid "Unable to send file"
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "पाठवण्याजोगी फाइल्स्"
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
 msgstr "आवृत्तीची माहिती आउटपुट करा व बाहेर पडा"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:664
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "URIs किंवा फाइलनाव यांस पर्याय नुरूप पुरविण्याची अपेक्षा ठेवतो\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:253
+msgid "Archive"
+msgstr "संग्रह"
 
-#: ../src/nautilus-sendto-command.c:694
+#: ../src/nautilus-sendto.c:520
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "आदेश-ओळ पर्याय वाचण्यास अशक्य: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:535
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "%d फोल्डरचा मिळून वापर करत आहे"
-msgstr[1] "%d फोल्डर्सचा मिळून वापर करत आहे"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "URIs किंवा फाइलनाव यांस पर्याय नुरूप पुरविण्याची अपेक्षा ठेवतो\n"
 
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "%d फोल्डर्स् व फाइल्स्चा मिळून वापर करत आहे"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "%d फोल्डरचा मिळून वापर करत आहे"
+#~ msgstr[1] "%d फोल्डर्सचा मिळून वापर करत आहे"
 
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "%d व्हिडिओचा मिळून वापर करत आहे"
-msgstr[1] "%d व्हिडिओजचा मिळून वापर करत आहे"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "%d फोल्डर्स् व फाइल्स्चा मिळून वापर करत आहे"
 
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "%d छायाचित्राचा मिळून वापर करत आहे"
-msgstr[1] "%d छायाचित्रांचा मिळून वापर करत आहे"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "%d व्हिडिओचा मिळून वापर करत आहे"
+#~ msgstr[1] "%d व्हिडिओजचा मिळून वापर करत आहे"
 
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "%d प्रतिमेचा मिळून वापर करत आहे"
-msgstr[1] "%d प्रतिमांचा मिळून वापर करत आहे"
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "%d छायाचित्राचा मिळून वापर करत आहे"
+#~ msgstr[1] "%d छायाचित्रांचा मिळून वापर करत आहे"
 
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "%d मजकूर फाइलचा मिळून वापर करत आहे"
-msgstr[1] "%d मजकूर फाइल्स्चा मिळून वापर करत आहे"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "%d प्रतिमेचा मिळून वापर करत आहे"
+#~ msgstr[1] "%d प्रतिमांचा मिळून वापर करत आहे"
 
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "%d फाइलचा मिळून वापर करत आहे"
-msgstr[1] "%d फाइल्स्चा मिळून वापर करत आहे"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "%d मजकूर फाइलचा मिळून वापर करत आहे"
+#~ msgstr[1] "%d मजकूर फाइल्स्चा मिळून वापर करत आहे"
 
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "पाठवा (_S)"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "%d फाइलचा मिळून वापर करत आहे"
+#~ msgstr[1] "%d फाइल्स्चा मिळून वापर करत आहे"
 
-#: ../src/plugins/nautilus-sendto-packer.c:200
-msgid "Files"
-msgstr "फाइलस्"
+#~ msgid "_Send"
+#~ msgstr "पाठवा (_S)"
 
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "रद्द करा (_C)"
+#~ msgid "Files"
+#~ msgstr "फाइलस्"
 
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "संकोचीl पाठवा (_p):"
+#~ msgid "_Cancel"
+#~ msgstr "रद्द करा (_C)"
 
-#: ../src/plugins/evolution/evolution.c:308
-#| msgid "Email"
-msgid "Mail"
-msgstr "मेल"
+#~ msgid "Send _packed in:"
+#~ msgstr "संकोचीl पाठवा (_p):"
 
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "संपर्क प्राप्त करू शकले नाही: %s"
+#~| msgid "Email"
+#~ msgid "Mail"
+#~ msgstr "मेल"
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "संपर्क शोधू शकले नाही: %s"
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "संपर्क प्राप्त करू शकले नाही: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "शोधण्याजोगी अवलोकन बनवू शकले नाही."
+#~ msgid "Could not find contact: %s"
+#~ msgstr "संपर्क शोधू शकले नाही: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "Success"
-msgstr "यशस्वी"
+#~ msgid "Cannot create searchable view."
+#~ msgstr "शोधण्याजोगी अवलोकन बनवू शकले नाही."
 
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "An argument was invalid."
-msgstr "बाब अवैध नुरूप आढळले."
+#~ msgid "Success"
+#~ msgstr "यशस्वी"
 
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is busy."
-msgstr "पत्ते पुस्तिका व्यस्थ आहे."
+#~ msgid "An argument was invalid."
+#~ msgstr "बाब अवैध नुरूप आढळले."
 
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book is offline."
-msgstr "पत्ते पुस्तिका ऑफलाइन आहे."
+#~ msgid "The address book is busy."
+#~ msgstr "पत्ते पुस्तिका व्यस्थ आहे."
 
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The address book does not exist."
-msgstr "पत्ते पुस्तिका अस्तित्वात नाही."
+#~ msgid "The address book is offline."
+#~ msgstr "पत्ते पुस्तिका ऑफलाइन आहे."
 
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The \"Me\" contact does not exist."
-msgstr "\"Me\" संपर्क अस्तित्वात नाही."
+#~ msgid "The address book does not exist."
+#~ msgstr "पत्ते पुस्तिका अस्तित्वात नाही."
 
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is not loaded."
-msgstr "पत्ते पुस्तिकाचे दाखलन झाले नाही."
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "\"Me\" संपर्क अस्तित्वात नाही."
 
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "The address book is already loaded."
-msgstr "पत्ते पुस्तिका आधिपासूनच दाखल केले आहे."
+#~ msgid "The address book is not loaded."
+#~ msgstr "पत्ते पुस्तिकाचे दाखलन झाले नाही."
 
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "Permission was denied when accessing the address book."
-msgstr ""
-"पत्ते पुस्तिका करीता प्रवेश प्राप्त करतेवेळी परवानगी स्वीकरली गेली नाही."
+#~ msgid "The address book is already loaded."
+#~ msgstr "पत्ते पुस्तिका आधिपासूनच दाखल केले आहे."
 
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "The contact was not found."
-msgstr "संपर्क आढळले नाही."
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "पत्ते पुस्तिका करीता प्रवेश प्राप्त करतेवेळी परवानगी स्वीकरली गेली नाही."
 
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "This contact ID already exists."
-msgstr "संपर्क ID आधिपासूनच अस्तित्वात आहे."
+#~ msgid "The contact was not found."
+#~ msgstr "संपर्क आढळले नाही."
 
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The protocol is not supported."
-msgstr "शिष्टाचार समर्थीत नाही."
+#~ msgid "This contact ID already exists."
+#~ msgstr "संपर्क ID आधिपासूनच अस्तित्वात आहे."
 
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation was cancelled."
-msgstr "कार्य रद्द केले गेले."
+#~ msgid "The protocol is not supported."
+#~ msgstr "शिष्टाचार समर्थीत नाही."
 
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The operation could not be cancelled."
-msgstr "कार्य रद्द करणे अशक्य."
+#~ msgid "The operation was cancelled."
+#~ msgstr "कार्य रद्द केले गेले."
 
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid "The address book authentication failed."
-msgstr "पत्ते पुस्तिका ओळख पटवण्यास अपयशी."
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "कार्य रद्द करणे अशक्य."
 
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr ""
-"पत्ते पुस्तिकसाठी प्रवेश करीता ओळख पटवणे आवश्यक आहे व पुरवले गेले नाही."
+#~ msgid "The address book authentication failed."
+#~ msgstr "पत्ते पुस्तिका ओळख पटवण्यास अपयशी."
 
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A secure connection is not available."
-msgstr "सुरक्षा जुळवणी उपलब्ध नाही."
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr "पत्ते पुस्तिकसाठी प्रवेश करीता ओळख पटवणे आवश्यक आहे व पुरवले गेले नाही."
 
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "पत्ते पुस्तिका करीता प्रवेश प्राप्त करतेवेळी CORBA त्रुटी आढळली."
+#~ msgid "A secure connection is not available."
+#~ msgstr "सुरक्षा जुळवणी उपलब्ध नाही."
 
-#: ../src/plugins/evolution/e-contact-entry.c:922
-msgid "The address book source does not exist."
-msgstr "पत्ते पुस्तिका स्त्रोत अस्तित्वात नाही."
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "पत्ते पुस्तिका करीता प्रवेश प्राप्त करतेवेळी CORBA त्रुटी आढळली."
 
-#: ../src/plugins/evolution/e-contact-entry.c:924
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "An unknown error occurred."
-msgstr "अपरिचीत त्रुटी आढळली."
+#~ msgid "The address book source does not exist."
+#~ msgstr "पत्ते पुस्तिका स्त्रोत अस्तित्वात नाही."
 
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "फाइल पाठविण्यास अपयशी"
+#~ msgid "An unknown error occurred."
+#~ msgstr "अपरिचीत त्रुटी आढळली."
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "gajim दूरस्थ सेवा करीता जुळवणी आढळली नाही."
+#~ msgid "Unable to send file"
+#~ msgstr "फाइल पाठविण्यास अपयशी"
 
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "फाइल पाठविणे अपयशी"
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "gajim दूरस्थ सेवा करीता जुळवणी आढळली नाही."
 
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "भोक्ता आढळले नाही."
+#~ msgid "Sending file failed"
+#~ msgstr "फाइल पाठविणे अपयशी"
 
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "अपरिचीत भोक्ता."
+#~ msgid "Recipient is missing."
+#~ msgstr "भोक्ता आढळले नाही."
 
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "ताबडतोब संदेश (Gajim)"
+#~ msgid "Unknown recipient."
+#~ msgstr "अपरिचीत भोक्ता."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "नवीन CD/DVD"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "ताबडतोब संदेश (Gajim)"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "अस्तित्वातील CD/DVD"
+#~ msgid "New CD/DVD"
+#~ msgstr "नवीन CD/DVD"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "CD/DVD निर्माणकर्ता"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "अस्तित्वातील CD/DVD"
 
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "ताबडतोब संदेश (Pidgin)"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "CD/DVD निर्माणकर्ता"
 
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "काढूणटाकण्याजोगी डिस्क व साठा"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "ताबडतोब संदेश (Pidgin)"
 
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "'%s' अपलोड करत आहे"
+#~ msgid "Removable disks and shares"
+#~ msgstr "काढूणटाकण्याजोगी डिस्क व साठा"
 
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "अपलोड तयार करत आहे"
+#~ msgid "Uploading '%s'"
+#~ msgstr "'%s' अपलोड करत आहे"
 
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "सर्व्हिस '%s' संरचीत नाही."
+#~ msgid "Preparing upload"
+#~ msgstr "अपलोड तयार करत आहे"
 
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "संरचीत करा (_C)"
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "सर्व्हिस '%s' संरचीत नाही."
 
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "सर्व्हिस '%s' मध्ये प्रवेश केले."
+#~ msgid "_Configure"
+#~ msgstr "संरचीत करा (_C)"
 
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-#| msgid "Could not find contact: %s"
-msgid "Could not log in to service '%s'."
-msgstr "सर्व्हिस '%s' मध्ये प्रवेश करण्यास अशक्य."
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "सर्व्हिस '%s' मध्ये प्रवेश केले."
 
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "UPnP मिडीया सर्वर"
+#~| msgid "Could not find contact: %s"
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "सर्व्हिस '%s' मध्ये प्रवेश करण्यास अशक्य."
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "UPnP मिडीया सर्वर"
 
 #~ msgid "Last plugin used to send"
 #~ msgstr "पाठविण्याकरीता वापरलेले शेवटचे प्लगइन"
