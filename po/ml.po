@@ -6,289 +6,229 @@
 # Reviewed by Praveen Arimbrathodiyil <pravi.a@gmail.com>, 2010.
 # Anish A <anish.nl@gmail.com>, 2010.
 # Jishnu Mohan <jishnu7@gmail.com>, 2012.
+# Ani Peter <peter.ani@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto-master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-01-13 10:45+0000\n"
-"PO-Revision-Date: 2013-02-11 11:41+0530\n"
-"Last-Translator: Jishnu Mohan <jishnu7@gmail.com>\n"
-"Language-Team: Swathantra Malayalam Computing <discuss@lists.smc.org.in>\n"
+"POT-Creation-Date: 2013-03-20 14:12+0000\n"
+"PO-Revision-Date: 2013-03-25 21:33+0530\n"
+"Last-Translator: Ani Peter <peter.ani@gmail.com>\n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Lokalize 1.5\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "നിര്‍മ്മാണ ഫോള്‍ഡറില്‍നിന്ന് പ്രവര്‍ത്തിക്കുക"
+#: ../src/nautilus-sendto.c:53
+#| msgid "Run from build directory"
+msgid "Run from build directory (ignored)"
+msgstr "ബിള്‍ഡ് ഡയറക്ടറിയില്‍ നിന്നും പ്രവര്‍ത്തിപ്പിയ്ക്കുക"
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
-msgstr "അയക്കല്‍ ജാലകത്തിന്റെ മാതാവായി എക്സ്ഐഡിയെ ഉപയോഗിക്കുക"
+#: ../src/nautilus-sendto.c:54
+#| msgid "Use XID as parent to the send dialogue"
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "ഡയലോഗ് അയയ്ക്കുന്നതിനു് പേരന്റായി എക്സ്ഐഡി ഉപയോഗിയ്ക്കുക"
 
-#: ../src/nautilus-sendto-command.c:82
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "ആയ്ക്കേണ്ട ഫയല്‍"
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
 msgstr "പതിപ്പുവിവരം ഔട്ട്പുട്ട് ചെയ്ത് പുറത്തുകടക്കുക"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:667
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:253
+msgid "Archive"
+msgstr "ആര്‍ക്കൈവ്"
+
+#: ../src/nautilus-sendto.c:520
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr ""
+"ആജ്ഞാസ്ഥാനത്തു് നല്‍കിയ ഐച്ഛികങ്ങള്‍ വായിച്ചെടുക്കാന്‍ സാധിച്ചില്ല: %s\n"
+
+#: ../src/nautilus-sendto.c:535
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "യുആര്‍ഐകളോ ഫയല്‍നാമങ്ങളോ ഐച്ഛികങ്ങളായി നല്‍കാന്‍ പ്രതീക്ഷിക്കുന്നു\n"
 
-#: ../src/nautilus-sendto-command.c:697
-#, c-format
-msgid "Could not parse command-line options: %s\n"
-msgstr "ആജ്ഞാസ്ഥാനത്തു് നല്‍കിയ ഐച്ഛികങ്ങള്‍ വായിച്ചെടുക്കാന്‍ സാധിച്ചില്ല: %s\n"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "%d ഫോള്‍ഡര്‍ പങ്കുവെയ്ക്കുന്നു"
+#~ msgstr[1] "%d ഫോള്‍ഡറുകള്‍ പങ്കുവെയ്ക്കുന്നു"
 
-#: ../src/nautilus-sendto-mimetype.c:50
-#, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "%d ഫോള്‍ഡര്‍ പങ്കുവെയ്ക്കുന്നു"
-msgstr[1] "%d ഫോള്‍ഡറുകള്‍ പങ്കുവെയ്ക്കുന്നു"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "%d ഫോള്‍ഡറുകളും ഫയലുകളും പങ്കുവെയ്ക്കുന്നു"
 
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "%d ഫോള്‍ഡറുകളും ഫയലുകളും പങ്കുവെയ്ക്കുന്നു"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "%d ചലചിത്രം പങ്കുവെയ്ക്കുന്നു"
+#~ msgstr[1] "%d ചലചിത്രങ്ങള്‍ പങ്കുവെയ്ക്കുന്നു"
 
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "%d ചലചിത്രം പങ്കുവെയ്ക്കുന്നു"
-msgstr[1] "%d ചലചിത്രങ്ങള്‍ പങ്കുവെയ്ക്കുന്നു"
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "%d ചിത്രം പങ്കുവെയ്ക്കുന്നു"
+#~ msgstr[1] "%d ചിത്രങ്ങള്‍ പങ്കുവെയ്ക്കുന്നു"
 
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "%d ചിത്രം പങ്കുവെയ്ക്കുന്നു"
-msgstr[1] "%d ചിത്രങ്ങള്‍ പങ്കുവെയ്ക്കുന്നു"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "%d ചിത്രം പങ്കുവെയ്ക്കുന്നു"
+#~ msgstr[1] "%d ചിത്രങ്ങള്‍ പങ്കുവെയ്ക്കുന്നു"
 
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "%d ചിത്രം പങ്കുവെയ്ക്കുന്നു"
-msgstr[1] "%d ചിത്രങ്ങള്‍ പങ്കുവെയ്ക്കുന്നു"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "%d ലേഖന ഫയല്‍ പങ്കുവെയ്ക്കുന്നു"
+#~ msgstr[1] "%d ലേഖന ഫയലുകള്‍ പങ്കുവെയ്ക്കുന്നു"
 
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "%d ലേഖന ഫയല്‍ പങ്കുവെയ്ക്കുന്നു"
-msgstr[1] "%d ലേഖന ഫയലുകള്‍ പങ്കുവെയ്ക്കുന്നു"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "%d ഫയല്‍ പങ്കുവെയ്ക്കുന്നു"
+#~ msgstr[1] "%d ഫയലുകള്‍ പങ്കുവെയ്ക്കുന്നു"
 
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "%d ഫയല്‍ പങ്കുവെയ്ക്കുന്നു"
-msgstr[1] "%d ഫയലുകള്‍ പങ്കുവെയ്ക്കുന്നു"
+#~ msgid "_Send"
+#~ msgstr "_അയക്കുക"
 
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "_അയക്കുക"
+#~ msgid "Files"
+#~ msgstr "ഫയലുകള്‍"
 
-#: ../src/plugins/nautilus-sendto-packer.c:201
-msgid "Files"
-msgstr "ഫയലുകള്‍"
+#~ msgid "_Cancel"
+#~ msgstr "_റദ്ദാക്കുക"
 
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "_റദ്ദാക്കുക"
+#~ msgid "Send _packed in:"
+#~ msgstr "കെട്ടി_പ്പൂട്ടി അയക്കുക:"
 
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "കെട്ടി_പ്പൂട്ടി അയക്കുക:"
+#~ msgid "Mail"
+#~ msgstr "ഈമെയില്‍"
 
-#: ../src/plugins/evolution/evolution.c:295
-msgid "Mail"
-msgstr "ഈമെയില്‍"
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "%s: ഈ വിലാസം ലഭിച്ചില്ല"
 
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "%s: ഈ വിലാസം ലഭിച്ചില്ല"
+#~ msgid "Could not find contact: %s"
+#~ msgstr "%s: ഈ വിലാസം കണ്ടെത്തിയില്ല"
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "%s: ഈ വിലാസം കണ്ടെത്തിയില്ല"
+#~ msgid "Cannot create searchable view."
+#~ msgstr "തെരയാന്‍ അനുയോജ്യമായ കാഴ്ച ഒരുക്കാന്‍ സാധിച്ചില്ല."
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "തെരയാന്‍ അനുയോജ്യമായ കാഴ്ച ഒരുക്കാന്‍ സാധിച്ചില്ല."
+#~ msgid "Success"
+#~ msgstr "വിജയിച്ചിരിക്കുന്നു"
 
-#: ../src/plugins/evolution/e-contact-entry.c:891
-msgid "Success"
-msgstr "വിജയിച്ചിരിക്കുന്നു"
+#~ msgid "An argument was invalid."
+#~ msgstr "ഒരു ആര്‍ഗ്യുമെന്റ് അസാധുവായിരുന്നു."
 
-#: ../src/plugins/evolution/e-contact-entry.c:893
-msgid "An argument was invalid."
-msgstr "ഒരു ആര്‍ഗ്യുമെന്റ് അസാധുവായിരുന്നു."
+#~ msgid "The address book is busy."
+#~ msgstr "വിലാസപുസ്തകം മറ്റൊരുപയോഗത്തിലാണ്."
 
-#: ../src/plugins/evolution/e-contact-entry.c:895
-msgid "The address book is busy."
-msgstr "വിലാസപുസ്തകം മറ്റൊരുപയോഗത്തിലാണ്."
+#~ msgid "The address book is offline."
+#~ msgstr "വിലാസപുസ്തകം ഓഫ്‌‌ലൈന്‍ ആണ്."
 
-#: ../src/plugins/evolution/e-contact-entry.c:897
-msgid "The address book is offline."
-msgstr "വിലാസപുസ്തകം ഓഫ്‌‌ലൈന്‍ ആണ്."
+#~ msgid "The address book does not exist."
+#~ msgstr "ഈ വിലാസപുസ്തകം നിലവിലില്ല."
 
-#: ../src/plugins/evolution/e-contact-entry.c:899
-msgid "The address book does not exist."
-msgstr "ഈ വിലാസപുസ്തകം നിലവിലില്ല."
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "\"ഞാന്‍\" എന്ന വിലാസം  നിലവിലില്ല."
 
-#: ../src/plugins/evolution/e-contact-entry.c:901
-msgid "The \"Me\" contact does not exist."
-msgstr "\"ഞാന്‍\" എന്ന വിലാസം  നിലവിലില്ല."
+#~ msgid "The address book is not loaded."
+#~ msgstr "വിലാസപുസ്തകം തുറന്നിട്ടില്ല."
 
-#: ../src/plugins/evolution/e-contact-entry.c:903
-msgid "The address book is not loaded."
-msgstr "വിലാസപുസ്തകം തുറന്നിട്ടില്ല."
+#~ msgid "The address book is already loaded."
+#~ msgstr "വിലാസപുസ്തകം ഇപ്പൊഴേ നിലവിലുണ്ട്."
 
-#: ../src/plugins/evolution/e-contact-entry.c:905
-msgid "The address book is already loaded."
-msgstr "വിലാസപുസ്തകം ഇപ്പൊഴേ നിലവിലുണ്ട്."
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "വിലാസപുസ്തകം നോക്കുന്നതിനുള്ള അനുവാദമില്ല."
 
-#: ../src/plugins/evolution/e-contact-entry.c:907
-msgid "Permission was denied when accessing the address book."
-msgstr "വിലാസപുസ്തകം നോക്കുന്നതിനുള്ള അനുവാദമില്ല."
+#~ msgid "The contact was not found."
+#~ msgstr "ഈ വിലാസം കണ്ടെത്തിയില്ല"
 
-#: ../src/plugins/evolution/e-contact-entry.c:909
-msgid "The contact was not found."
-msgstr "ഈ വിലാസം കണ്ടെത്തിയില്ല"
+#~ msgid "This contact ID already exists."
+#~ msgstr "ഈ വിലാസത്തിന്റെ ഐഡി നിലവിലുണ്ട്."
 
-#: ../src/plugins/evolution/e-contact-entry.c:911
-msgid "This contact ID already exists."
-msgstr "ഈ വിലാസത്തിന്റെ ഐഡി നിലവിലുണ്ട്."
+#~ msgid "The protocol is not supported."
+#~ msgstr "ഈ പ്രോട്ടോകോള്‍ പിന്തുണയില്ലാത്തതാണ്."
 
-#: ../src/plugins/evolution/e-contact-entry.c:913
-msgid "The protocol is not supported."
-msgstr "ഈ പ്രോട്ടോകോള്‍ പിന്തുണയില്ലാത്തതാണ്."
+#~ msgid "The operation was cancelled."
+#~ msgstr "ഈ നടപടി നിര്‍ത്തിയിരിക്കുന്നു"
 
-#: ../src/plugins/evolution/e-contact-entry.c:915
-msgid "The operation was cancelled."
-msgstr "ഈ നടപടി നിര്‍ത്തിയിരിക്കുന്നു"
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "ഈ നടപടി നിറുത്താന്‍ സാധ്യമല്ല"
 
-#: ../src/plugins/evolution/e-contact-entry.c:917
-msgid "The operation could not be cancelled."
-msgstr "ഈ നടപടി നിറുത്താന്‍ സാധ്യമല്ല"
+#~ msgid "The address book authentication failed."
+#~ msgstr "വിലാസപുസ്തകത്തിലേക്കുള്ള തിരിച്ചറിയല്‍ പരിശോധന പരാജയപ്പെട്ടു"
 
-#: ../src/plugins/evolution/e-contact-entry.c:919
-msgid "The address book authentication failed."
-msgstr "വിലാസപുസ്തകത്തിലേക്കുള്ള തിരിച്ചറിയല്‍ പരിശോധന പരാജയപ്പെട്ടു"
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr "വിലാസപുസ്തകം പരിശോധിക്കാന്‍ ആവശ്യമായ തിരിച്ചറിയല്‍ നല്കിയിട്ടില്ല"
 
-#: ../src/plugins/evolution/e-contact-entry.c:921
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr "വിലാസപുസ്തകം പരിശോധിക്കാന്‍ ആവശ്യമായ തിരിച്ചറിയല്‍ നല്കിയിട്ടില്ല"
+#~ msgid "A secure connection is not available."
+#~ msgstr "സുരക്ഷിതമായ ഒരു ബന്ധം ലഭ്യമല്ല"
 
-#: ../src/plugins/evolution/e-contact-entry.c:923
-msgid "A secure connection is not available."
-msgstr "സുരക്ഷിതമായ ഒരു ബന്ധം ലഭ്യമല്ല"
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "വിലാസപുസ്തകം നോക്കുന്നതിനിടയില്‍ ഒരു കോര്‍ബ പിശക് സംഭവിച്ചു."
 
-#: ../src/plugins/evolution/e-contact-entry.c:925
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "വിലാസപുസ്തകം നോക്കുന്നതിനിടയില്‍ ഒരു കോര്‍ബ പിശക് സംഭവിച്ചു."
+#~ msgid "The address book source does not exist."
+#~ msgstr "വിലാസപുസ്തകത്തിന്റെ ഉറവിടം നിലവിലില്ല."
 
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "The address book source does not exist."
-msgstr "വിലാസപുസ്തകത്തിന്റെ ഉറവിടം നിലവിലില്ല."
+#~ msgid "An unknown error occurred."
+#~ msgstr "അറിയപ്പെടാത്ത എന്തോ ഒരു തെറ്റ് സംഭവിച്ചു."
 
-#: ../src/plugins/evolution/e-contact-entry.c:929
-#: ../src/plugins/evolution/e-contact-entry.c:932
-msgid "An unknown error occurred."
-msgstr "അറിയപ്പെടാത്ത എന്തോ ഒരു തെറ്റ് സംഭവിച്ചു."
+#~ msgid "Unable to send file"
+#~ msgstr "ഫയല്‍ അയയ്ക്കാന്‍ പറ്റുന്നില്ല"
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "Unable to send file"
-msgstr "ഫയല്‍ അയയ്ക്കാന്‍ പറ്റുന്നില്ല"
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "ഗാജിം വിദൂര സേവനത്തിലേയ്ക്കു് ബന്ധമൊന്നും ഇല്ല."
 
-#: ../src/plugins/gajim/gajim.c:419
-msgid "There is no connection to gajim remote service."
-msgstr "ഗാജിം വിദൂര സേവനത്തിലേയ്ക്കു് ബന്ധമൊന്നും ഇല്ല."
+#~ msgid "Sending file failed"
+#~ msgstr "ഫയല്‍ അയയ്ക്കല്‍ പരാജയപ്പെട്ടു"
 
-#: ../src/plugins/gajim/gajim.c:443 ../src/plugins/gajim/gajim.c:483
-msgid "Sending file failed"
-msgstr "ഫയല്‍ അയയ്ക്കല്‍ പരാജയപ്പെട്ടു"
+#~ msgid "Recipient is missing."
+#~ msgstr "സ്വീകര്‍ത്താവിനെ നല്‍കിയിട്ടില്ല."
 
-#: ../src/plugins/gajim/gajim.c:444
-msgid "Recipient is missing."
-msgstr "സ്വീകര്‍ത്താവിനെ നല്‍കിയിട്ടില്ല."
+#~ msgid "Unknown recipient."
+#~ msgstr "അറിയപ്പെടാത്ത സ്വീകര്‍ത്താവ്"
 
-#: ../src/plugins/gajim/gajim.c:483
-msgid "Unknown recipient."
-msgstr "അറിയപ്പെടാത്ത സ്വീകര്‍ത്താവ്"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "നിമിഷ സന്ദേശം (ഗാജിം)"
 
-#: ../src/plugins/gajim/gajim.c:506
-msgid "Instant Message (Gajim)"
-msgstr "നിമിഷ സന്ദേശം (ഗാജിം)"
+#~ msgid "New CD/DVD"
+#~ msgstr "പുതിയ സിഡി/ഡിവിഡി"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "പുതിയ സിഡി/ഡിവിഡി"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "നിലവിലുള്ള സിഡി/ഡിവിഡി"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "നിലവിലുള്ള സിഡി/ഡിവിഡി"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "സിഡി/ഡിവിഡി നിര്‍മാതാവ്"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "സിഡി/ഡിവിഡി നിര്‍മാതാവ്"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "നിമിഷ സന്ദേശം (പിട്ഗിന്‍)"
 
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "നിമിഷ സന്ദേശം (പിട്ഗിന്‍)"
+#~ msgid "Removable disks and shares"
+#~ msgstr "ഊരി മാറ്റാവുന്ന ഡിസ്കുകളും പങ്കിട്ടവയും"
 
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "ഊരി മാറ്റാവുന്ന ഡിസ്കുകളും പങ്കിട്ടവയും"
+#~ msgid "Uploading '%s'"
+#~ msgstr "'%s' കയറ്റുമതി ചെയ്യുന്നു"
 
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "'%s' കയറ്റുമതി ചെയ്യുന്നു"
+#~ msgid "Preparing upload"
+#~ msgstr "കയറ്റുമതിയ്ക്ക് തയ്യാറെടുക്കുന്നു"
 
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "കയറ്റുമതിയ്ക്ക് തയ്യാറെടുക്കുന്നു"
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "'%s' സേവനം സജ്ജീകരിച്ചിട്ടില്ല."
 
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "'%s' സേവനം സജ്ജീകരിച്ചിട്ടില്ല."
+#~ msgid "_Configure"
+#~ msgstr "_സജ്ജീകരിയ്ക്കുക"
 
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "_സജ്ജീകരിയ്ക്കുക"
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "'%s' സേവനത്തിലേയ്ക്ക് പ്രവേശിച്ചിരിക്കുന്നു"
 
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "'%s' സേവനത്തിലേയ്ക്ക് പ്രവേശിച്ചിരിക്കുന്നു"
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "'%s' സേവനത്തിലേയ്ക്ക് പ്രവേശിക്കാന്‍ സാധിക്കുന്നില്ല."
 
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "'%s' സേവനത്തിലേയ്ക്ക് പ്രവേശിക്കാന്‍ സാധിക്കുന്നില്ല."
-
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "ആഗോള പ്ലുഗ് ആന്‍ഡ്‌ പ്ലേ (യുപിഎന്‍പി) മാധ്യമ സേവകന്‍"
+#~ msgid "UPnP Media Server"
+#~ msgstr "ആഗോള പ്ലുഗ് ആന്‍ഡ്‌ പ്ലേ (യുപിഎന്‍പി) മാധ്യമ സേവകന്‍"
 
 #~ msgid "Last plugin used to send"
 #~ msgstr "അവസാനമായി അയയ്ക്കാന്‍ ഉപയോഗിച്ച സംയോജകം"
