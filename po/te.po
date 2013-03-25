@@ -3,292 +3,231 @@
 # Copyright (C) 2012 Swecha localisation team
 # This file is distributed under the same license as the nautilus-sendto package.
 #
-# Krishna Babu K <kkrothap@redhat.com>, 2009, 2012.
+# Krishna Babu K <kkrothap@redhat.com>, 2009, 2012, 2013.
 # Hari Krishna <hari@swecha.net>, 2011.
-# Sasi Bhushan Boddepalli <sasi@swecha.net>, 2011,2012
+# Sasi Bhushan Boddepalli <sasi@swecha.net>, 2011,2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto.po.master.te\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-01-28 16:44+0000\n"
-"PO-Revision-Date: 2012-03-13 21:10+0530\n"
-"Last-Translator: sasi bhushan boddepalli <sasi@swecha.net>\n"
-"Language-Team: Telugu <Indlinux-telugu@lists.sourceforge.net>\n"
+"POT-Creation-Date: 2013-03-20 14:12+0000\n"
+"PO-Revision-Date: 2013-03-25 14:40+0530\n"
+"Last-Translator: Krishnababu Krothapalli <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <Fedora-trans-te@redhat.com>\n"
+"Language: te\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "వివరము అమరిక నుంచి  నడుపు"
+#: ../src/nautilus-sendto.c:53
+#| msgid "Run from build directory"
+msgid "Run from build directory (ignored)"
+msgstr "బూల్డ్ డైరెక్టరీనుండి నడుపుము (విస్మరించిన)"
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
-msgstr "XID ని పంపిన  సంభాషణ కి మూలము లా ఉపయోగించుము "
+#: ../src/nautilus-sendto.c:54
+#| msgid "Use XID as parent to the send dialogue"
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "పంపిన డైలాగ్‌కు XID పేరెంట్ వలె వుపయోగించు (విస్మరించిన)"
 
-#: ../src/nautilus-sendto-command.c:82
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "పంపుటకు ఫైళ్ళు "
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
 msgstr "అవుట్ పుట్ వర్షన్ సమాచారం మరియు నిష్క్రమణ"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:664
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "URIలు లేదా ఫైలునామములు ఐచ్చికాలుగా పంపునట్లు కోరుకొనుచున్నది\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:253
+msgid "Archive"
+msgstr "ఆర్కైవ్"
 
-#: ../src/nautilus-sendto-command.c:694
+#: ../src/nautilus-sendto.c:520
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "ఆదేశ-వరుస ఐచ్చికాలను పార్శ్ చేయలేక పోయింది: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:535
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "%d సంచయమును పంచుకుంటున్నది"
-msgstr[1] "%d సంచయములను పంచుకుంటున్నది"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "URIలు లేదా ఫైలునామములు ఐచ్చికాలుగా పంపునట్లు కోరుకొనుచున్నది\n"
 
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "%d సంచయం మరియు ఫైలును పంచుట"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "%d సంచయమును పంచుకుంటున్నది"
+#~ msgstr[1] "%d సంచయములను పంచుకుంటున్నది"
 
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "దృశ్యము %d ను పంచుట"
-msgstr[1] "దృశ్యములు %d ను పంచుట"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "%d సంచయం మరియు ఫైలును పంచుట"
 
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "చిత్రము %d ను పంచుట"
-msgstr[1] "చిత్రములు %d ను పంచుట"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "దృశ్యము %d ను పంచుట"
+#~ msgstr[1] "దృశ్యములు %d ను పంచుట"
 
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "ప్రతిరూపము  %d ను పంచుట"
-msgstr[1] "ప్రతిరూపములు %d ను పంచుట "
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "చిత్రము %d ను పంచుట"
+#~ msgstr[1] "చిత్రములు %d ను పంచుట"
 
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "పాఠ ఫైలు  %d ను పంచుట"
-msgstr[1] "పాఠ ఫైళ్ళు  %d ను పంచుట"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "ప్రతిరూపము  %d ను పంచుట"
+#~ msgstr[1] "ప్రతిరూపములు %d ను పంచుట "
 
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "ఫైలు  %d ను పంచుట"
-msgstr[1] "ఫైళ్ళు  %d ను పంచుట"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "పాఠ ఫైలు  %d ను పంచుట"
+#~ msgstr[1] "పాఠ ఫైళ్ళు  %d ను పంచుట"
 
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "పంపుము (_S)"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "ఫైలు  %d ను పంచుట"
+#~ msgstr[1] "ఫైళ్ళు  %d ను పంచుట"
 
-#: ../src/plugins/nautilus-sendto-packer.c:200
-msgid "Files"
-msgstr "ఫైళ్ళు"
+#~ msgid "_Send"
+#~ msgstr "పంపుము (_S)"
 
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "రద్దుచేయి (_C)"
+#~ msgid "Files"
+#~ msgstr "ఫైళ్ళు"
 
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "దీనిలో ప్యాక్‌చేసి పంపుము (_p):"
+#~ msgid "_Cancel"
+#~ msgstr "రద్దుచేయి (_C)"
 
-#: ../src/plugins/evolution/evolution.c:308
-msgid "Mail"
-msgstr "మెయిల్"
+#~ msgid "Send _packed in:"
+#~ msgstr "దీనిలో ప్యాక్‌చేసి పంపుము (_p):"
 
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "పరిచయం పొందలేదు: %s"
+#~ msgid "Mail"
+#~ msgstr "మెయిల్"
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "పరిచయం కనుగొనలేక పోయింది: %s"
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "పరిచయం పొందలేదు: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "అన్వేషించదగు దర్శనమును సృష్టించలేదు."
+#~ msgid "Could not find contact: %s"
+#~ msgstr "పరిచయం కనుగొనలేక పోయింది: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "Success"
-msgstr "సఫలం"
+#~ msgid "Cannot create searchable view."
+#~ msgstr "అన్వేషించదగు దర్శనమును సృష్టించలేదు."
 
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "An argument was invalid."
-msgstr "ఒక ఆర్గుమెంట్ చెల్లనిది."
+#~ msgid "Success"
+#~ msgstr "సఫలం"
 
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is busy."
-msgstr "చిరునామా పుస్తకం బ్యుజీగా వుంది."
+#~ msgid "An argument was invalid."
+#~ msgstr "ఒక ఆర్గుమెంట్ చెల్లనిది."
 
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book is offline."
-msgstr "చిరునామా పుస్తకం ఆఫ్‌లైన్"
+#~ msgid "The address book is busy."
+#~ msgstr "చిరునామా పుస్తకం బ్యుజీగా వుంది."
 
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The address book does not exist."
-msgstr "చిరునామా పుస్తకం లేదు."
+#~ msgid "The address book is offline."
+#~ msgstr "చిరునామా పుస్తకం ఆఫ్‌లైన్"
 
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The \"Me\" contact does not exist."
-msgstr "\"Me\" పరిచయం లేదు."
+#~ msgid "The address book does not exist."
+#~ msgstr "చిరునామా పుస్తకం లేదు."
 
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is not loaded."
-msgstr "చిరునామా పుస్తకం లోడు కాలేదు."
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "\"Me\" పరిచయం లేదు."
 
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "The address book is already loaded."
-msgstr "చిరునామా పుస్తకం యిప్పటికే లోడైంది."
+#~ msgid "The address book is not loaded."
+#~ msgstr "చిరునామా పుస్తకం లోడు కాలేదు."
 
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "Permission was denied when accessing the address book."
-msgstr "చిరునామా పుస్తకంను యాక్సిస్ చేస్తున్నప్పుడు అనుమతి నిరాకరించబడింది."
+#~ msgid "The address book is already loaded."
+#~ msgstr "చిరునామా పుస్తకం యిప్పటికే లోడైంది."
 
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "The contact was not found."
-msgstr "పరిచయం కనుగొనబడలేదు."
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "చిరునామా పుస్తకంను యాక్సిస్ చేస్తున్నప్పుడు అనుమతి నిరాకరించబడింది."
 
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "This contact ID already exists."
-msgstr "పరిచయం ID యిప్పటికే వుంది."
+#~ msgid "The contact was not found."
+#~ msgstr "పరిచయం కనుగొనబడలేదు."
 
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The protocol is not supported."
-msgstr "నిబంధన(ప్రోటోకాల్) మద్దతీయబడదు."
+#~ msgid "This contact ID already exists."
+#~ msgstr "పరిచయం ID యిప్పటికే వుంది."
 
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation was cancelled."
-msgstr "ఆపరేషన్ రద్దుచేయబడింది."
+#~ msgid "The protocol is not supported."
+#~ msgstr "నిబంధన(ప్రోటోకాల్) మద్దతీయబడదు."
 
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The operation could not be cancelled."
-msgstr "ఆపరేషన్ రద్దు చేయబడలేకపోయింది."
+#~ msgid "The operation was cancelled."
+#~ msgstr "ఆపరేషన్ రద్దుచేయబడింది."
 
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid "The address book authentication failed."
-msgstr "చిరునామాపుస్తకం దృవీకరణ విఫలమైంది."
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "ఆపరేషన్ రద్దు చేయబడలేకపోయింది."
 
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr "చిరునామాపుస్తకంను యాక్సిస్ చేయుటకు దృవీకరణ అవసరము అయితే యివ్వబడలేదు."
+#~ msgid "The address book authentication failed."
+#~ msgstr "చిరునామాపుస్తకం దృవీకరణ విఫలమైంది."
 
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A secure connection is not available."
-msgstr "సురక్షిత అనుసంధానము అందుబాటులో లేదు."
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr "చిరునామాపుస్తకంను యాక్సిస్ చేయుటకు దృవీకరణ అవసరము అయితే యివ్వబడలేదు."
 
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "చిరునామా పుస్తకంను యాక్సిస్ చేస్తున్నప్పుడు CORBA దోషము యెదురైంది."
+#~ msgid "A secure connection is not available."
+#~ msgstr "సురక్షిత అనుసంధానము అందుబాటులో లేదు."
 
-#: ../src/plugins/evolution/e-contact-entry.c:922
-msgid "The address book source does not exist."
-msgstr "చిరునామా పుస్తకం మూలము లేదు."
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "చిరునామా పుస్తకంను యాక్సిస్ చేస్తున్నప్పుడు CORBA దోషము యెదురైంది."
 
-#: ../src/plugins/evolution/e-contact-entry.c:924
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "An unknown error occurred."
-msgstr "ఒక తెలియని దోషము యెదురైంది."
+#~ msgid "The address book source does not exist."
+#~ msgstr "చిరునామా పుస్తకం మూలము లేదు."
 
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "ఫైలును పంపలేక పోయింది"
+#~ msgid "An unknown error occurred."
+#~ msgstr "ఒక తెలియని దోషము యెదురైంది."
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "గజిమ్ దూరస్థ సేవకు అక్కడ యెటువంటి అనుసంధానము లేదు."
+#~ msgid "Unable to send file"
+#~ msgstr "ఫైలును పంపలేక పోయింది"
 
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "ఫైలును పంపుట విఫలమైంది"
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "గజిమ్ దూరస్థ సేవకు అక్కడ యెటువంటి అనుసంధానము లేదు."
 
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "స్వీకరణదారి లేరు."
+#~ msgid "Sending file failed"
+#~ msgstr "ఫైలును పంపుట విఫలమైంది"
 
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "తెలియని స్వీరకరణదారి."
+#~ msgid "Recipient is missing."
+#~ msgstr "స్వీకరణదారి లేరు."
 
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "సత్వర సందేశము (గజిమ్)"
+#~ msgid "Unknown recipient."
+#~ msgstr "తెలియని స్వీరకరణదారి."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "కొత్త CD/DVD"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "సత్వర సందేశము (గజిమ్)"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "ఉన్న CD/DVD"
+#~ msgid "New CD/DVD"
+#~ msgstr "కొత్త CD/DVD"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "CD/DVD సృష్టీకరణి"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "ఉన్న CD/DVD"
 
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "సత్వర సందేశము (పిడిగ్గిన్)"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "CD/DVD సృష్టీకరణి"
 
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "తీసివేయదగిన డిస్కులు మరియు భాగస్వామ్యాలు"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "సత్వర సందేశము (పిడిగ్గిన్)"
 
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "సమాచార ఎగుమతించబడునది    '%s'"
+#~ msgid "Removable disks and shares"
+#~ msgstr "తీసివేయదగిన డిస్కులు మరియు భాగస్వామ్యాలు"
 
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "సమాచార ఎగుమతి కొరకు సిద్దపడుచున్నది"
+#~ msgid "Uploading '%s'"
+#~ msgstr "సమాచార ఎగుమతించబడునది    '%s'"
 
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "సదుపాయం  '%s' రూపకరించబడలేదు"
+#~ msgid "Preparing upload"
+#~ msgstr "సమాచార ఎగుమతి కొరకు సిద్దపడుచున్నది"
 
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "రూపకరణ(_C)"
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "సదుపాయం  '%s' రూపకరించబడలేదు"
 
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "సదుపాయమునకు ప్రవేశించారు '%s'"
+#~ msgid "_Configure"
+#~ msgstr "రూపకరణ(_C)"
 
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "సర్వీసుకు ప్రవేశము కుదరుటలేదు: '%s'"
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "సదుపాయమునకు ప్రవేశించారు '%s'"
 
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "UPnP మాధ్యమ సేవిక"
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "సర్వీసుకు ప్రవేశము కుదరుటలేదు: '%s'"
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "UPnP మాధ్యమ సేవిక"
 
 #~ msgid "Last plugin used to send"
 #~ msgstr "పంపుటకు చివరిగా వుపయోగించబడిన ప్లగ్‌యిన్"
