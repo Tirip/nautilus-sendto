@@ -3,281 +3,52 @@
 # This file is distributed under the same license as the nautilus-sendto package.
 #
 # Imam Musthaqim <userindesign@gmail.com>, 2009.
-# Dirgita <dirgitadevina@yahoo.co.id>, 2010, 2011.
-# Andika Triwidada <andika@gmail.com>, 2011.
+# Dirgita <dirgitadevina@yahoo.co.id>, 2010, 2011, 2013.
+# Andika Triwidada <andika@gmail.com>, 2011, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: nautilus-sendto.master.id\n"
+"Project-Id-Version: nautilus-sendto master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=nautilus-sendto&component=general\n"
-"POT-Creation-Date: 2011-02-02 13:32+0000\n"
-"PO-Revision-Date: 2011-02-01 22:35+0700\n"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-03-24 02:07+0000\n"
+"PO-Revision-Date: 2013-03-24 20:37+0700\n"
 "Last-Translator: Dirgita <dirgitadevina@yahoo.co.id>\n"
 "Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
+"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Indonesian\n"
-"X-Poedit-Country: INDONESIA\n"
-"X-Generator: Lokalize 1.1\n"
+"X-Generator: Lokalize 1.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../src/nautilus-sendto-command.c:79
-msgid "Run from build directory"
-msgstr "Dijalankan dari direktori pembuatan"
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr "Dijalankan dari direktori pembuatan (diabaikan)"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Use XID as parent to the send dialogue"
-msgstr "Pakai XID sebagai induk ke dialog pengiriman"
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "Pakai XID sebagai induk ke dialog pengiriman (diabaikan)"
 
-#: ../src/nautilus-sendto-command.c:81
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "Berkas yang hendak dikirim"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:662
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Diharapkan URI atau nama berkas yang dilewatkan sebagai opsi\n"
+#: ../src/nautilus-sendto.c:56
+msgid "Output version information and exit"
+msgstr "Tampilkan informasi versi dan keluar"
 
-#: ../src/nautilus-sendto-command.c:692
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:253
+msgid "Archive"
+msgstr "Arsip"
+
+#: ../src/nautilus-sendto.c:520
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Tidak dapat mengurai opsi baris-perintah: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:535
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "Berbagi %d folder"
-
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "Berbagi %d folder dan berkas"
-
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "Berbagi %d video"
-
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "Berbagi %d foto"
-
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "Berbagi %d gambar"
-
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "Berbagi %d berkas teks"
-
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "Berbagi %d berkas"
-
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "_Kirim"
-
-#: ../src/plugins/nautilus-sendto-packer.c:200
-msgid "Files"
-msgstr "Berkas"
-
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "_Batal"
-
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "Kirim _paket dalam:"
-
-#: ../src/plugins/evolution/evolution.c:308
-msgid "Mail"
-msgstr "Surat"
-
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "Tidak dapat memperoleh kontak: %s"
-
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "Tidak dapat menemukan kontak: %s"
-
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "Tidak dapat membentuk tampilan yang bisa dicari."
-
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "Success"
-msgstr "Berhasil"
-
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "An argument was invalid."
-msgstr "Argumen tidak sah."
-
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is busy."
-msgstr "Buku alamat sibuk."
-
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book is offline."
-msgstr "Buku alamat dalam kondisi luring."
-
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The address book does not exist."
-msgstr "Buku alamat tidak ada."
-
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The \"Me\" contact does not exist."
-msgstr "Kontak \"Saya\" tidak ada."
-
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is not loaded."
-msgstr "Buku alamat tidak dimuat."
-
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "The address book is already loaded."
-msgstr "Buku alamat sudah dimuat."
-
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "Permission was denied when accessing the address book."
-msgstr "Izin ditolak saat mengakses buku alamat."
-
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "The contact was not found."
-msgstr "Kontak tidak ditemukan."
-
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "This contact ID already exists."
-msgstr "ID kontak ini sudah ada."
-
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The protocol is not supported."
-msgstr "Protokol tidak didukung."
-
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation was cancelled."
-msgstr "Operasi dibatalkan."
-
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The operation could not be cancelled."
-msgstr "Operasi tidak dapat dibatalkan."
-
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid "The address book authentication failed."
-msgstr "Otentikasi buku alamat gagal."
-
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr ""
-"Diperlukan otentikasi untuk mengakses buku alamat, namun tidak diberikan."
-
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A secure connection is not available."
-msgstr "Tidak tersedia koneksi yang aman."
-
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "Terjadi galat pada CORBA saat mengakses buku alamat."
-
-#: ../src/plugins/evolution/e-contact-entry.c:922
-msgid "The address book source does not exist."
-msgstr "Sumber buku alamat tidak ada."
-
-#: ../src/plugins/evolution/e-contact-entry.c:924
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "An unknown error occurred."
-msgstr "Terjadi galat yang tak dikenal."
-
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "Tidak dapat mengirim berkas"
-
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "Tidak ada koneksi menuju layanan jarak jauh gajim."
-
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "Gagal mengirim berkas"
-
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "Penerima hilang."
-
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "Penerima tak dikenal."
-
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "Pesan Instan (Gajim)"
-
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "CD/DVD Baru"
-
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "CD/DVD yang Ada"
-
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "Pembuat CD/DVD"
-
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "Pesan Instan (Pidgin)"
-
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "Media lepasan dan berbagi"
-
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "Mengunggah '%s'"
-
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "Menyiapkan pengunggahan"
-
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "Layanan '%s' belum dikonfigurasi."
-
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "_Konfigurasi"
-
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "Telah masuk pada layanan '%s'."
-
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "Tidak dapat masuk pada layanan '%s'."
-
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "Server Media UPnP"
-
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Diharapkan URI atau nama berkas yang dilewatkan sebagai opsi\n"
