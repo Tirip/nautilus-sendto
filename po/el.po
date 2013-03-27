@@ -1,296 +1,234 @@
 # translation of nautilus-sendto to Greek
 # Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the nautilus-sendto package.
-#
-#
 # Kostas Papadimas <pkst@gnome.org>, 2004.
 # Athanasios Lefteris <alefteris@gmail.com>, 2007, 2008.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-05-03 11:10+0300\n"
-"PO-Revision-Date: 2012-04-23 10:51+0200\n"
-"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
-"Language-Team: Greek <team@gnome.gr>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product"
+"=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-03-20 14:12+0000\n"
+"PO-Revision-Date: 2013-03-27 12:31+0300\n"
+"Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
+"Language-Team: team@gnome.gr\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-Country: GREECE\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "Εκτέλεση από τον κατάλογο εγκατάστασης"
+#: ../src/nautilus-sendto.c:53
+#| msgid "Run from build directory"
+msgid "Run from build directory (ignored)"
+msgstr "Εκτέλεση από τον κατάλογο δόμησης (αγνοήθηκε)"
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
-msgstr "Χρήση του XID σαν πρωτεύον στο διάλογο αποστολής"
+#: ../src/nautilus-sendto.c:54
+#| msgid "Use XID as parent to the send dialogue"
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "Χρήση του XID ως γονικό για αποστολή διαλόγου (αγνοήθηκε)"
 
-#: ../src/nautilus-sendto-command.c:82
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "Αρχεία προς αποστολή"
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
 msgstr "Εμφάνιση πληροφοριών έκδοσης και κλείσιμο"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:667
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Αναμένει URIs ή ονόματα αρχείων ως επιλογές\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:253
+msgid "Archive"
+msgstr "Αρχειοθήκη"
 
-#: ../src/nautilus-sendto-command.c:697
+#: ../src/nautilus-sendto.c:520
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Δεν μπορούν να αναλυθούν οι επιλογές γραμμής εντολών: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:535
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "Διαμοίραση του φακέλου %d"
-msgstr[1] "Διαμοίραση των φακέλων %d"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Αναμένει URIs ή ονόματα αρχείων ως επιλογές\n"
 
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "Διαμοίραση των αρχείων και φακέλων %d"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "Διαμοίραση του φακέλου %d"
+#~ msgstr[1] "Διαμοίραση των φακέλων %d"
 
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "Διαμοίραση του βίντεο %d"
-msgstr[1] "Διαμοίραση των βίντεο %d"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "Διαμοίραση των αρχείων και φακέλων %d"
 
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "Διαμοίραση της φωτογραφίας %d"
-msgstr[1] "Διαμοίραση των φωτογραφιών %d"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "Διαμοίραση του βίντεο %d"
+#~ msgstr[1] "Διαμοίραση των βίντεο %d"
 
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "Διαμοίραση της εικόνας %d"
-msgstr[1] "Διαμοίραση των εικόνων %d"
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "Διαμοίραση της φωτογραφίας %d"
+#~ msgstr[1] "Διαμοίραση των φωτογραφιών %d"
 
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "Διαμοίραση του αρχείου κειμένου %d"
-msgstr[1] "Διαμοίραση των αρχείων κειμένου %d"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "Διαμοίραση της εικόνας %d"
+#~ msgstr[1] "Διαμοίραση των εικόνων %d"
 
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "Διαμοίραση του αρχείου %d"
-msgstr[1] "Διαμοίραση των αρχείων %d"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "Διαμοίραση του αρχείου κειμένου %d"
+#~ msgstr[1] "Διαμοίραση των αρχείων κειμένου %d"
 
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "Απο_στολή"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "Διαμοίραση του αρχείου %d"
+#~ msgstr[1] "Διαμοίραση των αρχείων %d"
 
-#: ../src/plugins/nautilus-sendto-packer.c:201
-msgid "Files"
-msgstr "Αρχεία"
+#~ msgid "_Send"
+#~ msgstr "Απο_στολή"
 
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "_Ακύρωση"
+#~ msgid "Files"
+#~ msgstr "Αρχεία"
 
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "Αποστολή με _συμπίεση ως:"
+#~ msgid "_Cancel"
+#~ msgstr "_Ακύρωση"
 
-#: ../src/plugins/evolution/evolution.c:295
-msgid "Mail"
-msgstr "Ηλεκτρονικό ταχυδρομείο"
+#~ msgid "Send _packed in:"
+#~ msgstr "Αποστολή με _συμπίεση ως:"
 
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "Αδύνατη η λήψη της επαφής: %s"
+#~ msgid "Mail"
+#~ msgstr "Ηλεκτρονικό ταχυδρομείο"
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "Αδύνατη η εύρεση της επαφής: %s"
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "Αδύνατη η λήψη της επαφής: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "Αδύνατη η δημιουργία μιας αναζητήσιμης προβολής."
+#~ msgid "Could not find contact: %s"
+#~ msgstr "Αδύνατη η εύρεση της επαφής: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:891
-msgid "Success"
-msgstr "Επιτυχία"
+#~ msgid "Cannot create searchable view."
+#~ msgstr "Αδύνατη η δημιουργία μιας αναζητήσιμης προβολής."
 
-#: ../src/plugins/evolution/e-contact-entry.c:893
-msgid "An argument was invalid."
-msgstr "Κάποια παράμετρος ήταν μη έγκυρη."
+#~ msgid "Success"
+#~ msgstr "Επιτυχία"
 
-#: ../src/plugins/evolution/e-contact-entry.c:895
-msgid "The address book is busy."
-msgstr "Το βιβλίο διευθύνσεων είναι απασχολημένο."
+#~ msgid "An argument was invalid."
+#~ msgstr "Κάποια παράμετρος ήταν μη έγκυρη."
 
-#: ../src/plugins/evolution/e-contact-entry.c:897
-msgid "The address book is offline."
-msgstr "Το βιβλίο διευθύνσεων είναι εκτός σύνδεσης."
+#~ msgid "The address book is busy."
+#~ msgstr "Το βιβλίο διευθύνσεων είναι απασχολημένο."
 
-#: ../src/plugins/evolution/e-contact-entry.c:899
-msgid "The address book does not exist."
-msgstr "Δεν υπάρχει βιβλίο διευθύνσεων."
+#~ msgid "The address book is offline."
+#~ msgstr "Το βιβλίο διευθύνσεων είναι εκτός σύνδεσης."
 
-#: ../src/plugins/evolution/e-contact-entry.c:901
-msgid "The \"Me\" contact does not exist."
-msgstr "Η επαφή \"Εγώ\" δεν υπάρχει."
+#~ msgid "The address book does not exist."
+#~ msgstr "Δεν υπάρχει βιβλίο διευθύνσεων."
 
-#: ../src/plugins/evolution/e-contact-entry.c:903
-msgid "The address book is not loaded."
-msgstr "Το βιβλίο διευθύνσεων δεν έχει φορτωθεί."
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "Η επαφή \"Εγώ\" δεν υπάρχει."
 
-#: ../src/plugins/evolution/e-contact-entry.c:905
-msgid "The address book is already loaded."
-msgstr "Το βιβλίο διευθύνσεων έχει ήδη φορτωθεί."
+#~ msgid "The address book is not loaded."
+#~ msgstr "Το βιβλίο διευθύνσεων δεν έχει φορτωθεί."
 
-#: ../src/plugins/evolution/e-contact-entry.c:907
-msgid "Permission was denied when accessing the address book."
-msgstr "Δεν επιτράπηκε η πρόσβαση στο βιβλίο διευθύνσεων."
+#~ msgid "The address book is already loaded."
+#~ msgstr "Το βιβλίο διευθύνσεων έχει ήδη φορτωθεί."
 
-#: ../src/plugins/evolution/e-contact-entry.c:909
-msgid "The contact was not found."
-msgstr "Η επαφή δεν βρέθηκε."
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "Δεν επιτράπηκε η πρόσβαση στο βιβλίο διευθύνσεων."
 
-#: ../src/plugins/evolution/e-contact-entry.c:911
-msgid "This contact ID already exists."
-msgstr "Αυτή η ταυτότητα επαφής υπάρχει ήδη."
+#~ msgid "The contact was not found."
+#~ msgstr "Η επαφή δεν βρέθηκε."
 
-#: ../src/plugins/evolution/e-contact-entry.c:913
-msgid "The protocol is not supported."
-msgstr "Το πρωτόκολλο δεν υποστηρίζεται."
+#~ msgid "This contact ID already exists."
+#~ msgstr "Αυτή η ταυτότητα επαφής υπάρχει ήδη."
 
-#: ../src/plugins/evolution/e-contact-entry.c:915
-msgid "The operation was cancelled."
-msgstr "Η λειτουργία ακυρώθηκε."
+#~ msgid "The protocol is not supported."
+#~ msgstr "Το πρωτόκολλο δεν υποστηρίζεται."
 
-#: ../src/plugins/evolution/e-contact-entry.c:917
-msgid "The operation could not be cancelled."
-msgstr "Η λειτουργία δεν μπόρεσε να ακυρωθεί."
+#~ msgid "The operation was cancelled."
+#~ msgstr "Η λειτουργία ακυρώθηκε."
 
-#: ../src/plugins/evolution/e-contact-entry.c:919
-msgid "The address book authentication failed."
-msgstr "Η ταυτοποίηση του βιβλίου διευθύνσεων απέτυχε."
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "Η λειτουργία δεν μπόρεσε να ακυρωθεί."
 
-#: ../src/plugins/evolution/e-contact-entry.c:921
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr ""
-"Για την πρόσβαση στο βιβλίο διευθύνσεων απαιτείται ταυτοποίηση, η οποία δεν "
-"δόθηκε."
+#~ msgid "The address book authentication failed."
+#~ msgstr "Η ταυτοποίηση του βιβλίου διευθύνσεων απέτυχε."
 
-#: ../src/plugins/evolution/e-contact-entry.c:923
-msgid "A secure connection is not available."
-msgstr "Δεν είναι διαθέσιμη μια ασφαλής σύνδεση."
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr ""
+#~ "Για την πρόσβαση στο βιβλίο διευθύνσεων απαιτείται ταυτοποίηση, η οποία "
+#~ "δεν δόθηκε."
 
-#: ../src/plugins/evolution/e-contact-entry.c:925
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr ""
-"Παρουσιάστηκε ένα σφάλμα CORBA κατά την πρόσβαση στο βιβλίο διευθύνσεων."
+#~ msgid "A secure connection is not available."
+#~ msgstr "Δεν είναι διαθέσιμη μια ασφαλής σύνδεση."
 
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "The address book source does not exist."
-msgstr "Η πηγή του βιβλίου διευθύνσεων δεν υπάρχει."
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr ""
+#~ "Παρουσιάστηκε ένα σφάλμα CORBA κατά την πρόσβαση στο βιβλίο διευθύνσεων."
 
-#: ../src/plugins/evolution/e-contact-entry.c:929
-#: ../src/plugins/evolution/e-contact-entry.c:932
-msgid "An unknown error occurred."
-msgstr "Παρουσιάστηκε ένα άγνωστο σφάλμα."
+#~ msgid "The address book source does not exist."
+#~ msgstr "Η πηγή του βιβλίου διευθύνσεων δεν υπάρχει."
 
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "Δεν είναι δυνατή η αποστολή του αρχείου"
+#~ msgid "An unknown error occurred."
+#~ msgstr "Παρουσιάστηκε ένα άγνωστο σφάλμα."
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "Δεν υπάρχει σύνδεση με την απομακρυσμένη υπηρεσία gajim."
+#~ msgid "Unable to send file"
+#~ msgstr "Δεν είναι δυνατή η αποστολή του αρχείου"
 
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "Η αποστολή του αρχείου απέτυχε"
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "Δεν υπάρχει σύνδεση με την απομακρυσμένη υπηρεσία gajim."
 
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "Ο παραλήπτης απουσιάζει."
+#~ msgid "Sending file failed"
+#~ msgstr "Η αποστολή του αρχείου απέτυχε"
 
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "Άγνωστος παραλήπτης."
+#~ msgid "Recipient is missing."
+#~ msgstr "Ο παραλήπτης απουσιάζει."
 
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "Άμεσο μήνυμα (Gajim)"
+#~ msgid "Unknown recipient."
+#~ msgstr "Άγνωστος παραλήπτης."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "Νέο CD/DVD"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Άμεσο μήνυμα (Gajim)"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "Υπάρχον CD/DVD"
+#~ msgid "New CD/DVD"
+#~ msgstr "Νέο CD/DVD"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "Δημιουργός CD/DVD"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "Υπάρχον CD/DVD"
 
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "Άμεσο μήνυμα (Pidgin)"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "Δημιουργός CD/DVD"
 
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "Αφαιρούμενοι δίσκοι και κοινόχρηστοι φάκελοι"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Άμεσο μήνυμα (Pidgin)"
 
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "Αποστολή του '%s'"
+#~ msgid "Removable disks and shares"
+#~ msgstr "Αφαιρούμενοι δίσκοι και κοινόχρηστοι φάκελοι"
 
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "Γίνεται προετοιμασία για αποστολή"
+#~ msgid "Uploading '%s'"
+#~ msgstr "Αποστολή του '%s'"
 
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "Η υπηρεσία '%s' δεν έχει ρυθμιστεί."
+#~ msgid "Preparing upload"
+#~ msgstr "Γίνεται προετοιμασία για αποστολή"
 
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "_Ρύθμιση"
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "Η υπηρεσία '%s' δεν έχει ρυθμιστεί."
 
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "Έγινε σύνδεση στην υπηρεσία '%s'."
+#~ msgid "_Configure"
+#~ msgstr "_Ρύθμιση"
 
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "Ήταν αδύνατη η σύνδεση στην υπηρεσία '%s'."
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "Έγινε σύνδεση στην υπηρεσία '%s'."
 
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "Εξυπηρετητής πολυμέσων UPnP"
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "Ήταν αδύνατη η σύνδεση στην υπηρεσία '%s'."
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "Εξυπηρετητής πολυμέσων UPnP"
 
 #~ msgid "Last plugin used to send"
 #~ msgstr "Τελευταίο πρόσθετο που χρησιμοποιήθηκε για αποστολή"
