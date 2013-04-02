@@ -3,291 +3,228 @@
 # This file is distributed under the same license as the nautilus-sendto package.
 #
 # Mikel Olasagasti <hey_neken@mundurat.net>, 2005.
-# IÃ±aki LarraÃ±aga Murgoitio <dooteo@euskalgnu.org>, 2005, 2006.
-# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2006, 2008, 2009, 2010, 2012.
-# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2005, 2006, 2007, 2008, 2009, 2010.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2012, 2013.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-06 17:43+0100\n"
-"PO-Revision-Date: 2012-03-06 17:52+0100\n"
-"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
+"POT-Creation-Date: 2013-04-02 22:35+0200\n"
+"PO-Revision-Date: 2013-04-02 22:36+0200\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
 "Language-Team: Basque <itzulpena@euskalgnu.org>\n"
 "Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.4\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "Exekutatu konpilazioko direktoriotik"
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr "Exekutatu konpilazioko direktoriotik (ez ikusi eginda)"
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
-msgstr "Erabili XID guraso gisa elkarrizketa-koadroa bidaltzeko"
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr ""
+"Erabili XID guraso gisa elkarrizketa-koadroa bidaltzeko (ez ikusi eginda)"
 
-#: ../src/nautilus-sendto-command.c:82
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "Fitxategiak bidaltzeko"
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
 msgstr "Bistaratu bertsioari buruzko informazioa, eta irten"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:664
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "URIak edo fitxategi-izenak aukera gisa pasatzea espero da\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:253
+msgid "Archive"
+msgstr "Artxiboa"
 
-#: ../src/nautilus-sendto-command.c:694
+#: ../src/nautilus-sendto.c:520
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Ezin izan da komando-lerroko aukerak analizatu: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:535
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "Karpeta %d partekatzen"
-msgstr[1] "%d karpeta partekatzen"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "URIak edo fitxategi-izenak aukera gisa pasatzea espero da\n"
 
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "%d karpeta eta fitxategi partekatzen"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "Karpeta %d partekatzen"
+#~ msgstr[1] "%d karpeta partekatzen"
 
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "Bideo %d partekatzen"
-msgstr[1] "%d bideo partekatzen"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "%d karpeta eta fitxategi partekatzen"
 
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "Argazki %d partekatzen"
-msgstr[1] "%d argazki partekatzen"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "Bideo %d partekatzen"
+#~ msgstr[1] "%d bideo partekatzen"
 
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "Irudi %d partekatzen"
-msgstr[1] "%d irudi partekatzen"
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "Argazki %d partekatzen"
+#~ msgstr[1] "%d argazki partekatzen"
 
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "Testu-fitxategi %d partekatzen"
-msgstr[1] "%d testu-fitxategi partekatzen"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "Irudi %d partekatzen"
+#~ msgstr[1] "%d irudi partekatzen"
 
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "Fitxategi %d partekatzen"
-msgstr[1] "%d fitxategi partekatzen"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "Testu-fitxategi %d partekatzen"
+#~ msgstr[1] "%d testu-fitxategi partekatzen"
 
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "_Bidali"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "Fitxategi %d partekatzen"
+#~ msgstr[1] "%d fitxategi partekatzen"
 
-#: ../src/plugins/nautilus-sendto-packer.c:200
-msgid "Files"
-msgstr "Fitxategiak"
+#~ msgid "_Send"
+#~ msgstr "_Bidali"
 
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "_Utzi"
+#~ msgid "Files"
+#~ msgstr "Fitxategiak"
 
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "Bidali hemen _paketatua:"
+#~ msgid "_Cancel"
+#~ msgstr "_Utzi"
 
-#: ../src/plugins/evolution/evolution.c:308
-msgid "Mail"
-msgstr "Posta"
+#~ msgid "Send _packed in:"
+#~ msgstr "Bidali hemen _paketatua:"
 
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "Ezin da kontaktua lortu: %s"
+#~ msgid "Mail"
+#~ msgstr "Posta"
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "Ezin izan da kontaktua aurkitu: %s"
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "Ezin da kontaktua lortu: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "Ezin da ikuspegi bilagarria sortu."
+#~ msgid "Could not find contact: %s"
+#~ msgstr "Ezin izan da kontaktua aurkitu: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "Success"
-msgstr "Ongi burutu da"
+#~ msgid "Cannot create searchable view."
+#~ msgstr "Ezin da ikuspegi bilagarria sortu."
 
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "An argument was invalid."
-msgstr "Argumentu bat baliogabea da."
+#~ msgid "Success"
+#~ msgstr "Ongi burutu da"
 
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is busy."
-msgstr "Helbide-liburua lanpetuta dago."
+#~ msgid "An argument was invalid."
+#~ msgstr "Argumentu bat baliogabea da."
 
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book is offline."
-msgstr "Helbide-liburua lineaz kanpo dago."
+#~ msgid "The address book is busy."
+#~ msgstr "Helbide-liburua lanpetuta dago."
 
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The address book does not exist."
-msgstr "Helbide-liburua ez da existitzen."
+#~ msgid "The address book is offline."
+#~ msgstr "Helbide-liburua lineaz kanpo dago."
 
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The \"Me\" contact does not exist."
-msgstr "\"Ni\" kontaktua ez da existitzen."
+#~ msgid "The address book does not exist."
+#~ msgstr "Helbide-liburua ez da existitzen."
 
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is not loaded."
-msgstr "Helbide-liburua ez da kargatu."
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "\"Ni\" kontaktua ez da existitzen."
 
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "The address book is already loaded."
-msgstr "Helbide-liburua jadanik kargatuta dago."
+#~ msgid "The address book is not loaded."
+#~ msgstr "Helbide-liburua ez da kargatu."
 
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "Permission was denied when accessing the address book."
-msgstr "Baimena ukatu egin da helbide-liburua atzitzean."
+#~ msgid "The address book is already loaded."
+#~ msgstr "Helbide-liburua jadanik kargatuta dago."
 
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "The contact was not found."
-msgstr "Kontaktua ez da aurkitu."
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "Baimena ukatu egin da helbide-liburua atzitzean."
 
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "This contact ID already exists."
-msgstr "Kontaktuaren ID hau badago lehendik ere."
+#~ msgid "The contact was not found."
+#~ msgstr "Kontaktua ez da aurkitu."
 
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The protocol is not supported."
-msgstr "Protokoloa ez dago onartuta."
+#~ msgid "This contact ID already exists."
+#~ msgstr "Kontaktuaren ID hau badago lehendik ere."
 
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation was cancelled."
-msgstr "Eragiketa bertan behera utzi da."
+#~ msgid "The protocol is not supported."
+#~ msgstr "Protokoloa ez dago onartuta."
 
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The operation could not be cancelled."
-msgstr "Eragiketa ezin izan da bertan behera utzi."
+#~ msgid "The operation was cancelled."
+#~ msgstr "Eragiketa bertan behera utzi da."
 
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid "The address book authentication failed."
-msgstr "Helbide-liburuaren autentifikazioak huts egin du."
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "Eragiketa ezin izan da bertan behera utzi."
 
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr "Autentifikazioa behar da helbide-liburua atzitzeko, eta ez da eman."
+#~ msgid "The address book authentication failed."
+#~ msgstr "Helbide-liburuaren autentifikazioak huts egin du."
 
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A secure connection is not available."
-msgstr "Konexio segurua ez dago erabilgarri."
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr "Autentifikazioa behar da helbide-liburua atzitzeko, eta ez da eman."
 
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "CORBAren errorea gertatu da helbide-liburua atzitzean."
+#~ msgid "A secure connection is not available."
+#~ msgstr "Konexio segurua ez dago erabilgarri."
 
-#: ../src/plugins/evolution/e-contact-entry.c:922
-msgid "The address book source does not exist."
-msgstr "Helbide-liburuaren iturburua ez da existitzen."
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "CORBAren errorea gertatu da helbide-liburua atzitzean."
 
-#: ../src/plugins/evolution/e-contact-entry.c:924
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "An unknown error occurred."
-msgstr "Errore ezezaguna gertatu da."
+#~ msgid "The address book source does not exist."
+#~ msgstr "Helbide-liburuaren iturburua ez da existitzen."
 
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "Ezin da fitxategia bidali"
+#~ msgid "An unknown error occurred."
+#~ msgstr "Errore ezezaguna gertatu da."
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "Ez dago konexiorik urruneko gajim zerbitzuarekin."
+#~ msgid "Unable to send file"
+#~ msgstr "Ezin da fitxategia bidali"
 
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "Huts egin du fitxategia bidaltzean"
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "Ez dago konexiorik urruneko gajim zerbitzuarekin."
 
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "Hartzailea falta da."
+#~ msgid "Sending file failed"
+#~ msgstr "Huts egin du fitxategia bidaltzean"
 
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "Hartzaile ezezaguna."
+#~ msgid "Recipient is missing."
+#~ msgstr "Hartzailea falta da."
 
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "Berehalako mezularitza (Gajim)"
+#~ msgid "Unknown recipient."
+#~ msgstr "Hartzaile ezezaguna."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "CD/DVD berria"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Berehalako mezularitza (Gajim)"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "Existitzen den CD/DVDa"
+#~ msgid "New CD/DVD"
+#~ msgstr "CD/DVD berria"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "CD/DVD sortzailea"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "Existitzen den CD/DVDa"
 
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "Berehalako mezularitza (Pidgin)"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "CD/DVD sortzailea"
 
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "Unitate eta euskarri aldagarriak"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Berehalako mezularitza (Pidgin)"
 
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "'%s' igotzen"
+#~ msgid "Removable disks and shares"
+#~ msgstr "Unitate eta euskarri aldagarriak"
 
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "Igotzeko prestatzen"
+#~ msgid "Uploading '%s'"
+#~ msgstr "'%s' igotzen"
 
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "'%s' zerbitzua ez dago konfiguratuta."
+#~ msgid "Preparing upload"
+#~ msgstr "Igotzeko prestatzen"
 
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "_Konfiguratu"
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "'%s' zerbitzua ez dago konfiguratuta."
 
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "'%s' zerbitzuan saioa hasita."
+#~ msgid "_Configure"
+#~ msgstr "_Konfiguratu"
 
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "Ezin izan da saioa hasi '%s' zerbitzuan"
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "'%s' zerbitzuan saioa hasita."
 
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "UPnP multimedia zerbitzaria"
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "Ezin izan da saioa hasi '%s' zerbitzuan"
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "UPnP multimedia zerbitzaria"
 
 #~ msgid "Last plugin used to send"
 #~ msgstr "Erabilitako azken plugina bidaltzeko"
