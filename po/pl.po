@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-20 19:00+0100\n"
-"PO-Revision-Date: 2013-03-20 19:01+0100\n"
+"POT-Creation-Date: 2013-06-13 18:07+0200\n"
+"PO-Revision-Date: 2013-06-13 18:08+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "Language: pl\n"
@@ -44,16 +44,21 @@ msgstr "Wyświetla informację o wersji i kończy działanie"
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
-#: ../src/nautilus-sendto.c:253
+#: ../src/nautilus-sendto.c:244
 msgid "Archive"
 msgstr "Archiwum"
 
-#: ../src/nautilus-sendto.c:520
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Nie można przetworzyć opcji wiersza poleceń: %s\n"
 
-#: ../src/nautilus-sendto.c:535
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "Nie zainstalowano żadnego klienta poczty, pliki nie zostaną wysłane\n"
+
+#: ../src/nautilus-sendto.c:530
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Oczekuje adresów URI lub nazw plików podanych jako opcje\n"
