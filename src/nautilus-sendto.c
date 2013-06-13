@@ -60,29 +60,15 @@ static const GOptionEntry entries[] = {
 static char *
 get_evo_cmd (void)
 {
-	char *tmp = NULL;
-	char *retval;
-	char *cmds[] = {
-		"evolution",
-		"evolution-2.0",
-		"evolution-2.2",
-		"evolution-2.4",
-		"evolution-2.6",
-		"evolution-2.8", /* for the future */
-		NULL};
-	guint i;
+	char *tmp, *retval;
 
-	for (i = 0; cmds[i] != NULL; i++) {
-		tmp = g_find_program_in_path (cmds[i]);
-		if (tmp != NULL)
-			break;
-	}
-
+	tmp = g_find_program_in_path ("evolution");
 	if (tmp == NULL)
 		return NULL;
 
 	retval = g_strdup_printf ("%s --component=mail %%s", tmp);
 	g_free (tmp);
+
 	return retval;
 }
 
