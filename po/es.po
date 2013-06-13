@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: nautilus-sendto.master.es\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-03-20 14:12+0000\n"
-"PO-Revision-Date: 2013-03-20 17:58+0100\n"
+"POT-Creation-Date: 2013-06-13 15:08+0000\n"
+"PO-Revision-Date: 2013-06-13 18:10+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -23,12 +23,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: ../src/nautilus-sendto.c:53
-#| msgid "Run from build directory"
 msgid "Run from build directory (ignored)"
 msgstr "Ejecutar desde la carpeta de construcción (ignorada)"
 
 #: ../src/nautilus-sendto.c:54
-#| msgid "Use XID as parent to the send dialogue"
 msgid "Use XID as parent to the send dialogue (ignored)"
 msgstr "Usar XID como el padre para enviar el diálogo (ignorada)"
 
@@ -42,16 +40,22 @@ msgstr "Mostrar información de la versión y salir"
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
-#: ../src/nautilus-sendto.c:253
+#: ../src/nautilus-sendto.c:244
 msgid "Archive"
 msgstr "Archivador"
 
-#: ../src/nautilus-sendto.c:520
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "No se pudieron analizar las opciones de la línea de comandos: %s\n"
 
-#: ../src/nautilus-sendto.c:535
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr ""
+"No hay ningún cliente de correo-e instalado, no se envían los archivos\n"
+
+#: ../src/nautilus-sendto.c:530
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Espera que se pasen como opciones URI o nombres de archivo\n"
