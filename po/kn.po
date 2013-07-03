@@ -9,9 +9,9 @@ msgstr ""
 "Project-Id-Version: nautilus-sendto.po.master.kn\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-03-20 14:12+0000\n"
-"PO-Revision-Date: 2013-03-25 07:24+0530\n"
-"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+"POT-Creation-Date: 2013-06-13 15:08+0000\n"
+"PO-Revision-Date: 2013-07-03 14:56+0530\n"
+"Last-Translator: Shankar Prasad <svenkte@redhat.com>\n"
 "Language-Team: Kannada <en@li.org>\n"
 "Language: kn\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,6 @@ msgid "Use XID as parent to the send dialogue (ignored)"
 msgstr "ಸಂವಾದವನ್ನು ಕಳುಹಿಸಲು XID ಅನ್ನು ಮೂಲವಾಗಿ ಕಳುಹಿಸು (ಕಡೆಗಣಿಸಲಾದ)"
 
 #: ../src/nautilus-sendto.c:55
-#| msgid "Unable to send file"
 msgid "Files to send"
 msgstr "ಕಳುಹಿಸಬೇಕಿರುವ ಕಡತಗಳು"
 
@@ -39,16 +38,22 @@ msgstr "ಆವೃತ್ತಿಯ ಮಾಹಿತಿಯನ್ನು ತೋರಿ�
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
-#: ../src/nautilus-sendto.c:253
+#: ../src/nautilus-sendto.c:244
 msgid "Archive"
 msgstr "ಸಂಗ್ರಹ"
 
-#: ../src/nautilus-sendto.c:520
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "ಆಜ್ಞಾ-ಸಾಲಿನ ಆಯ್ಕೆಗಳನ್ನು ಪಾರ್ಸ್ ಮಾಡಲಾಗಿಲ್ಲ: %s\n"
 
-#: ../src/nautilus-sendto.c:535
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr ""
+"ಯಾವುದೆ ಅಂಚೆ ಕ್ಲೈಂಟ್ ಅನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ, ಕಡತಗಳನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತಿಲ್ಲ\n"
+
+#: ../src/nautilus-sendto.c:530
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "URIಗಳ ಅಥವ ಕಡತದ ಹೆಸರುಗಳನ್ನು ಆಯ್ಕೆಗಳಾಗಿ ನೀಡುವಂತೆ ಅಪೇಕ್ಷಿಸುತ್ತದೆ\n"
