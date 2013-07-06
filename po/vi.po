@@ -1,48 +1,47 @@
 # Vietnamese translation for Nautilus SendTo.
-# Copyright © 2006 Gnome i18n Project for Vietnamese.
+# Copyright © 2013 Gnome i18n Project for Vietnamese.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2006.
 # Nguyễn Thái Ngọc Duy <pclouds@gmail.com>, 2011.
 # Lê Trường An <xinemdungkhoc1@gmail.com>, 2011.
+# Trần Ngọc Quân <vnwildman@gmail.com>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto Gnome HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-06-13 15:08+0000\n"
+"POT-Creation-Date: 2013-07-05 00:20+0000\n"
 "PO-Revision-Date: 2013-07-06 18:44+0700\n"
-"Last-Translator: Lê Trường An <xinemdungkhoc1@gmail.com>\n"
+"Last-Translator: Trần Ngọc Quân <vnwildman@gmail.com>\n"
 "Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: LocFactoryEditor 1.6fc1\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: ../src/nautilus-sendto.c:53
 msgid "Run from build directory (ignored)"
-msgstr ""
+msgstr "Chạy từ thư mục xây dựng (bị bỏ qua)"
 
 #: ../src/nautilus-sendto.c:54
 msgid "Use XID as parent to the send dialogue (ignored)"
-msgstr ""
+msgstr "Dùng XID như là mẹ cho hộp thoại gửi (bị bỏ qua)"
 
 #: ../src/nautilus-sendto.c:55
-#, fuzzy
-#| msgid "Unable to send file"
 msgid "Files to send"
-msgstr "Không thể gởi tập tin"
+msgstr "Các tập tin gửi đi"
 
 #: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
-msgstr ""
+msgstr "Xuất thông tin phiên bản và thoát"
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
 #: ../src/nautilus-sendto.c:244
 msgid "Archive"
-msgstr ""
+msgstr "KhoLưu"
 
 #: ../src/nautilus-sendto.c:511
 #, c-format
@@ -53,6 +52,8 @@ msgstr "Không thể phân tích tuỳ chọn dòng lệnh: %s\n"
 #, c-format
 msgid "No mail client installed, not sending files\n"
 msgstr ""
+"Chưa cài đặt phần mềm gửi và nhận thư điện tử, nên không thể gửi các tập "
+"tin\n"
 
 #: ../src/nautilus-sendto.c:530
 #, c-format
@@ -82,176 +83,3 @@ msgstr "Muốn nhận URI hoặc tên tập tin như tuỳ chọn\n"
 
 #~ msgid "<b>Destination</b>"
 #~ msgstr "<b>Đích</b>"
-
-#~| msgid "Send as:"
-#~ msgid "Send _as:"
-#~ msgstr "Gửi _dạng:"
-
-#~| msgid "Send packed in"
-#~ msgid "Send _packed in:"
-#~ msgstr "Gửi _nén bằng:"
-
-#~| msgid "Send to:"
-#~ msgid "Send t_o:"
-#~ msgstr "Gửi đế_n:"
-
-#~ msgid "_Send"
-#~ msgstr "_Gửi"
-
-#~ msgid "Email"
-#~ msgstr "Thư điện tử"
-
-#~ msgid "Cannot get contact: %s"
-#~ msgstr "Không thể lấy liên lạc: %s"
-
-#~ msgid "Could not find contact: %s"
-#~ msgstr "Không thể tìm liên lạc: %s"
-
-#~ msgid "Cannot create searchable view."
-#~ msgstr "Không thể tạo khung tìm."
-
-#~ msgid "Success"
-#~ msgstr "Thành công"
-
-#~ msgid "An argument was invalid."
-#~ msgstr "Đối số không hợp lệ."
-
-#~ msgid "The address book is busy."
-#~ msgstr "Sổ địa chỉ đang bận."
-
-#~ msgid "The address book is offline."
-#~ msgstr "Sổ địa chỉ ngoại tuyến."
-
-#~ msgid "The address book does not exist."
-#~ msgstr "Sổ địa chỉ không tồn tại."
-
-#~ msgid "The \"Me\" contact does not exist."
-#~ msgstr "Liên lạc \"Tôi\" không tồn tại."
-
-#~ msgid "The address book is not loaded."
-#~ msgstr "Sổ địa chỉ chưa nạp."
-
-#~ msgid "The address book is already loaded."
-#~ msgstr "Sổ địa chỉ đã nạp."
-
-#~ msgid "Permission was denied when accessing the address book."
-#~ msgstr "Không đủ quyền truy cập sổ địa chỉ."
-
-#~ msgid "The contact was not found."
-#~ msgstr "Không tìm thấy liên lạc."
-
-#~ msgid "This contact ID already exists."
-#~ msgstr "ID Liên lạc đã tồn tại."
-
-#~ msgid "The protocol is not supported."
-#~ msgstr "Giao thức không được hỗ trợ."
-
-#~ msgid "The operation was cancelled."
-#~ msgstr "Thao tác bị huỷ."
-
-#~ msgid "The operation could not be cancelled."
-#~ msgstr "Thao tác không thể bị huỷ."
-
-#~ msgid "The address book authentication failed."
-#~ msgstr "Lỗi xác thực sổ địa chỉ."
-
-#~ msgid ""
-#~ "Authentication is required to access the address book and was not given."
-#~ msgstr "Cần xác thực (nhưng không có) trước khi truy cập sổ địa chỉ."
-
-#~ msgid "A secure connection is not available."
-#~ msgstr "Không hỗ trợ kết nối bảo mật."
-
-#~ msgid "A CORBA error occurred whilst accessing the address book."
-#~ msgstr "Lỗi CORBA khi truy cập sổ địa chỉ."
-
-#~ msgid "The address book source does not exist."
-#~ msgstr "Nguồn sổ địa chỉ không tồn tại."
-
-#~ msgid "An unknown error occurred."
-#~ msgstr "Gặp lỗi lạ."
-
-#~ msgid "There is no connection to gajim remote service."
-#~ msgstr "Không thể có kết nối tới dịch vụ gajim ở xa."
-
-#~ msgid "Sending file failed"
-#~ msgstr "Lỗi gửi tập tin"
-
-#~ msgid "Recipient is missing."
-#~ msgstr "Thiếu người nhận."
-
-#~ msgid "Unknown recipient."
-#~ msgstr "Không biết người nhận đó."
-
-#~ msgid "Instant Message (Gajim)"
-#~ msgstr "Tin nhắn tức thời (Gajim)"
-
-#~ msgid "New CD/DVD"
-#~ msgstr "CD/DVD mới"
-
-#~ msgid "Existing CD/DVD"
-#~ msgstr "CD/DVD đã có"
-
-#~ msgid "CD/DVD Creator"
-#~ msgstr "Trình tạo CD/DVD"
-
-#~| msgid "Instant Message (Gaim)"
-#~ msgid "Instant Message (Pidgin)"
-#~ msgstr "Tin nhắn tức khắc (Pidgin)"
-
-#~ msgid "Removable disks and shares"
-#~ msgstr "Chia sẻ và đĩa di động"
-
-#~ msgid "UPnP Media Server"
-#~ msgstr "Máy chủ phương tiện UPnP"
-
-# type
-# ui requirement
-# flags
-# dependencies
-# priority
-# id
-#~ msgid "Nautilus Integration"
-#~ msgstr "Hợp nhất Nautilus"
-
-# name
-# version
-# summary
-#~ msgid "Provides integration with Nautilus"
-#~ msgstr "Hợp nhất với Nautilus."
-
-#~ msgid "Send to..."
-#~ msgstr "Gửi cho..."
-
-#~ msgid "Default folder to use"
-#~ msgstr "Thư mục mặc định cần dùng"
-
-#~ msgid "FOLDER"
-#~ msgstr "THƯ MỤC"
-
-#~ msgid "You don't insert the package name"
-#~ msgstr "Bạn không nên chèn tên gói"
-
-#~ msgid "Nautilus Sendto"
-#~ msgstr "Nautilus Sendto"
-
-#~ msgid ""
-#~ ".zip\n"
-#~ ".tar.gz\n"
-#~ ".tar.bz2"
-#~ msgstr ""
-#~ ".zip\n"
-#~ ".tar.gz\n"
-#~ ".tar.bz2"
-
-#~ msgid "Email (Balsa)"
-#~ msgstr "Thư điện tử (Balsa)"
-
-#~ msgid "Bluetooth (OBEX)"
-#~ msgstr "Bluetooth (OBEX)"
-
-#~ msgid "Email (Sylpheed-Claws)"
-#~ msgstr "Thư điện tử (Sylpheed-Claws)"
-
-#~ msgid "Email (Thunderbird)"
-#~ msgstr "Thư điện tử (Thunderbird)"
