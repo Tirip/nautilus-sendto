@@ -7,227 +7,203 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto Gnome HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-04-23 00:03+0000\n"
-"PO-Revision-Date: 2011-05-02 19:54+0700\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-06-13 15:08+0000\n"
+"PO-Revision-Date: 2013-07-06 18:44+0700\n"
 "Last-Translator: Lê Trường An <xinemdungkhoc1@gmail.com>\n"
 "Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: LocFactoryEditor 1.6fc1\n"
 
-#: ../src/nautilus-nste.c:92 ../src/nautilus-nste.c:97
-#: ../src/nautilus-sendto.ui.h:3
-msgid "Send To..."
-msgstr "Gửi đi..."
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr ""
 
-#: ../src/nautilus-nste.c:93
-msgid "Send file by mail, instant message..."
-msgstr "Gửi tập tin bằng thư điện tử, tin nhắn tức thời..."
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr ""
 
-#: ../src/nautilus-nste.c:98
-msgid "Send files by mail, instant message..."
-msgstr "Gửi tập tin bằng thư điện tử, tin nhắn tức thời..."
+#: ../src/nautilus-sendto.c:55
+#, fuzzy
+#| msgid "Unable to send file"
+msgid "Files to send"
+msgstr "Không thể gởi tập tin"
 
-#: ../src/nautilus-sendto-command.c:572
-msgid "Files"
-msgstr "Tập tin"
+#: ../src/nautilus-sendto.c:56
+msgid "Output version information and exit"
+msgstr ""
 
-#: ../src/nautilus-sendto-command.c:783
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Muốn nhận URI hoặc tên tập tin như tuỳ chọn\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:244
+msgid "Archive"
+msgstr ""
 
-#: ../src/nautilus-sendto-command.c:804
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Không thể phân tích tuỳ chọn dòng lệnh: %s\n"
 
-#: ../src/nautilus-sendto-command.c:819
-msgid "Could not load any plugins."
-msgstr "Không thể nạp bất kỳ phần bổ sung nào."
-
-#: ../src/nautilus-sendto-command.c:822
-msgid "Please verify your installation"
-msgstr "Vui lòng kiểm tra bản cài đặt"
-
-#: ../src/nautilus-sendto.ui.h:1
-msgid "<b>Compression</b>"
-msgstr "<b>Nén</b>"
-
-#: ../src/nautilus-sendto.ui.h:2
-msgid "<b>Destination</b>"
-msgstr "<b>Đích</b>"
-
-#: ../src/nautilus-sendto.ui.h:4
-#| msgid "Send as:"
-msgid "Send _as:"
-msgstr "Gửi _dạng:"
-
-#: ../src/nautilus-sendto.ui.h:5
-#| msgid "Send packed in"
-msgid "Send _packed in:"
-msgstr "Gửi _nén bằng:"
-
-#: ../src/nautilus-sendto.ui.h:6
-#| msgid "Send to:"
-msgid "Send t_o:"
-msgstr "Gửi đế_n:"
-
-#: ../src/nautilus-sendto.ui.h:7
-msgid "_Send"
-msgstr "_Gửi"
-
-#: ../src/plugins/evolution/evolution.c:378
-msgid "Email"
-msgstr "Thư điện tử"
-
-#: ../src/plugins/evolution/e-contact-entry.c:153
+#: ../src/nautilus-sendto.c:524
 #, c-format
-msgid "Cannot get contact: %s"
-msgstr "Không thể lấy liên lạc: %s"
+msgid "No mail client installed, not sending files\n"
+msgstr ""
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
+#: ../src/nautilus-sendto.c:530
 #, c-format
-msgid "Could not find contact: %s"
-msgstr "Không thể tìm liên lạc: %s"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Muốn nhận URI hoặc tên tập tin như tuỳ chọn\n"
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "Không thể tạo khung tìm."
+#~ msgid "Send To..."
+#~ msgstr "Gửi đi..."
 
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "Success"
-msgstr "Thành công"
+#~ msgid "Send file by mail, instant message..."
+#~ msgstr "Gửi tập tin bằng thư điện tử, tin nhắn tức thời..."
 
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "An argument was invalid."
-msgstr "Đối số không hợp lệ."
+#~ msgid "Send files by mail, instant message..."
+#~ msgstr "Gửi tập tin bằng thư điện tử, tin nhắn tức thời..."
 
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is busy."
-msgstr "Sổ địa chỉ đang bận."
+#~ msgid "Files"
+#~ msgstr "Tập tin"
 
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book is offline."
-msgstr "Sổ địa chỉ ngoại tuyến."
+#~ msgid "Could not load any plugins."
+#~ msgstr "Không thể nạp bất kỳ phần bổ sung nào."
 
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The address book does not exist."
-msgstr "Sổ địa chỉ không tồn tại."
+#~ msgid "Please verify your installation"
+#~ msgstr "Vui lòng kiểm tra bản cài đặt"
 
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The \"Me\" contact does not exist."
-msgstr "Liên lạc \"Tôi\" không tồn tại."
+#~ msgid "<b>Compression</b>"
+#~ msgstr "<b>Nén</b>"
 
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is not loaded."
-msgstr "Sổ địa chỉ chưa nạp."
+#~ msgid "<b>Destination</b>"
+#~ msgstr "<b>Đích</b>"
 
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "The address book is already loaded."
-msgstr "Sổ địa chỉ đã nạp."
+#~| msgid "Send as:"
+#~ msgid "Send _as:"
+#~ msgstr "Gửi _dạng:"
 
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "Permission was denied when accessing the address book."
-msgstr "Không đủ quyền truy cập sổ địa chỉ."
+#~| msgid "Send packed in"
+#~ msgid "Send _packed in:"
+#~ msgstr "Gửi _nén bằng:"
 
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "The contact was not found."
-msgstr "Không tìm thấy liên lạc."
+#~| msgid "Send to:"
+#~ msgid "Send t_o:"
+#~ msgstr "Gửi đế_n:"
 
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "This contact ID already exists."
-msgstr "ID Liên lạc đã tồn tại."
+#~ msgid "_Send"
+#~ msgstr "_Gửi"
 
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The protocol is not supported."
-msgstr "Giao thức không được hỗ trợ."
+#~ msgid "Email"
+#~ msgstr "Thư điện tử"
 
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation was cancelled."
-msgstr "Thao tác bị huỷ."
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "Không thể lấy liên lạc: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The operation could not be cancelled."
-msgstr "Thao tác không thể bị huỷ."
+#~ msgid "Could not find contact: %s"
+#~ msgstr "Không thể tìm liên lạc: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid "The address book authentication failed."
-msgstr "Lỗi xác thực sổ địa chỉ."
+#~ msgid "Cannot create searchable view."
+#~ msgstr "Không thể tạo khung tìm."
 
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr "Cần xác thực (nhưng không có) trước khi truy cập sổ địa chỉ."
+#~ msgid "Success"
+#~ msgstr "Thành công"
 
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A secure connection is not available."
-msgstr "Không hỗ trợ kết nối bảo mật."
+#~ msgid "An argument was invalid."
+#~ msgstr "Đối số không hợp lệ."
 
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "Lỗi CORBA khi truy cập sổ địa chỉ."
+#~ msgid "The address book is busy."
+#~ msgstr "Sổ địa chỉ đang bận."
 
-#: ../src/plugins/evolution/e-contact-entry.c:922
-msgid "The address book source does not exist."
-msgstr "Nguồn sổ địa chỉ không tồn tại."
+#~ msgid "The address book is offline."
+#~ msgstr "Sổ địa chỉ ngoại tuyến."
 
-#: ../src/plugins/evolution/e-contact-entry.c:924
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "An unknown error occurred."
-msgstr "Gặp lỗi lạ."
+#~ msgid "The address book does not exist."
+#~ msgstr "Sổ địa chỉ không tồn tại."
 
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "Không thể gởi tập tin"
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "Liên lạc \"Tôi\" không tồn tại."
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "Không thể có kết nối tới dịch vụ gajim ở xa."
+#~ msgid "The address book is not loaded."
+#~ msgstr "Sổ địa chỉ chưa nạp."
 
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "Lỗi gửi tập tin"
+#~ msgid "The address book is already loaded."
+#~ msgstr "Sổ địa chỉ đã nạp."
 
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "Thiếu người nhận."
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "Không đủ quyền truy cập sổ địa chỉ."
 
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "Không biết người nhận đó."
+#~ msgid "The contact was not found."
+#~ msgstr "Không tìm thấy liên lạc."
 
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "Tin nhắn tức thời (Gajim)"
+#~ msgid "This contact ID already exists."
+#~ msgstr "ID Liên lạc đã tồn tại."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:92
-msgid "New CD/DVD"
-msgstr "CD/DVD mới"
+#~ msgid "The protocol is not supported."
+#~ msgstr "Giao thức không được hỗ trợ."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:99
-msgid "Existing CD/DVD"
-msgstr "CD/DVD đã có"
+#~ msgid "The operation was cancelled."
+#~ msgstr "Thao tác bị huỷ."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:178
-msgid "CD/DVD Creator"
-msgstr "Trình tạo CD/DVD"
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "Thao tác không thể bị huỷ."
 
-#: ../src/plugins/pidgin/pidgin.c:464
-#| msgid "Instant Message (Gaim)"
-msgid "Instant Message (Pidgin)"
-msgstr "Tin nhắn tức khắc (Pidgin)"
+#~ msgid "The address book authentication failed."
+#~ msgstr "Lỗi xác thực sổ địa chỉ."
 
-#: ../src/plugins/removable-devices/removable-devices.c:248
-msgid "Removable disks and shares"
-msgstr "Chia sẻ và đĩa di động"
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr "Cần xác thực (nhưng không có) trước khi truy cập sổ địa chỉ."
 
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "Máy chủ phương tiện UPnP"
+#~ msgid "A secure connection is not available."
+#~ msgstr "Không hỗ trợ kết nối bảo mật."
+
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "Lỗi CORBA khi truy cập sổ địa chỉ."
+
+#~ msgid "The address book source does not exist."
+#~ msgstr "Nguồn sổ địa chỉ không tồn tại."
+
+#~ msgid "An unknown error occurred."
+#~ msgstr "Gặp lỗi lạ."
+
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "Không thể có kết nối tới dịch vụ gajim ở xa."
+
+#~ msgid "Sending file failed"
+#~ msgstr "Lỗi gửi tập tin"
+
+#~ msgid "Recipient is missing."
+#~ msgstr "Thiếu người nhận."
+
+#~ msgid "Unknown recipient."
+#~ msgstr "Không biết người nhận đó."
+
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Tin nhắn tức thời (Gajim)"
+
+#~ msgid "New CD/DVD"
+#~ msgstr "CD/DVD mới"
+
+#~ msgid "Existing CD/DVD"
+#~ msgstr "CD/DVD đã có"
+
+#~ msgid "CD/DVD Creator"
+#~ msgstr "Trình tạo CD/DVD"
+
+#~| msgid "Instant Message (Gaim)"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Tin nhắn tức khắc (Pidgin)"
+
+#~ msgid "Removable disks and shares"
+#~ msgstr "Chia sẻ và đĩa di động"
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "Máy chủ phương tiện UPnP"
 
 # type
 # ui requirement
