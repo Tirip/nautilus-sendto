@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: nautilus-sendto\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-03-20 14:12+0000\n"
-"PO-Revision-Date: 2013-03-10 20:10+0100\n"
+"POT-Creation-Date: 2013-07-06 11:45+0000\n"
+"PO-Revision-Date: 2013-07-12 21:14+0200\n"
 "Last-Translator: Pavol Klačanský <pavol@klacansky.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
 "Language: sk\n"
@@ -22,15 +22,13 @@ msgstr ""
 
 # cmd desc
 #: ../src/nautilus-sendto.c:53
-#| msgid "Run from build directory"
 msgid "Run from build directory (ignored)"
 msgstr "Spustí sa z adresára zostavenia (ignorované)"
 
-# MČ: To „X“ by som tam nedával. Trošku to zavádza. KeĎ už by som dal do zátvorky „(XID)“
 # cmd desc
 #: ../src/nautilus-sendto.c:54
 msgid "Use XID as parent to the send dialogue (ignored)"
-msgstr "Ako rodiča okna na poslanie použije identifikátor okna X (ignorované)"
+msgstr "Ako rodiča okna na poslanie použije identifikátor okna (ignorované)"
 
 # cmd desc
 #: ../src/nautilus-sendto.c:55
@@ -44,203 +42,21 @@ msgstr "Vypíše informácie o verzii a ukončí sa"
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
-#: ../src/nautilus-sendto.c:253
+#: ../src/nautilus-sendto.c:244
 msgid "Archive"
 msgstr "Archív"
 
-#: ../src/nautilus-sendto.c:520
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Nepodarilo sa analyzovať voľby príkazového riadka: %s\n"
 
-#: ../src/nautilus-sendto.c:535
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "Nie je nainštalovaný žiadny poštový klient, preto sa súbory nepošlú\n"
+
+#: ../src/nautilus-sendto.c:530
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Očakáva, že URI alebo názvy súborov budú odovzdané ako voľby\n"
-
-# window title
-#~ msgid "Sharing %d folder"
-#~ msgid_plural "Sharing %d folders"
-#~ msgstr[0] "Zdieľanie %d priečinkov"
-#~ msgstr[1] "Zdieľanie %d priečinka"
-#~ msgstr[2] "Zdieľanie %d priečinkov"
-
-#~ msgid "Sharing %d folders and files"
-#~ msgstr "Zdieľanie %d priečinkov a súborov"
-
-#~ msgid "Sharing %d video"
-#~ msgid_plural "Sharing %d videos"
-#~ msgstr[0] "Zdieľanie %d videí"
-#~ msgstr[1] "Zdieľanie %d videa"
-#~ msgstr[2] "Zdieľanie %d videí"
-
-#~ msgid "Sharing %d photo"
-#~ msgid_plural "Sharing %d photos"
-#~ msgstr[0] "Zdieľanie %d fotografií"
-#~ msgstr[1] "Zdieľanie %d fotografie"
-#~ msgstr[2] "Zdieľanie %d fotografií"
-
-#~ msgid "Sharing %d image"
-#~ msgid_plural "Sharing %d images"
-#~ msgstr[0] "Zdieľanie %d obrázkov"
-#~ msgstr[1] "Zdieľanie %d obrázku"
-#~ msgstr[2] "Zdieľanie %d obrázkov"
-
-#~ msgid "Sharing %d text file"
-#~ msgid_plural "Sharing %d text files"
-#~ msgstr[0] "Zdieľanie %d textových súborov"
-#~ msgstr[1] "Zdieľanie %d textového súboru"
-#~ msgstr[2] "Zdieľanie %d textových súborov"
-
-#~ msgid "Sharing %d file"
-#~ msgid_plural "Sharing %d files"
-#~ msgstr[0] "Zdieľanie %d súborov"
-#~ msgstr[1] "Zdieľanie %d súboru"
-#~ msgstr[2] "Zdieľanie %d súborov"
-
-#~ msgid "_Send"
-#~ msgstr "_Poslať"
-
-#~ msgid "Files"
-#~ msgstr "Súbory"
-
-#~ msgid "_Cancel"
-#~ msgstr "_Zrušiť"
-
-#~ msgid "Send _packed in:"
-#~ msgstr "Poslať _zabalené vo formáte:"
-
-#~ msgid "Mail"
-#~ msgstr "Pošta"
-
-#~ msgid "Cannot get contact: %s"
-#~ msgstr "Nedá sa získať kontakt: %s"
-
-#~ msgid "Could not find contact: %s"
-#~ msgstr "Nepodarilo sa nájsť kontakt: %s"
-
-#~ msgid "Cannot create searchable view."
-#~ msgstr "Nedá sa vytvoriť prehľadávateľné zobrazenie."
-
-#~ msgid "Success"
-#~ msgstr "Úspech"
-
-#~ msgid "An argument was invalid."
-#~ msgstr "Parameter bol neplatný."
-
-#~ msgid "The address book is busy."
-#~ msgstr "Adresár kontaktov je zaneprázdnený."
-
-#~ msgid "The address book is offline."
-#~ msgstr "Adresár kontaktov je v odpojenom režime."
-
-#~ msgid "The address book does not exist."
-#~ msgstr "Adresár kontaktov neexistuje."
-
-#~ msgid "The \"Me\" contact does not exist."
-#~ msgstr "Kontakt „Ja“ neexistuje."
-
-#~ msgid "The address book is not loaded."
-#~ msgstr "Adresár kontaktov nie je načítaný."
-
-#~ msgid "The address book is already loaded."
-#~ msgstr "Adresár kontaktov je už načítaný."
-
-#~ msgid "Permission was denied when accessing the address book."
-#~ msgstr "Oprávnenie bolo zamietnuté pri prístupe k adresáru kontaktov."
-
-#~ msgid "The contact was not found."
-#~ msgstr "Kontakt nebol nájdený."
-
-#~ msgid "This contact ID already exists."
-#~ msgstr "Tento identifikátor kontaktu už existuje."
-
-#~ msgid "The protocol is not supported."
-#~ msgstr "Protokol nie je podporovaný."
-
-#~ msgid "The operation was cancelled."
-#~ msgstr "Operácia bola zrušená."
-
-#~ msgid "The operation could not be cancelled."
-#~ msgstr "Operáciu sa nepodarilo zrušiť."
-
-#~ msgid "The address book authentication failed."
-#~ msgstr "Overenie totožnosti adresára kontaktov zlyhalo."
-
-#~ msgid ""
-#~ "Authentication is required to access the address book and was not given."
-#~ msgstr ""
-#~ "Na prístup k adresáru kontaktov sa vyžaduje overenie totožnosti, ale "
-#~ "nebolo poskytnuté."
-
-#~ msgid "A secure connection is not available."
-#~ msgstr "Bezpečné pripojenie nie je dostupné."
-
-#~ msgid "A CORBA error occurred whilst accessing the address book."
-#~ msgstr "Počas prístupu k adresáru kontaktov nastala chyba CORBA."
-
-#~ msgid "The address book source does not exist."
-#~ msgstr "Zdroj adresára kontaktov neexistuje."
-
-#~ msgid "An unknown error occurred."
-#~ msgstr "Nastala neznáma chyba."
-
-#~ msgid "Unable to send file"
-#~ msgstr "Nepodarilo sa poslať súbor"
-
-#~ msgid "There is no connection to gajim remote service."
-#~ msgstr "Neexistuje pripojenie k vzdialenej službe gajim."
-
-#~ msgid "Sending file failed"
-#~ msgstr "Odosielanie súboru zlyhalo"
-
-#~ msgid "Recipient is missing."
-#~ msgstr "Príjemca chýba."
-
-#~ msgid "Unknown recipient."
-#~ msgstr "Neznámy príjemca."
-
-#~ msgid "Instant Message (Gajim)"
-#~ msgstr "Okamžitá správa (Gajim)"
-
-#~ msgid "New CD/DVD"
-#~ msgstr "Nové CD/DVD"
-
-#~ msgid "Existing CD/DVD"
-#~ msgstr "Existujúce CD/DVD"
-
-#~ msgid "CD/DVD Creator"
-#~ msgstr "Tvorca CD/DVD"
-
-#~ msgid "Instant Message (Pidgin)"
-#~ msgstr "Okamžitá správa (Pidgin)"
-
-#~ msgid "Removable disks and shares"
-#~ msgstr "Odpojiteľné disky a zdieľania"
-
-# label
-#~ msgid "Uploading '%s'"
-#~ msgstr "Nahráva sa „%s“"
-
-# label
-#~ msgid "Preparing upload"
-#~ msgstr "Pripravuje sa nahrávanie"
-
-#~ msgid "Service '%s' is not configured."
-#~ msgstr "Služba „%s“ nie je nastavená."
-
-#~ msgid "_Configure"
-#~ msgstr "_Nastaviť"
-
-# MČ: otázka na lepšieho slovenčinára ako som ja. Nemalo by byť „ku službe“?
-#, fuzzy
-#~ msgid "Logged in to service '%s'."
-#~ msgstr "Prihlásený do služby „%s“."
-
-# MČ: otázka na lepšieho slovenčinára ako som ja. Nemalo by byť „ku službe“?
-#, fuzzy
-#~ msgid "Could not log in to service '%s'."
-#~ msgstr "Nepodarilo sa prihlásiť do služby „%s“."
-
-#~ msgid "UPnP Media Server"
-#~ msgstr "Server mutlimédií UPnP"
