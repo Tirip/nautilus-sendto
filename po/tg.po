@@ -9,15 +9,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2013-01-13 10:45+0000\n"
-"PO-Revision-Date: 2013-01-21 14:11+0500\n"
+"PO-Revision-Date: 2013-07-28 21:58-0000\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: \n"
 "Language: Tajik\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: ../src/nautilus-sendto-command.c:80
 msgid "Run from build directory"
@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../src/nautilus-sendto-command.c:82
 msgid "Files to send"
-msgstr ""
+msgstr "Файлҳо барои фиристониш"
 
 #: ../src/nautilus-sendto-command.c:83
 msgid "Output version information and exit"
@@ -50,47 +50,48 @@ msgstr ""
 #, c-format
 msgid "Sharing %d folder"
 msgid_plural "Sharing %d folders"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Мубодилакунии %d ҷузвдон"
+msgstr[1] "Мубодилакунии %d ҷузвдон"
 
 #: ../src/nautilus-sendto-mimetype.c:52
 #, c-format
 msgid "Sharing %d folders and files"
-msgstr ""
+msgstr "Мубодилакунии %d ҷузвдон ва файлҳо"
 
 #: ../src/nautilus-sendto-mimetype.c:77
 #, c-format
 msgid "Sharing %d video"
 msgid_plural "Sharing %d videos"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Мубодилакунии %d видео"
+msgstr[1] "Мубодилакунии %d видео"
 
 #: ../src/nautilus-sendto-mimetype.c:79
 #, c-format
 msgid "Sharing %d photo"
 msgid_plural "Sharing %d photos"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Мубодилакунии %d сурат"
+msgstr[1] "Мубодилакунии %d сурат"
 
 #: ../src/nautilus-sendto-mimetype.c:81
 #, c-format
 msgid "Sharing %d image"
 msgid_plural "Sharing %d images"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Мубодилакунии %d тасвир"
+msgstr[1] "Мубодилакунии %d тасвир"
 
 #: ../src/nautilus-sendto-mimetype.c:83
 #, c-format
 msgid "Sharing %d text file"
 msgid_plural "Sharing %d text files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Мубодилакунии %d файли матнӣ"
+msgstr[1] "Мубодилакунии %d файли матнӣ"
 
 #: ../src/nautilus-sendto-mimetype.c:85
 #, c-format
 msgid "Sharing %d file"
 msgid_plural "Sharing %d files"
-msgstr[0] ""
+msgstr[0] "Мубодилакунии %d файл"
+msgstr[1] "Мубодилакунии %d файл"
 
 #: ../data/nautilus-sendto.ui.h:1
 msgid "_Send"
@@ -120,7 +121,7 @@ msgstr ""
 #: ../src/plugins/evolution/e-contact-entry.c:186
 #, c-format
 msgid "Could not find contact: %s"
-msgstr ""
+msgstr "Тамос ёфт нашуд: %s"
 
 #: ../src/plugins/evolution/e-contact-entry.c:414
 msgid "Cannot create searchable view."
@@ -136,15 +137,15 @@ msgstr ""
 
 #: ../src/plugins/evolution/e-contact-entry.c:895
 msgid "The address book is busy."
-msgstr ""
+msgstr "Китоби суроғаҳо машғул аст."
 
 #: ../src/plugins/evolution/e-contact-entry.c:897
 msgid "The address book is offline."
-msgstr ""
+msgstr "Китоби суроғаҳо дар офлайн мебошад."
 
 #: ../src/plugins/evolution/e-contact-entry.c:899
 msgid "The address book does not exist."
-msgstr ""
+msgstr "Китоби суроғаҳо вуҷуд надорад."
 
 #: ../src/plugins/evolution/e-contact-entry.c:901
 msgid "The \"Me\" contact does not exist."
@@ -152,11 +153,11 @@ msgstr ""
 
 #: ../src/plugins/evolution/e-contact-entry.c:903
 msgid "The address book is not loaded."
-msgstr ""
+msgstr "Китоби суроғаҳо бор нашудааст."
 
 #: ../src/plugins/evolution/e-contact-entry.c:905
 msgid "The address book is already loaded."
-msgstr ""
+msgstr "Китоби суроғаҳо аллакай бор шудааст."
 
 #: ../src/plugins/evolution/e-contact-entry.c:907
 msgid "Permission was denied when accessing the address book."
@@ -164,7 +165,7 @@ msgstr ""
 
 #: ../src/plugins/evolution/e-contact-entry.c:909
 msgid "The contact was not found."
-msgstr ""
+msgstr "Тамос ёфт нашуд."
 
 #: ../src/plugins/evolution/e-contact-entry.c:911
 msgid "This contact ID already exists."
@@ -210,7 +211,7 @@ msgstr "Хатогии номаълум ба вуҷуд омад."
 
 #: ../src/plugins/gajim/gajim.c:418
 msgid "Unable to send file"
-msgstr ""
+msgstr "Фиристодани файл имконпазир нест"
 
 #: ../src/plugins/gajim/gajim.c:419
 msgid "There is no connection to gajim remote service."
@@ -218,7 +219,7 @@ msgstr ""
 
 #: ../src/plugins/gajim/gajim.c:443 ../src/plugins/gajim/gajim.c:483
 msgid "Sending file failed"
-msgstr ""
+msgstr "Фиристодани файл қатъ шудааст"
 
 #: ../src/plugins/gajim/gajim.c:444
 msgid "Recipient is missing."
@@ -226,11 +227,11 @@ msgstr ""
 
 #: ../src/plugins/gajim/gajim.c:483
 msgid "Unknown recipient."
-msgstr ""
+msgstr "Қабулкунандаи номаълум."
 
 #: ../src/plugins/gajim/gajim.c:506
 msgid "Instant Message (Gajim)"
-msgstr ""
+msgstr "Паёми фаврӣ (Gajim)"
 
 #: ../src/plugins/nautilus-burn/nautilus-burn.c:90
 msgid "New CD/DVD"
@@ -242,11 +243,11 @@ msgstr "CD/DVD-и мавҷудбуда"
 
 #: ../src/plugins/nautilus-burn/nautilus-burn.c:176
 msgid "CD/DVD Creator"
-msgstr ""
+msgstr "Эҷодкунандаи CD/DVD"
 
 #: ../src/plugins/pidgin/pidgin.c:464
 msgid "Instant Message (Pidgin)"
-msgstr ""
+msgstr "Паёми фаврӣ (Pidgin)"
 
 #: ../src/plugins/removable-devices/removable-devices.c:274
 msgid "Removable disks and shares"
@@ -284,4 +285,4 @@ msgstr ""
 
 #: ../src/plugins/upnp/upnp.c:309
 msgid "UPnP Media Server"
-msgstr ""
+msgstr "Сервери медиаи UPnP"
