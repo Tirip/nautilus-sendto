@@ -10,277 +10,219 @@ msgstr ""
 "Project-Id-Version: nautilus-sendto master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-03-14 16:20+0000\n"
-"PO-Revision-Date: 2012-03-20 23:56+0800\n"
-"Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
+"POT-Creation-Date: 2013-07-06 11:45+0000\n"
+"PO-Revision-Date: 2013-07-07 21:11+0800\n"
+"Last-Translator: 甘露(Gan  Lu) <rhythm.gan@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bits\n"
-"Language: zh_CN\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.5\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "从构建目录中运行"
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr "从构建目录中运行(已忽略)"
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
-msgstr "使用 XID 作为发送对话框的父对象"
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "使用 XID 作为发送对话框的父对象(已忽略)"
 
-#: ../src/nautilus-sendto-command.c:82
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "要发送的文件"
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
 msgstr "输出版本信息并退出"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:667
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:244
+msgid "Archive"
+msgstr "存档"
+
+#: ../src/nautilus-sendto.c:511
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "无法解析命令行选项：%s\n"
+
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "没有安装邮件客户端，将不发送文件\n"
+
+#: ../src/nautilus-sendto.c:530
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "需要网址或者文件名称来作为选项\n"
 
-#: ../src/nautilus-sendto-command.c:697
-#, c-format
-msgid "Could not parse command-line options: %s\n"
-msgstr "不能够解析命令行选项：%s\n"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "正在共享 %d 个文件夹"
 
-#: ../src/nautilus-sendto-mimetype.c:50
-#, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "正在共享 %d 个文件夹"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "正在共享 %d 个文件和文件夹"
 
-#: ../src/nautilus-sendto-mimetype.c:52
-#, c-format
-msgid "Sharing %d folders and files"
-msgstr "正在共享 %d 个文件和文件夹"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "正在共享 %d 个视频"
 
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "正在共享 %d 个视频"
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "正在共享 %d 张照片"
 
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "正在共享 %d 张照片"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "正在共享 %d 张图像"
 
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "正在共享 %d 张图像"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "正在共享 %d 个文本文件"
 
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "正在共享 %d 个文本文件"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "正在共享 %d 个文件"
 
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "正在共享 %d 个文件"
+#~ msgid "_Send"
+#~ msgstr "发送(_S)"
 
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "发送(_S)"
+#~ msgid "Files"
+#~ msgstr "文件"
 
-#: ../src/plugins/nautilus-sendto-packer.c:200
-msgid "Files"
-msgstr "文件"
+#~ msgid "_Cancel"
+#~ msgstr "取消(_C)"
 
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "取消(_C)"
+#~ msgid "Send _packed in:"
+#~ msgstr "发送包在(_)："
 
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "发送包在(_)："
+#~ msgid "Mail"
+#~ msgstr "邮件"
 
-#: ../src/plugins/evolution/evolution.c:287
-msgid "Mail"
-msgstr "邮件"
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "无法获得联系人：%s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "无法获得联系人：%s"
+#~ msgid "Could not find contact: %s"
+#~ msgstr "找不到联系人：%s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "找不到联系人：%s"
+#~ msgid "Cannot create searchable view."
+#~ msgstr "无法创建可搜索的视图。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "无法创建可搜索的视图。"
+#~ msgid "Success"
+#~ msgstr "成功"
 
-#: ../src/plugins/evolution/e-contact-entry.c:884
-msgid "Success"
-msgstr "成功"
+#~ msgid "An argument was invalid."
+#~ msgstr "参数无效。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "An argument was invalid."
-msgstr "参数无效。"
+#~ msgid "The address book is busy."
+#~ msgstr "地址簿忙。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "The address book is busy."
-msgstr "地址簿忙。"
+#~ msgid "The address book is offline."
+#~ msgstr "地址簿离线。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is offline."
-msgstr "地址簿离线。"
+#~ msgid "The address book does not exist."
+#~ msgstr "地址簿不存在。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book does not exist."
-msgstr "地址簿不存在。"
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "“我”联系人不存在。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The \"Me\" contact does not exist."
-msgstr "“我”联系人不存在。"
+#~ msgid "The address book is not loaded."
+#~ msgstr "地址簿未装入。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The address book is not loaded."
-msgstr "地址簿未装入。"
+#~ msgid "The address book is already loaded."
+#~ msgstr "地址簿已经装入。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is already loaded."
-msgstr "地址簿已经装入。"
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "访问地址簿权限被禁止。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "Permission was denied when accessing the address book."
-msgstr "访问地址簿权限被禁止。"
+#~ msgid "The contact was not found."
+#~ msgstr "未找到联系人。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "The contact was not found."
-msgstr "未找到联系人。"
+#~ msgid "This contact ID already exists."
+#~ msgstr "此联系人 ID 已存在。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "This contact ID already exists."
-msgstr "此联系人 ID 已存在。"
+#~ msgid "The protocol is not supported."
+#~ msgstr "协议不支持。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "The protocol is not supported."
-msgstr "协议不支持。"
+#~ msgid "The operation was cancelled."
+#~ msgstr "操作已取消。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The operation was cancelled."
-msgstr "操作已取消。"
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "操作无法取消。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation could not be cancelled."
-msgstr "操作无法取消。"
+#~ msgid "The address book authentication failed."
+#~ msgstr "地址簿身份验证失败。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The address book authentication failed."
-msgstr "地址簿身份验证失败。"
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr "访问地址簿需要认证，这个认证尚未给出。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr "访问地址簿需要认证，这个认证尚未给出。"
+#~ msgid "A secure connection is not available."
+#~ msgstr "安全连接不可用。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid "A secure connection is not available."
-msgstr "安全连接不可用。"
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "访问地址簿时发生 CORBA 错误。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "访问地址簿时发生 CORBA 错误。"
+#~ msgid "The address book source does not exist."
+#~ msgstr "地址簿源不存在。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "The address book source does not exist."
-msgstr "地址簿源不存在。"
+#~ msgid "An unknown error occurred."
+#~ msgstr "发生了未知错误。"
 
-#: ../src/plugins/evolution/e-contact-entry.c:922
-#: ../src/plugins/evolution/e-contact-entry.c:925
-msgid "An unknown error occurred."
-msgstr "发生了未知错误。"
+#~ msgid "Unable to send file"
+#~ msgstr "无法发送文件"
 
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "无法发送文件"
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "不存在到 gajim 远程服务的连接"
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "不存在到 gajim 远程服务的连接"
+#~ msgid "Sending file failed"
+#~ msgstr "发送文件失败"
 
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "发送文件失败"
+#~ msgid "Recipient is missing."
+#~ msgstr "缺少接收者。"
 
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "缺少接收者。"
+#~ msgid "Unknown recipient."
+#~ msgstr "未知接收者。"
 
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "未知接收者。"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "即时消息 (Gajim)"
 
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "即时消息 (Gajim)"
+#~ msgid "New CD/DVD"
+#~ msgstr "新建 CD/DVD"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "新建 CD/DVD"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "存在的 CD/DVD"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "存在的 CD/DVD"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "CD/DVD 创建器"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "CD/DVD 创建器"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "即时消息(Pidgin)"
 
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "即时消息(Pidgin)"
+#~ msgid "Removable disks and shares"
+#~ msgstr "可移动的光盘和共享"
 
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "可移动的光盘和共享"
+#~ msgid "Uploading '%s'"
+#~ msgstr "正在上传 %s"
 
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "正在上传 %s"
+#~ msgid "Preparing upload"
+#~ msgstr "正在准备上传"
 
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "正在准备上传"
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "“%s”服务未配置。"
 
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "“%s”服务未配置。"
+#~ msgid "_Configure"
+#~ msgstr "配置(_C)"
 
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "配置(_C)"
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "已登录到“%s”服务。"
 
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "已登录到“%s”服务。"
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "无法登录到“%s”服务。"
 
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "无法登录到“%s”服务。"
-
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "UPnP 媒体服务器"
+#~ msgid "UPnP Media Server"
+#~ msgstr "UPnP 媒体服务器"
 
 #~ msgid "Send To..."
 #~ msgstr "发送到..."
