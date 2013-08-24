@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto 1.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-22 21:56+0100\n"
-"PO-Revision-Date: 2013-03-21 12:03+0100\n"
+"POT-Creation-Date: 2013-08-24 19:21+0200\n"
+"PO-Revision-Date: 2013-08-03 11:40+0200\n"
 "Last-Translator: Gianvito Cavasoli <gianvito@gmx.it>\n"
 "Language-Team: Italiano <tp@linux.it>\n"
 "Language: \n"
@@ -37,190 +37,21 @@ msgstr "Mostra l'informazione di versione ed esce"
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
-#: ../src/nautilus-sendto.c:253
+#: ../src/nautilus-sendto.c:244
 msgid "Archive"
 msgstr "Archivio"
 
-#: ../src/nautilus-sendto.c:520
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Impossibile analizzare le opzioni della riga di comando: %s\n"
 
-#: ../src/nautilus-sendto.c:535
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "Nessun client mail installato, nessun invio di file\n"
+
+#: ../src/nautilus-sendto.c:530
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Attesi degli URI o nomi file da essere passati come opzioni\n"
-
-#~ msgid "Sharing %d folder"
-#~ msgid_plural "Sharing %d folders"
-#~ msgstr[0] "Condivisione di %d cartella"
-#~ msgstr[1] "Condivisione di %d cartelle"
-
-#~ msgid "Sharing %d folders and files"
-#~ msgstr "Condivisione di %d cartelle e file"
-
-#~ msgid "Sharing %d video"
-#~ msgid_plural "Sharing %d videos"
-#~ msgstr[0] "Condivisione di %d video"
-#~ msgstr[1] "Condivisione di %d video"
-
-#~ msgid "Sharing %d photo"
-#~ msgid_plural "Sharing %d photos"
-#~ msgstr[0] "Condivisione di %d foto"
-#~ msgstr[1] "Condivisione di %d foto"
-
-#~ msgid "Sharing %d image"
-#~ msgid_plural "Sharing %d images"
-#~ msgstr[0] "Condivisione di %d immagine"
-#~ msgstr[1] "Condivisione di %d immagini"
-
-#~ msgid "Sharing %d text file"
-#~ msgid_plural "Sharing %d text files"
-#~ msgstr[0] "Condivisione di %d file di testo"
-#~ msgstr[1] "Condivisione di %d file di testo"
-
-#~ msgid "Sharing %d file"
-#~ msgid_plural "Sharing %d files"
-#~ msgstr[0] "Condivisione di %d file"
-#~ msgstr[1] "Condivisione di %d file"
-
-#~ msgid "_Send"
-#~ msgstr "_Invia"
-
-#~ msgid "Files"
-#~ msgstr "File"
-
-#~ msgid "_Cancel"
-#~ msgstr "_Annulla"
-
-#~ msgid "Send _packed in:"
-#~ msgstr "Invia arc_hiviato come:"
-
-#~ msgid "Mail"
-#~ msgstr "Mail"
-
-#~ msgid "Cannot get contact: %s"
-#~ msgstr "Impossibile recuperare il contatto: %s"
-
-#~ msgid "Could not find contact: %s"
-#~ msgstr "Impossibile trovare il contatto: %s"
-
-#~ msgid "Cannot create searchable view."
-#~ msgstr "Impossibile creare la vista per la ricerca."
-
-#~ msgid "Success"
-#~ msgstr "Successo"
-
-#~ msgid "An argument was invalid."
-#~ msgstr "Un argomento non era valido."
-
-#~ msgid "The address book is busy."
-#~ msgstr "La rubrica è occupata."
-
-#~ msgid "The address book is offline."
-#~ msgstr "La rubrica non è in rete."
-
-#~ msgid "The address book does not exist."
-#~ msgstr "La rubrica non esiste."
-
-#~ msgid "The \"Me\" contact does not exist."
-#~ msgstr "Il contatto «Me» è inesistente."
-
-#~ msgid "The address book is not loaded."
-#~ msgstr "La rubrica non è caricata."
-
-#~ msgid "The address book is already loaded."
-#~ msgstr "La rubrica è già caricata."
-
-#~ msgid "Permission was denied when accessing the address book."
-#~ msgstr "È stato negato il permesso di accedere alla rubrica."
-
-#~ msgid "The contact was not found."
-#~ msgstr "Il contatto non è stato trovato."
-
-#~ msgid "This contact ID already exists."
-#~ msgstr "Questo ID di contatto esiste già."
-
-#~ msgid "The protocol is not supported."
-#~ msgstr "Il protocollo non è supportato."
-
-#~ msgid "The operation was cancelled."
-#~ msgstr "L'operazione è stata annullata."
-
-#~ msgid "The operation could not be cancelled."
-#~ msgstr "L'operazione non può essere annullata."
-
-#~ msgid "The address book authentication failed."
-#~ msgstr "Autenticazione della rubrica non riuscita."
-
-#~ msgid ""
-#~ "Authentication is required to access the address book and was not given."
-#~ msgstr ""
-#~ "È richiesta l'autenticazione per accedere alla rubrica e non è stata "
-#~ "fornita."
-
-#~ msgid "A secure connection is not available."
-#~ msgstr "Una connessione sicura non è disponibile."
-
-#~ msgid "A CORBA error occurred whilst accessing the address book."
-#~ msgstr "Si è verificato un errore di CORBA accedendo alla rubrica."
-
-#~ msgid "The address book source does not exist."
-#~ msgstr "La sorgente della rubrica non esiste."
-
-#~ msgid "An unknown error occurred."
-#~ msgstr "Si è verificato un errore sconosciuto."
-
-#~ msgid "Unable to send file"
-#~ msgstr "Impossibile inviare file"
-
-#~ msgid "There is no connection to gajim remote service."
-#~ msgstr "Nessuna connessione al servizio remoto di gajim."
-
-#~ msgid "Sending file failed"
-#~ msgstr "Invio del file non riuscito"
-
-#~ msgid "Recipient is missing."
-#~ msgstr "Manca Il destinatario."
-
-#~ msgid "Unknown recipient."
-#~ msgstr "Destinatario sconosciuto."
-
-#~ msgid "Instant Message (Gajim)"
-#~ msgstr "Messaggio istantaneo (Gajim)"
-
-#~ msgid "New CD/DVD"
-#~ msgstr "Nuovo CD/DVD"
-
-#~ msgid "Existing CD/DVD"
-#~ msgstr "CD/DVD esistente"
-
-#~ msgid "CD/DVD Creator"
-#~ msgstr "Creazione CD/DVD"
-
-#~ msgid "Instant Message (Pidgin)"
-#~ msgstr "Messaggio istantaneo (Pidgin)"
-
-#~ msgid "Removable disks and shares"
-#~ msgstr "Condivisioni e dischi rimovibili"
-
-#~ msgid "Uploading '%s'"
-#~ msgstr "Caricamento di «%s»"
-
-#~ msgid "Preparing upload"
-#~ msgstr "Preparazione caricamento"
-
-#~ msgid "Service '%s' is not configured."
-#~ msgstr "Il servizio «%s» non è configurato."
-
-#~ msgid "_Configure"
-#~ msgstr "_Configura"
-
-#~ msgid "Logged in to service '%s'."
-#~ msgstr "Eseguito l'accesso al servizio «%s»."
-
-#~ msgid "Could not log in to service '%s'."
-#~ msgstr "Impossibile eseguire l'accesso al servizio «%s»."
-
-#~ msgid "UPnP Media Server"
-#~ msgstr "Server multimediale UPnP"
