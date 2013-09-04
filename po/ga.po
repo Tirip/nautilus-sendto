@@ -1,0 +1,57 @@
+# Irish translations for nautilus-sendto package.
+# Copyright (C) 2013 Free Software Foundation, Inc.
+# This file is distributed under the same license as the nautilus-sendto package.
+# Seán de Búrca <leftmostcat@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-sendto.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-03 21:12-0600\n"
+"PO-Revision-Date: 2013-09-03 21:18-0600\n"
+"Last-Translator: Seán de Búrca <leftmostcat@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;\n"
+
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr "Rith ó chomhadlann tógála (neamhaird tugtha air)"
+
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "Úsáid XID mar mháthair don dialóg sheolta (neamhaird tugtha air)"
+
+#: ../src/nautilus-sendto.c:55
+msgid "Files to send"
+msgstr "Comhaid le seoladh"
+
+#: ../src/nautilus-sendto.c:56
+msgid "Output version information and exit"
+msgstr "Cuir eolas leagain as agus scoir"
+
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:244
+msgid "Archive"
+msgstr "Cartlann"
+
+#: ../src/nautilus-sendto.c:511
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "Níorbh fhéidir roghanna líne na n-orduithe a pharsáil: %s\n"
+
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "Cliant poist gan suiteáil, níl na comhaid á seoladh\n"
+
+#: ../src/nautilus-sendto.c:530
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr ""
+"Bhíothas ag súil le seoladh URIanna nó ainmneacha comhaid mar roghanna\n"
