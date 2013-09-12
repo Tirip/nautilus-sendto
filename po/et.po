@@ -6,28 +6,29 @@
 # package.
 #
 # Ivar Smolin <okul linux ee>, 2006, 2010, 2011.
-# Mattias Põldaru <mahfiaz@gmail.com>, 2009, 2011, 2012.
+# Mattias Põldaru <mahfiaz@gmail.com>, 2009, 2011, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto 3.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-02-29 02:24+0000\n"
-"PO-Revision-Date: 2012-02-29 11:24+0200\n"
+"POT-Creation-Date: 2013-09-10 10:40+0000\n"
+"PO-Revision-Date: 2013-09-12 00:22+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bits\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
-msgid "Run from build directory"
-msgstr "Käivitamine kompileerimise kataloogist"
+msgid "Run from build directory (ignored)"
+msgstr "Käivitamine kompileerimise kataloogist (eiratakse)"
 
-msgid "Use XID as parent to the send dialogue"
-msgstr "XID kasutamine saatmisdialoogi ülemise aknana"
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "XID kasutamine saatmisdialoogi ülemise aknana (eiratakse)"
 
 msgid "Files to send"
 msgstr "Saadetavad failid"
@@ -35,201 +36,196 @@ msgstr "Saadetavad failid"
 msgid "Output version information and exit"
 msgstr "Versiooniandmete kuvamine ja väljumine"
 
-#. FIXME, this needs to be done in UI now
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Ootab, et URI-d või failinimed edastatakse võtmetena\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+msgid "Archive"
+msgstr "Arhiiv"
 
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Käsurea võtmete parsimine pole võimalik: %s\n"
 
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "%d kausta jagamine"
-msgstr[1] "%d kausta jagamine"
+msgid "No mail client installed, not sending files\n"
+msgstr "Ühtegi meiliklienti pole paigaldatud, faile ei saadeta\n"
 
 #, c-format
-msgid "Sharing %d folders and files"
-msgstr "%d kausta ja faili jagamine"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Ootab, et URI-d või failinimed edastatakse võtmetena\n"
 
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "%d video jagamine"
-msgstr[1] "%d video jagamine"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "%d kausta jagamine"
+#~ msgstr[1] "%d kausta jagamine"
 
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "%d foto jagamine"
-msgstr[1] "%d foto jagamine"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "%d kausta ja faili jagamine"
 
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "%d pildi jagamine"
-msgstr[1] "%d pildi jagamine"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "%d video jagamine"
+#~ msgstr[1] "%d video jagamine"
 
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "%d tekstifaili jagamine"
-msgstr[1] "%d tekstifaili jagamine"
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "%d foto jagamine"
+#~ msgstr[1] "%d foto jagamine"
 
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "%d faili jagamine"
-msgstr[1] "%d faili jagamine"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "%d pildi jagamine"
+#~ msgstr[1] "%d pildi jagamine"
 
-msgid "_Send"
-msgstr "_Saada"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "%d tekstifaili jagamine"
+#~ msgstr[1] "%d tekstifaili jagamine"
 
-msgid "Files"
-msgstr "Failid"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "%d faili jagamine"
+#~ msgstr[1] "%d faili jagamine"
 
-msgid "_Cancel"
-msgstr "_Loobu"
+#~ msgid "_Send"
+#~ msgstr "_Saada"
 
-msgid "Send _packed in:"
-msgstr "Saata _pakituna arhiivis:"
+#~ msgid "Files"
+#~ msgstr "Failid"
 
-msgid "Mail"
-msgstr "E-post"
+#~ msgid "_Cancel"
+#~ msgstr "_Loobu"
 
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "Kontakti pole võimalik hankida: %s"
+#~ msgid "Send _packed in:"
+#~ msgstr "Saata _pakituna arhiivis:"
 
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "Kontakti ei leitud: %s"
+#~ msgid "Mail"
+#~ msgstr "E-post"
 
-msgid "Cannot create searchable view."
-msgstr "Otsitavat vaadet pole võimalik luua."
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "Kontakti pole võimalik hankida: %s"
 
-msgid "Success"
-msgstr "Edukas"
+#~ msgid "Could not find contact: %s"
+#~ msgstr "Kontakti ei leitud: %s"
 
-msgid "An argument was invalid."
-msgstr "Üks argument oli sobimatu."
+#~ msgid "Cannot create searchable view."
+#~ msgstr "Otsitavat vaadet pole võimalik luua."
 
-msgid "The address book is busy."
-msgstr "Aadressiraamat on hõivatud."
+#~ msgid "Success"
+#~ msgstr "Edukas"
 
-msgid "The address book is offline."
-msgstr "Aadressiraamat pole võrgus."
+#~ msgid "An argument was invalid."
+#~ msgstr "Üks argument oli sobimatu."
 
-msgid "The address book does not exist."
-msgstr "Aadressiraamatut pole."
+#~ msgid "The address book is busy."
+#~ msgstr "Aadressiraamat on hõivatud."
 
-msgid "The \"Me\" contact does not exist."
-msgstr "Kontakti \"Me\" pole olemas."
+#~ msgid "The address book is offline."
+#~ msgstr "Aadressiraamat pole võrgus."
 
-msgid "The address book is not loaded."
-msgstr "Aadressiraamat pole laaditud."
+#~ msgid "The address book does not exist."
+#~ msgstr "Aadressiraamatut pole."
 
-msgid "The address book is already loaded."
-msgstr "Aadressiraamat on juba laaditud."
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "Kontakti \"Me\" pole olemas."
 
-msgid "Permission was denied when accessing the address book."
-msgstr "Aadressiraamatuga ühendumiseks puuduvad õigused."
+#~ msgid "The address book is not loaded."
+#~ msgstr "Aadressiraamat pole laaditud."
 
-msgid "The contact was not found."
-msgstr "Kontakti ei leitud."
+#~ msgid "The address book is already loaded."
+#~ msgstr "Aadressiraamat on juba laaditud."
 
-msgid "This contact ID already exists."
-msgstr "Kontakti ID on juba olemas."
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "Aadressiraamatuga ühendumiseks puuduvad õigused."
 
-msgid "The protocol is not supported."
-msgstr "Protokoll ei ole toetatud."
+#~ msgid "The contact was not found."
+#~ msgstr "Kontakti ei leitud."
 
-msgid "The operation was cancelled."
-msgstr "Operatsioon tühistati."
+#~ msgid "This contact ID already exists."
+#~ msgstr "Kontakti ID on juba olemas."
 
-msgid "The operation could not be cancelled."
-msgstr "Operatsioni pole võimalik tühistada."
+#~ msgid "The protocol is not supported."
+#~ msgstr "Protokoll ei ole toetatud."
 
-msgid "The address book authentication failed."
-msgstr "Aadressiraamatuga autentimine nurjus."
+#~ msgid "The operation was cancelled."
+#~ msgstr "Operatsioon tühistati."
 
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr ""
-"Aadressiraamatule ligipääsuks on nõutud autentimine, autentimise andmeid aga "
-"ei antud."
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "Operatsioni pole võimalik tühistada."
 
-msgid "A secure connection is not available."
-msgstr "Turvaline ühendus pole saadaval."
+#~ msgid "The address book authentication failed."
+#~ msgstr "Aadressiraamatuga autentimine nurjus."
 
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "Aadressiraamatuga ühendumisel esines CORBA viga."
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr ""
+#~ "Aadressiraamatule ligipääsuks on nõutud autentimine, autentimise andmeid "
+#~ "aga ei antud."
 
-msgid "The address book source does not exist."
-msgstr "Aadressiraamatu allikfaili ei ole."
+#~ msgid "A secure connection is not available."
+#~ msgstr "Turvaline ühendus pole saadaval."
 
-msgid "An unknown error occurred."
-msgstr "Esines tundmatu viga."
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "Aadressiraamatuga ühendumisel esines CORBA viga."
 
-msgid "Unable to send file"
-msgstr "Faili pole võimalik saata"
+#~ msgid "The address book source does not exist."
+#~ msgstr "Aadressiraamatu allikfaili ei ole."
 
-msgid "There is no connection to gajim remote service."
-msgstr "Gajim'i kaugteenusega pole ühendust."
+#~ msgid "An unknown error occurred."
+#~ msgstr "Esines tundmatu viga."
 
-msgid "Sending file failed"
-msgstr "Tõrge faili saatmisel"
+#~ msgid "Unable to send file"
+#~ msgstr "Faili pole võimalik saata"
 
-msgid "Recipient is missing."
-msgstr "Saaja on puudu."
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "Gajim'i kaugteenusega pole ühendust."
 
-msgid "Unknown recipient."
-msgstr "Tundmatu saaja."
+#~ msgid "Sending file failed"
+#~ msgstr "Tõrge faili saatmisel"
 
-msgid "Instant Message (Gajim)"
-msgstr "Välksõnum (Gajim)"
+#~ msgid "Recipient is missing."
+#~ msgstr "Saaja on puudu."
 
-msgid "New CD/DVD"
-msgstr "Uus CD/DVD"
+#~ msgid "Unknown recipient."
+#~ msgstr "Tundmatu saaja."
 
-msgid "Existing CD/DVD"
-msgstr "Olemasolev CD/DVD"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Välksõnum (Gajim)"
 
-msgid "CD/DVD Creator"
-msgstr "CD/DVD looja"
+#~ msgid "New CD/DVD"
+#~ msgstr "Uus CD/DVD"
 
-msgid "Instant Message (Pidgin)"
-msgstr "Välksõnum (Pidgin)"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "Olemasolev CD/DVD"
 
-msgid "Removable disks and shares"
-msgstr "Eemaldatavad andmekandjad ja jagatud kataloogid"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "CD/DVD looja"
 
-#, c-format
-msgid "Uploading '%s'"
-msgstr "'%s' üleslaadimine"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Välksõnum (Pidgin)"
 
-msgid "Preparing upload"
-msgstr "Üleslaadimise ettevalmistamine"
+#~ msgid "Removable disks and shares"
+#~ msgstr "Eemaldatavad andmekandjad ja jagatud kataloogid"
 
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "Teenus '%s' on seadistamata."
+#~ msgid "Uploading '%s'"
+#~ msgstr "'%s' üleslaadimine"
 
-msgid "_Configure"
-msgstr "_Seadista"
+#~ msgid "Preparing upload"
+#~ msgstr "Üleslaadimise ettevalmistamine"
 
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "Sisse logitud teenusesse '%s'."
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "Teenus '%s' on seadistamata."
 
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "Pole võimalik sisse logida teenusesse '%s'."
+#~ msgid "_Configure"
+#~ msgstr "_Seadista"
 
-msgid "UPnP Media Server"
-msgstr "UPnP meediaserver"
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "Sisse logitud teenusesse '%s'."
+
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "Pole võimalik sisse logida teenusesse '%s'."
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "UPnP meediaserver"
 
 #~ msgid "Send To..."
 #~ msgstr "Saada..."
