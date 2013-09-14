@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: nautilus-sendto\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-03-20 14:12+0000\n"
-"PO-Revision-Date: 2013-03-21 00:19+0900\n"
+"POT-Creation-Date: 2013-07-24 09:46+0000\n"
+"PO-Revision-Date: 2013-09-14 20:25+0900\n"
 "Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
 "Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
 "Language: \n"
@@ -42,16 +42,21 @@ msgstr "버전 정보를 출력하고 나갑니다"
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
-#: ../src/nautilus-sendto.c:253
+#: ../src/nautilus-sendto.c:244
 msgid "Archive"
 msgstr "압축"
 
-#: ../src/nautilus-sendto.c:520
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "명령행 옵션을 분석할 수 없습니다: %s\n"
 
-#: ../src/nautilus-sendto.c:535
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "메일 클라이언트를 설치하지 않아 파일을 보내지 않습니다\n"
+
+#: ../src/nautilus-sendto.c:530
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "옵션으로 URI 또는 파일 이름이 전달될 것으로 예상\n"
