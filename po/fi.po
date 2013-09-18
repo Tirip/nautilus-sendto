@@ -5,289 +5,233 @@
 # Ilkka Tuohela <hile@iki.fi>, 2008.
 # Tommi Vainikainen <Tommi.Vainikainen@iki.fi>, 2004-2005, 2010.
 # Timo Jyrinki <timo.jyrinki@iki.fi>, 2008.
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2012.
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012, 2013.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-07 12:48+0200\n"
-"PO-Revision-Date: 2012-01-05 18:47+0200\n"
-"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-07-24 09:46+0000\n"
+"PO-Revision-Date: 2013-09-16 18:24+0300\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
+"Language-Team: suomi <gnome-fi-laatu@lists.sourceforge.net>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
 msgstr ""
 
-#: ../src/nautilus-sendto-command.c:81
-msgid "Use XID as parent to the send dialogue"
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
 msgstr ""
 
-#: ../src/nautilus-sendto-command.c:82
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "Lähetettävät tiedostot"
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
-msgstr ""
+msgstr "Tulosta versiotiedot ja poistu"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:664
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "Olettaa parametreina annettavan URI:t tai tiedostonimiä\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:244
+msgid "Archive"
+msgstr "Paketti"
 
-#: ../src/nautilus-sendto-command.c:694
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Komentorivivalitsimia ei voi tulkita: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:524
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "Jaetaan %d kansio"
-msgstr[1] "Jaetaan %d kansiota"
+msgid "No mail client installed, not sending files\n"
+msgstr "Sähköpostisovellusta ei ole asennettu, tiedostoja ei lähetetä\n"
 
-#: ../src/nautilus-sendto-mimetype.c:52
+#: ../src/nautilus-sendto.c:530
 #, c-format
-msgid "Sharing %d folders and files"
-msgstr "Jaetaan %d kansiota ja tiedostoa"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Olettaa parametreina annettavan URI:t tai tiedostonimiä\n"
 
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "Jaetaan %d video"
-msgstr[1] "Jaetaan %d videota"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "Jaetaan %d kansio"
+#~ msgstr[1] "Jaetaan %d kansiota"
 
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "Jaetaan %d valokuva"
-msgstr[1] "Jaetaan %d valokuvaa"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "Jaetaan %d kansiota ja tiedostoa"
 
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "Jaetaan %d kuva"
-msgstr[1] "Jaetaan %d kuvaa"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "Jaetaan %d video"
+#~ msgstr[1] "Jaetaan %d videota"
 
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "Jaetaan %d tekstitiedosto"
-msgstr[1] "Jaetaan %d tekstitiedostoa"
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "Jaetaan %d valokuva"
+#~ msgstr[1] "Jaetaan %d valokuvaa"
 
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "Jaetaan %d tiedosto"
-msgstr[1] "Jaetaan %d tiedostoa"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "Jaetaan %d kuva"
+#~ msgstr[1] "Jaetaan %d kuvaa"
 
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "_Lähetä"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "Jaetaan %d tekstitiedosto"
+#~ msgstr[1] "Jaetaan %d tekstitiedostoa"
 
-#: ../src/plugins/nautilus-sendto-packer.c:200
-msgid "Files"
-msgstr "Tiedostot"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "Jaetaan %d tiedosto"
+#~ msgstr[1] "Jaetaan %d tiedostoa"
 
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "_Peru"
+#~ msgid "_Send"
+#~ msgstr "_Lähetä"
 
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "Lähetä _paketoituna muotoon:"
+#~ msgid "Files"
+#~ msgstr "Tiedostot"
 
-#: ../src/plugins/evolution/evolution.c:308
-msgid "Mail"
-msgstr "Sähköposti"
+#~ msgid "_Cancel"
+#~ msgstr "_Peru"
 
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "Yhteystietoa ei voi hakea: %s"
+#~ msgid "Send _packed in:"
+#~ msgstr "Lähetä _paketoituna muotoon:"
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "Yhteystietoa ei löydy: %s"
+#~ msgid "Mail"
+#~ msgstr "Sähköposti"
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "Etsittävää näkymää ei voi luoda."
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "Yhteystietoa ei voi hakea: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "Success"
-msgstr "Onnistui"
+#~ msgid "Could not find contact: %s"
+#~ msgstr "Yhteystietoa ei löydy: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "An argument was invalid."
-msgstr "Valitsin oli virheellinen."
+#~ msgid "Cannot create searchable view."
+#~ msgstr "Etsittävää näkymää ei voi luoda."
 
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is busy."
-msgstr "Osoitekirja on varattu."
+#~ msgid "Success"
+#~ msgstr "Onnistui"
 
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book is offline."
-msgstr "Osoitekirja on yhteydettömässä tilassa."
+#~ msgid "An argument was invalid."
+#~ msgstr "Valitsin oli virheellinen."
 
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The address book does not exist."
-msgstr "Osoitekirjaa ei ole olemassa."
+#~ msgid "The address book is busy."
+#~ msgstr "Osoitekirja on varattu."
 
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The \"Me\" contact does not exist."
-msgstr "Yhteystietoa ”Minä” ei ole olemassa."
+#~ msgid "The address book is offline."
+#~ msgstr "Osoitekirja on yhteydettömässä tilassa."
 
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is not loaded."
-msgstr "Osoitekirjaa ei ole ladattu."
+#~ msgid "The address book does not exist."
+#~ msgstr "Osoitekirjaa ei ole olemassa."
 
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "The address book is already loaded."
-msgstr "Osoitekirja on jo ladattu."
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "Yhteystietoa ”Minä” ei ole olemassa."
 
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "Permission was denied when accessing the address book."
-msgstr "Pääsy osoitekirjaan evättiin."
+#~ msgid "The address book is not loaded."
+#~ msgstr "Osoitekirjaa ei ole ladattu."
 
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "The contact was not found."
-msgstr "Yhteystietoa ei löytynyt."
+#~ msgid "The address book is already loaded."
+#~ msgstr "Osoitekirja on jo ladattu."
 
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "This contact ID already exists."
-msgstr "Tämä yhteystiedon tunniste on jo olemassa."
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "Pääsy osoitekirjaan evättiin."
 
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The protocol is not supported."
-msgstr "Yhteyskäytäntö ei ole tuettu."
+#~ msgid "The contact was not found."
+#~ msgstr "Yhteystietoa ei löytynyt."
 
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation was cancelled."
-msgstr "Toiminto peruttiin."
+#~ msgid "This contact ID already exists."
+#~ msgstr "Tämä yhteystiedon tunniste on jo olemassa."
 
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The operation could not be cancelled."
-msgstr "Toimintoa ei voi perua."
+#~ msgid "The protocol is not supported."
+#~ msgstr "Yhteyskäytäntö ei ole tuettu."
 
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid "The address book authentication failed."
-msgstr "Osoitekirjan vaatima tunnistautuminen epäonnistui."
+#~ msgid "The operation was cancelled."
+#~ msgstr "Toiminto peruttiin."
 
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr "Osoitekirjan käyttö vaatii tunnistautumisen, mutta tietoja ei annettu."
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "Toimintoa ei voi perua."
 
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A secure connection is not available."
-msgstr "Suojattu yhteys ei ole saatavilla."
+#~ msgid "The address book authentication failed."
+#~ msgstr "Osoitekirjan vaatima tunnistautuminen epäonnistui."
 
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "Tapahtui CORBA-virhe käsiteltäessä osoitekirjaa."
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr ""
+#~ "Osoitekirjan käyttö vaatii tunnistautumisen, mutta tietoja ei annettu."
 
-#: ../src/plugins/evolution/e-contact-entry.c:922
-msgid "The address book source does not exist."
-msgstr "Osoitekirjan lähdettä ei ole olemassa."
+#~ msgid "A secure connection is not available."
+#~ msgstr "Suojattu yhteys ei ole saatavilla."
 
-#: ../src/plugins/evolution/e-contact-entry.c:924
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "An unknown error occurred."
-msgstr "Tapahtui tuntematon virhe."
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "Tapahtui CORBA-virhe käsiteltäessä osoitekirjaa."
 
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "Tiedostoa ei voi lähettää"
+#~ msgid "The address book source does not exist."
+#~ msgstr "Osoitekirjan lähdettä ei ole olemassa."
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "Gajim-etäpalvelimiin ei ole yhteyttä."
+#~ msgid "An unknown error occurred."
+#~ msgstr "Tapahtui tuntematon virhe."
 
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "Tiedoston lähetys epäonnistui"
+#~ msgid "Unable to send file"
+#~ msgstr "Tiedostoa ei voi lähettää"
 
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "Vastaanottaja puuttuu."
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "Gajim-etäpalvelimiin ei ole yhteyttä."
 
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "Tuntematon vastaanottaja."
+#~ msgid "Sending file failed"
+#~ msgstr "Tiedoston lähetys epäonnistui"
 
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "Pikaviesti (Gajim)"
+#~ msgid "Recipient is missing."
+#~ msgstr "Vastaanottaja puuttuu."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "Uusi CD/DVD"
+#~ msgid "Unknown recipient."
+#~ msgstr "Tuntematon vastaanottaja."
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "Olemassa oleva CD/DVD"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "Pikaviesti (Gajim)"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "CD/DVD-luonti"
+#~ msgid "New CD/DVD"
+#~ msgstr "Uusi CD/DVD"
 
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "Pikaviesti (Pidgin)"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "Olemassa oleva CD/DVD"
 
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "Irrotettavat levyt ja levyjaot"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "CD/DVD-luonti"
 
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "Lähetetään '%s'"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "Pikaviesti (Pidgin)"
 
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "Valmistellaan lähetystä"
+#~ msgid "Removable disks and shares"
+#~ msgstr "Irrotettavat levyt ja levyjaot"
 
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "Palvelun '%s' asetuksia ei ole tehty."
+#~ msgid "Uploading '%s'"
+#~ msgstr "Lähetetään '%s'"
 
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "_Tee asetukset"
+#~ msgid "Preparing upload"
+#~ msgstr "Valmistellaan lähetystä"
 
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "Kirjauduttu palveluun '%s'."
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "Palvelun '%s' asetuksia ei ole tehty."
 
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "Palveluun '%s' kirjautuminen ei onnistunut."
+#~ msgid "_Configure"
+#~ msgstr "_Tee asetukset"
 
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "UPnP-mediapalvelin"
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "Kirjauduttu palveluun '%s'."
+
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "Palveluun '%s' kirjautuminen ei onnistunut."
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "UPnP-mediapalvelin"
 
 #~ msgid "Last plugin used to send"
 #~ msgstr "Viimeisin lähetykseen käytetty liitännäinen"
