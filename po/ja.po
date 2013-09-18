@@ -3,283 +3,57 @@
 # This file is distributed under the same license as the nautilus-sendto package.
 # Takeshi AIHANA <takeshi.aihana@gmail.com>, 2004-2009.
 # Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010.
-# Jiro Matsuzawa <jmatsuzawa@src.gnome.org>, 2011, 2012
 # Hideki Yamnane <henrich@debian.org>, 2011.
+# Jiro Matsuzawa <jmatsuzawa@src.gnome.org>, 2011, 2012, 2013.
+# Nishio Futoshi <fut_nis@d3.dion.ne.jp>, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-03-14 15:32+0000\n"
-"PO-Revision-Date: 2012-03-04 16:29+0900\n"
-"Last-Translator: Jiro Matsuzawa <jmatsuzawa@src.gnome.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-09-14 11:27+0000\n"
+"PO-Revision-Date: 2013-09-16 15:58+0900\n"
+"Last-Translator: Nishio Futoshi <fut_nis@d3.dion.ne.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Run from build directory"
-msgstr "ビルドディレクトリから実行する"
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr "ビルドディレクトリから実行する (無視されます)"
 
-#: ../src/nautilus-sendto-command.c:81
-#, fuzzy
-msgid "Use XID as parent to the send dialogue"
-msgstr "送信ダイアログで XID を親として利用する"
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "送信ダイアログで XID を親として利用する (無視されます)"
 
-#: ../src/nautilus-sendto-command.c:82
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "送信するファイル"
 
-#: ../src/nautilus-sendto-command.c:83
+#: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
-msgstr ""
+msgstr "バージョン情報を出力して終了する"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:667
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "オプションとして URI または ファイル名を指定してください\n"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:244
+msgid "Archive"
+msgstr "アーカイブ"
 
-#: ../src/nautilus-sendto-command.c:697
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "コマンドラインオプションを解析できませんでした: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:524
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "%d 個のフォルダーを共有する"
+msgid "No mail client installed, not sending files\n"
+msgstr "メールクライアントがインストールされていないので、ファイルを送りません\n"
 
-#: ../src/nautilus-sendto-mimetype.c:52
+#: ../src/nautilus-sendto.c:530
 #, c-format
-msgid "Sharing %d folders and files"
-msgstr "%d 個のフォルダーとファイルを共有する"
-
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "%d 個のビデオを共有する"
-
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "%d 枚の写真を共有する"
-
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "%d 枚の画像を共有する"
-
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "%d 個のテキストファイルを共有する"
-
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "%d 個のファイルを共有する"
-
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "送信(_S)"
-
-#: ../src/plugins/nautilus-sendto-packer.c:200
-msgid "Files"
-msgstr "ファイル"
-
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "キャンセル(_C)"
-
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "アーカイブにして送信する(_P):"
-
-#: ../src/plugins/evolution/evolution.c:287
-msgid "Mail"
-msgstr "メール"
-
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "次の連絡先を取得できません: %s"
-
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "次の連絡先が見つかりませんでした: %s"
-
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "検索可能な表示を生成できません。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:884
-msgid "Success"
-msgstr "成功"
-
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "An argument was invalid."
-msgstr "引数が間違っています。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "The address book is busy."
-msgstr "アドレス帳が使用中です。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is offline."
-msgstr "アドレス帳がオフラインです。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book does not exist."
-msgstr "アドレス帳が見つかりません。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The \"Me\" contact does not exist."
-msgstr "自分の連絡先が存在しません。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The address book is not loaded."
-msgstr "アドレス帳が読み込まれていません。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is already loaded."
-msgstr "アドレス帳は既に読み込み済です。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "Permission was denied when accessing the address book."
-msgstr "読み込み権限が無いためアドレス帳にアクセスできません。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "The contact was not found."
-msgstr "連絡先が見つかりませんした。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "This contact ID already exists."
-msgstr "この連絡先 ID が既に存在しています。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "The protocol is not supported."
-msgstr "そのプロトコルはサポートされていません。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The operation was cancelled."
-msgstr "操作がキャンセルされました。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation could not be cancelled."
-msgstr "操作をキャンセルできませんでした。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The address book authentication failed."
-msgstr "アドレス帳の認証に失敗しました。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr "アドレス帳にアクセスするには認証が必要ですが指定されていません。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid "A secure connection is not available."
-msgstr "セキュアな接続を利用できません。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "アドレス帳にアクセスする際に CORBA エラーが発生しました。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "The address book source does not exist."
-msgstr "アドレス帳のソースが存在しません。"
-
-#: ../src/plugins/evolution/e-contact-entry.c:922
-#: ../src/plugins/evolution/e-contact-entry.c:925
-msgid "An unknown error occurred."
-msgstr "原因不明のエラーが発生しました。"
-
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "ファイルを送信できません"
-
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "gajim のリモートサービスへ接続していません。"
-
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "ファイルの送信に失敗しました"
-
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "応答メッセージがありません。"
-
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "不明な応答メッセージです。"
-
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "インスタントメッセージ (Gajim)"
-
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "新しい CD/DVD"
-
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "既存の CD/DVD"
-
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "CD/DVD の作成"
-
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "インスタントメッセンジャー (Pidgin)"
-
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "リムーバブルディスクと共有"
-
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "'%s' をアップロード中"
-
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "アップロードの準備中"
-
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "サービス '%s' は設定されていません。"
-
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "設定(_C)"
-
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "サービス '%s' にログインしました。"
-
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "次のサービスにログインできませんでした: %s"
-
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "UPnP メディアサーバー"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "オプションとして URI または ファイル名を指定してください\n"
