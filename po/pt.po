@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-21 23:53+0000\n"
+"POT-Creation-Date: 2013-09-18 23:25+0100\n"
 "PO-Revision-Date: 2013-03-16 23:59+0000\n"
 "Last-Translator: António Lima <amrlima@gmail.com>\n"
 "Language-Team: gnome_pt@yahoogroups.com\n"
@@ -37,16 +37,21 @@ msgstr "Retornar informação de versão e sair"
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
-#: ../src/nautilus-sendto.c:253
+#: ../src/nautilus-sendto.c:244
 msgid "Archive"
 msgstr "Arquivo"
 
-#: ../src/nautilus-sendto.c:520
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Incapaz de processar opções de linha de comando: %s\n"
 
-#: ../src/nautilus-sendto.c:535
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "Nenhum cliente de email instalado, ficheiros não enviados\n"
+
+#: ../src/nautilus-sendto.c:530
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Espera que URIs ou nomes de ficheiros sejam passados como opções\n"
