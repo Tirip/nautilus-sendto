@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-26 18:53+0200\n"
-"PO-Revision-Date: 2013-03-26 18:56+0300\n"
+"POT-Creation-Date: 2013-09-21 19:31+0300\n"
+"PO-Revision-Date: 2013-09-21 19:32+0300\n"
 "Last-Translator: Daniel Korostil <ted.korostiled@gmail.com>\n"
 "Language-Team: linux.org.ua\n"
 "Language: uk\n"
@@ -37,16 +37,21 @@ msgstr "Вивести інформацію про версію програми
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
-#: ../src/nautilus-sendto.c:253
+#: ../src/nautilus-sendto.c:244
 msgid "Archive"
 msgstr "Архів"
 
-#: ../src/nautilus-sendto.c:520
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "Не вдалось розібрати параметри командного рядка: %s\n"
 
-#: ../src/nautilus-sendto.c:535
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "Не встановлено поштового клієнта, файли не надсилаються\n"
+
+#: ../src/nautilus-sendto.c:530
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "Очікується, що URI або назви файлів будуть передані як параметри\n"
