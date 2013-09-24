@@ -1,4 +1,12 @@
 =============
+Version 3.8.1
+=============
+
+- Updated translations
+- Fix warnings when no mail client is installed
+- Remove support for ancient evolution versions
+
+=============
 Version 3.8.0
 =============
 
