@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: Tajik Gnome\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-28 16:59+0000\n"
-"PO-Revision-Date: 2013-07-28 22:01-0000\n"
+"POT-Creation-Date: 2013-07-31 08:56+0000\n"
+"PO-Revision-Date: 2013-10-04 13:42+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: \n"
 "Language: Tajik\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: ../src/nautilus-sendto.c:53
 msgid "Run from build directory (ignored)"
-msgstr ""
+msgstr "Иҷро кардан аз директорияи сохтор (радшуда)"
 
 #: ../src/nautilus-sendto.c:54
 msgid "Use XID as parent to the send dialogue (ignored)"
-msgstr ""
+msgstr "Истифодаи XID ҳамчун асосӣ барои диалоги равона (радшуда)"
 
 #: ../src/nautilus-sendto.c:55
 msgid "Files to send"
@@ -33,7 +33,7 @@ msgstr "Файлҳо барои фиристониш"
 
 #: ../src/nautilus-sendto.c:56
 msgid "Output version information and exit"
-msgstr ""
+msgstr "Намоиш додани иттилооти версия ва ҳориҷ шудан"
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
@@ -44,17 +44,18 @@ msgstr "Бойгонӣ"
 #: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
-msgstr ""
+msgstr "Имконоти хати фармон таҷзия карда намешаванд: %s\n"
 
 #: ../src/nautilus-sendto.c:524
 #, c-format
 msgid "No mail client installed, not sending files\n"
-msgstr ""
+msgstr "Ягон муштарии почтавӣ насб нашудааст ва файлҳоро фиристода нашудааст\n"
 
 #: ../src/nautilus-sendto.c:530
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr ""
+"Дар ҳоли интизори суроғаҳо ё номҳои файлҳо барои гузариш чун имконият\n"
 
 #~ msgid "Sharing %d folder"
 #~ msgid_plural "Sharing %d folders"
