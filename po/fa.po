@@ -6,10 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto gnome-2-32\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-03-20 14:12+0000\n"
-"PO-Revision-Date: 2013-03-22 12:10+0330\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-07-24 09:46+0000\n"
+"PO-Revision-Date: 2013-10-07 17:51+0330\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
@@ -18,15 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: ../src/nautilus-sendto.c:53
-#| msgid "Run from build directory"
 msgid "Run from build directory (ignored)"
 msgstr "اجرا از پوشه ساخت (نادیده گرفته شده)"
 
 #: ../src/nautilus-sendto.c:54
-#| msgid "Use XID as parent to the send dialogue"
 msgid "Use XID as parent to the send dialogue (ignored)"
 msgstr "استفاده از XID به عنوان والد برای محاوره‌ی ارسال (نادیده گرفته شده)"
 
@@ -40,21 +37,27 @@ msgstr "اطلاعات نسخه را نمایش و خارج می‌شود"
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
-#: ../src/nautilus-sendto.c:253
+#: ../src/nautilus-sendto.c:244
 msgid "Archive"
 msgstr "آرشیو"
 
-#: ../src/nautilus-sendto.c:520
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "امکان تجزیه گزینه‌های خط فرمان وجود ندارد: %s\n"
 
-#: ../src/nautilus-sendto.c:535
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "هیچ کارگیر پست‌الکترونیکی نصب نیست، پرونده‌ها ارسال نمی‌شود\n"
+
+#: ../src/nautilus-sendto.c:530
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "انتظار آدرس و یا نام یک پرونده را به عنوان گزینه را داشتم\n"
 
 #~ msgid "Sharing %d folder"
+
 #~ msgid_plural "Sharing %d folders"
 #~ msgstr[0] "درحال به اشتراک‌گذاری %Id پوشه"
 
@@ -62,22 +65,27 @@ msgstr "انتظار آدرس و یا نام یک پرونده را به عنو�
 #~ msgstr "درحال به اشتراک‌گذاری %Id پوشه و پرونده"
 
 #~ msgid "Sharing %d video"
+
 #~ msgid_plural "Sharing %d videos"
 #~ msgstr[0] "درحال به اشتراک‌گذاری %Id ویدئو"
 
 #~ msgid "Sharing %d photo"
+
 #~ msgid_plural "Sharing %d photos"
 #~ msgstr[0] "درحال به اشتراک‌گذاری %Id عکس"
 
 #~ msgid "Sharing %d image"
+
 #~ msgid_plural "Sharing %d images"
 #~ msgstr[0] "درحال به اشتراک‌گذاری %Id تصویر"
 
 #~ msgid "Sharing %d text file"
+
 #~ msgid_plural "Sharing %d text files"
 #~ msgstr[0] "درحال به اشتراک‌گذاری %Id پرونده متنی"
 
 #~ msgid "Sharing %d file"
+
 #~ msgid_plural "Sharing %d files"
 #~ msgstr[0] "درحال به اشتراک‌گذاری %Id پرونده"
 
