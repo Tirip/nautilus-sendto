@@ -8,273 +8,217 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto VERSION\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=nautilus-sendto&component=general\n"
-"POT-Creation-Date: 2011-01-20 18:18+0000\n"
-"PO-Revision-Date: 2011-08-13 22:55+0700\n"
-"Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
+"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-10-07 14:25+0000\n"
+"PO-Revision-Date: 2013-11-01 14:52+0700\n"
+"Last-Translator: Akom Chotiphantawanon <knight2000@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.5.7\n"
 
-#: ../src/nautilus-sendto-command.c:79
-msgid "Run from build directory"
-msgstr "เรียกทำงานจากไดเรกทอรีที่ใช้ประกอบสร้าง"
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr "เรียกทำงานจากไดเรกทอรีที่ใช้ประกอบสร้าง (ไม่ใช้)"
 
-#: ../src/nautilus-sendto-command.c:80
-msgid "Use XID as parent to the send dialogue"
-msgstr "ใช้ XID เป็นหน้าต่างแม่สำหรับกล่องโต้ตอบส่งแฟ้ม"
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "ใช้ XID เป็นหน้าต่างแม่สำหรับกล่องโต้ตอบส่งแฟ้ม (ไม่ใช้)"
 
-#: ../src/nautilus-sendto-command.c:81
+#: ../src/nautilus-sendto.c:55
 msgid "Files to send"
 msgstr "แฟ้มที่จะส่ง"
 
-#. FIXME, this needs to be done in UI now
-#: ../src/nautilus-sendto-command.c:669
-#, c-format
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "ต้องส่ง URI หรือชื่อแฟ้มต่างๆ มาในตัวเลือกด้วย\n"
+#: ../src/nautilus-sendto.c:56
+msgid "Output version information and exit"
+msgstr "แสดงข้อมูลรุ่นแล้วออก"
 
-#: ../src/nautilus-sendto-command.c:699
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:244
+msgid "Archive"
+msgstr "แฟ้มจัดเก็บ"
+
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "ไม่สามารถแจงตัวเลือกในบรรทัดคำสั่ง: %s\n"
 
-#: ../src/nautilus-sendto-mimetype.c:50
+#: ../src/nautilus-sendto.c:524
 #, c-format
-msgid "Sharing %d folder"
-msgid_plural "Sharing %d folders"
-msgstr[0] "แบ่งปันโฟลเดอร์ %d โฟลเดอร์"
+msgid "No mail client installed, not sending files\n"
+msgstr "ไม่ได้ติดตั้งโปรแกรมเมลไว้ ดังนั้นจะไม่ส่งแฟ้ม\n"
 
-#: ../src/nautilus-sendto-mimetype.c:52
+#: ../src/nautilus-sendto.c:530
 #, c-format
-msgid "Sharing %d folders and files"
-msgstr "แบ่งปันโฟลเดอร์และแฟ้ม %d รายการ"
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "ต้องส่ง URI หรือชื่อแฟ้มต่างๆ มาในตัวเลือกด้วย\n"
 
-#: ../src/nautilus-sendto-mimetype.c:77
-#, c-format
-msgid "Sharing %d video"
-msgid_plural "Sharing %d videos"
-msgstr[0] "แบ่งปันวีดิทัศน์ %d รายการ"
+#~ msgid "Sharing %d folder"
+#~ msgid_plural "Sharing %d folders"
+#~ msgstr[0] "แบ่งปันโฟลเดอร์ %d โฟลเดอร์"
 
-#: ../src/nautilus-sendto-mimetype.c:79
-#, c-format
-msgid "Sharing %d photo"
-msgid_plural "Sharing %d photos"
-msgstr[0] "แบ่งปันภาพถ่าย %d รายการ"
+#~ msgid "Sharing %d folders and files"
+#~ msgstr "แบ่งปันโฟลเดอร์และแฟ้ม %d รายการ"
 
-#: ../src/nautilus-sendto-mimetype.c:81
-#, c-format
-msgid "Sharing %d image"
-msgid_plural "Sharing %d images"
-msgstr[0] "แบ่งปันรูปภาพ %d รายการ"
+#~ msgid "Sharing %d video"
+#~ msgid_plural "Sharing %d videos"
+#~ msgstr[0] "แบ่งปันวีดิทัศน์ %d รายการ"
 
-#: ../src/nautilus-sendto-mimetype.c:83
-#, c-format
-msgid "Sharing %d text file"
-msgid_plural "Sharing %d text files"
-msgstr[0] "แบ่งปันแฟ้มข้อความ %d แฟ้ม"
+#~ msgid "Sharing %d photo"
+#~ msgid_plural "Sharing %d photos"
+#~ msgstr[0] "แบ่งปันภาพถ่าย %d รายการ"
 
-#: ../src/nautilus-sendto-mimetype.c:85
-#, c-format
-msgid "Sharing %d file"
-msgid_plural "Sharing %d files"
-msgstr[0] "แบ่งปันแฟ้ม %d แฟ้ม"
+#~ msgid "Sharing %d image"
+#~ msgid_plural "Sharing %d images"
+#~ msgstr[0] "แบ่งปันรูปภาพ %d รายการ"
 
-#: ../data/nautilus-sendto.ui.h:1
-msgid "_Send"
-msgstr "_ส่ง"
+#~ msgid "Sharing %d text file"
+#~ msgid_plural "Sharing %d text files"
+#~ msgstr[0] "แบ่งปันแฟ้มข้อความ %d แฟ้ม"
 
-#: ../src/plugins/nautilus-sendto-packer.c:200
-msgid "Files"
-msgstr "Files"
+#~ msgid "Sharing %d file"
+#~ msgid_plural "Sharing %d files"
+#~ msgstr[0] "แบ่งปันแฟ้ม %d แฟ้ม"
 
-#: ../src/plugins/nautilus-sendto-progress.c:187
-msgid "_Cancel"
-msgstr "_ยกเลิก"
+#~ msgid "_Send"
+#~ msgstr "_ส่ง"
 
-#: ../data/pack-entry.ui.h:1
-msgid "Send _packed in:"
-msgstr "ส่งแบบ_บีบอัดในแฟ้ม:"
+#~ msgid "_Cancel"
+#~ msgstr "_ยกเลิก"
 
-#: ../src/plugins/evolution/evolution.c:308
-msgid "Mail"
-msgstr "เมล"
+#~ msgid "Send _packed in:"
+#~ msgstr "ส่งแบบ_บีบอัดในแฟ้ม:"
 
-#: ../src/plugins/evolution/e-contact-entry.c:153
-#, c-format
-msgid "Cannot get contact: %s"
-msgstr "ไม่สามารถอ่านข้อมูลผู้ติดต่อได้: %s"
+#~ msgid "Mail"
+#~ msgstr "เมล"
 
-#: ../src/plugins/evolution/e-contact-entry.c:186
-#, c-format
-msgid "Could not find contact: %s"
-msgstr "หาผู้ติดต่อไม่พบ: %s"
+#~ msgid "Cannot get contact: %s"
+#~ msgstr "ไม่สามารถอ่านข้อมูลผู้ติดต่อได้: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:414
-msgid "Cannot create searchable view."
-msgstr "ไม่สามารถสร้างมุมมองที่ค้นหาได้"
+#~ msgid "Could not find contact: %s"
+#~ msgstr "หาผู้ติดต่อไม่พบ: %s"
 
-#: ../src/plugins/evolution/e-contact-entry.c:886
-msgid "Success"
-msgstr "สำเร็จ"
+#~ msgid "Cannot create searchable view."
+#~ msgstr "ไม่สามารถสร้างมุมมองที่ค้นหาได้"
 
-#: ../src/plugins/evolution/e-contact-entry.c:888
-msgid "An argument was invalid."
-msgstr "มีอาร์กิวเมนต์ที่ใช้การไม่ได้"
+#~ msgid "Success"
+#~ msgstr "สำเร็จ"
 
-#: ../src/plugins/evolution/e-contact-entry.c:890
-msgid "The address book is busy."
-msgstr "สมุดที่อยู่กำลังถูกใช้งานอยู่"
+#~ msgid "An argument was invalid."
+#~ msgstr "มีอาร์กิวเมนต์ที่ใช้การไม่ได้"
 
-#: ../src/plugins/evolution/e-contact-entry.c:892
-msgid "The address book is offline."
-msgstr "สมุดที่อยู่ออฟไลน์อยู่"
+#~ msgid "The address book is busy."
+#~ msgstr "สมุดที่อยู่กำลังถูกใช้งานอยู่"
 
-#: ../src/plugins/evolution/e-contact-entry.c:894
-msgid "The address book does not exist."
-msgstr "ไม่มีสมุดที่อยู่นี้"
+#~ msgid "The address book is offline."
+#~ msgstr "สมุดที่อยู่ออฟไลน์อยู่"
 
-#: ../src/plugins/evolution/e-contact-entry.c:896
-msgid "The \"Me\" contact does not exist."
-msgstr "ไม่มีที่อยู่ติดต่อ \"ฉัน (Me)\""
+#~ msgid "The address book does not exist."
+#~ msgstr "ไม่มีสมุดที่อยู่นี้"
 
-#: ../src/plugins/evolution/e-contact-entry.c:898
-msgid "The address book is not loaded."
-msgstr "ยังไม่ได้โหลดสมุดที่อยู่"
+#~ msgid "The \"Me\" contact does not exist."
+#~ msgstr "ไม่มีที่อยู่ติดต่อ \"ฉัน (Me)\""
 
-#: ../src/plugins/evolution/e-contact-entry.c:900
-msgid "The address book is already loaded."
-msgstr "โหลดสมุดที่อยู่เรียบร้อยแล้ว"
+#~ msgid "The address book is not loaded."
+#~ msgstr "ยังไม่ได้โหลดสมุดที่อยู่"
 
-#: ../src/plugins/evolution/e-contact-entry.c:902
-msgid "Permission was denied when accessing the address book."
-msgstr "ไม่ได้รับอนุญาตเมื่อพยายามเข้าใช้สมุดที่อยู่"
+#~ msgid "The address book is already loaded."
+#~ msgstr "โหลดสมุดที่อยู่เรียบร้อยแล้ว"
 
-#: ../src/plugins/evolution/e-contact-entry.c:904
-msgid "The contact was not found."
-msgstr "ไม่พบผู้ติดต่อนี้"
+#~ msgid "Permission was denied when accessing the address book."
+#~ msgstr "ไม่ได้รับอนุญาตเมื่อพยายามเข้าใช้สมุดที่อยู่"
 
-#: ../src/plugins/evolution/e-contact-entry.c:906
-msgid "This contact ID already exists."
-msgstr "มีชื่อผู้ติดต่อนี้อยู่ก่อนแล้ว"
+#~ msgid "The contact was not found."
+#~ msgstr "ไม่พบผู้ติดต่อนี้"
 
-#: ../src/plugins/evolution/e-contact-entry.c:908
-msgid "The protocol is not supported."
-msgstr "ไม่รองรับโพรโทคอลนี้"
+#~ msgid "This contact ID already exists."
+#~ msgstr "มีชื่อผู้ติดต่อนี้อยู่ก่อนแล้ว"
 
-#: ../src/plugins/evolution/e-contact-entry.c:910
-msgid "The operation was cancelled."
-msgstr "การกระทำถูกยกเลิก"
+#~ msgid "The protocol is not supported."
+#~ msgstr "ไม่รองรับโพรโทคอลนี้"
 
-#: ../src/plugins/evolution/e-contact-entry.c:912
-msgid "The operation could not be cancelled."
-msgstr "การกระทำไม่สามารถยกเลิกได้"
+#~ msgid "The operation was cancelled."
+#~ msgstr "การกระทำถูกยกเลิก"
 
-#: ../src/plugins/evolution/e-contact-entry.c:914
-msgid "The address book authentication failed."
-msgstr "ยืนยันตัวบุคคลกับสมุดที่อยู่ไม่สำเร็จ"
+#~ msgid "The operation could not be cancelled."
+#~ msgstr "การกระทำไม่สามารถยกเลิกได้"
 
-#: ../src/plugins/evolution/e-contact-entry.c:916
-msgid ""
-"Authentication is required to access the address book and was not given."
-msgstr "ต้องยืนยันตัวบุคคลก่อนเข้าใช้สมุดที่อยู่แต่ไม่ได้ทำ"
+#~ msgid "The address book authentication failed."
+#~ msgstr "ยืนยันตัวบุคคลกับสมุดที่อยู่ไม่สำเร็จ"
 
-#: ../src/plugins/evolution/e-contact-entry.c:918
-msgid "A secure connection is not available."
-msgstr "ไม่มีการเชื่อมต่อนิรภัยให้ใช้ได้"
+#~ msgid ""
+#~ "Authentication is required to access the address book and was not given."
+#~ msgstr "ต้องยืนยันตัวบุคคลก่อนเข้าใช้สมุดที่อยู่แต่ไม่ได้ทำ"
 
-#: ../src/plugins/evolution/e-contact-entry.c:920
-msgid "A CORBA error occurred whilst accessing the address book."
-msgstr "เกิดข้อผิดพลาด CORBA ขณะเข้าใช้สมุดที่อยู่"
+#~ msgid "A secure connection is not available."
+#~ msgstr "ไม่มีการเชื่อมต่อนิรภัยให้ใช้ได้"
 
-#: ../src/plugins/evolution/e-contact-entry.c:922
-msgid "The address book source does not exist."
-msgstr "แหล่งสมุดที่อยู่นี้ไม่มีอยู่"
+#~ msgid "A CORBA error occurred whilst accessing the address book."
+#~ msgstr "เกิดข้อผิดพลาด CORBA ขณะเข้าใช้สมุดที่อยู่"
 
-#: ../src/plugins/evolution/e-contact-entry.c:924
-#: ../src/plugins/evolution/e-contact-entry.c:927
-msgid "An unknown error occurred."
-msgstr "เกิดข้อผิดพลาดไม่ทราบสาเหตุ"
+#~ msgid "The address book source does not exist."
+#~ msgstr "แหล่งสมุดที่อยู่นี้ไม่มีอยู่"
 
-#: ../src/plugins/gajim/gajim.c:417
-msgid "Unable to send file"
-msgstr "ไม่สามารถส่งแฟ้มได้"
+#~ msgid "An unknown error occurred."
+#~ msgstr "เกิดข้อผิดพลาดไม่ทราบสาเหตุ"
 
-#: ../src/plugins/gajim/gajim.c:418
-msgid "There is no connection to gajim remote service."
-msgstr "ไม่มีการเชื่อมต่อไปยังบริการ gajim ในเครือข่าย"
+#~ msgid "Unable to send file"
+#~ msgstr "ไม่สามารถส่งแฟ้มได้"
 
-#: ../src/plugins/gajim/gajim.c:442 ../src/plugins/gajim/gajim.c:482
-msgid "Sending file failed"
-msgstr "ส่งแฟ้มไม่สำเร็จ"
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "ไม่มีการเชื่อมต่อไปยังบริการ gajim ในเครือข่าย"
 
-#: ../src/plugins/gajim/gajim.c:443
-msgid "Recipient is missing."
-msgstr "ไม่ได้ระบุผู้รับ"
+#~ msgid "Sending file failed"
+#~ msgstr "ส่งแฟ้มไม่สำเร็จ"
 
-#: ../src/plugins/gajim/gajim.c:482
-msgid "Unknown recipient."
-msgstr "ผู้รับผิดพลาด"
+#~ msgid "Recipient is missing."
+#~ msgstr "ไม่ได้ระบุผู้รับ"
 
-#: ../src/plugins/gajim/gajim.c:505
-msgid "Instant Message (Gajim)"
-msgstr "ข้อความด่วน (Gajim)"
+#~ msgid "Unknown recipient."
+#~ msgstr "ผู้รับผิดพลาด"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:90
-msgid "New CD/DVD"
-msgstr "ซีดี/ดีวีดี แผ่นใหม่"
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "ข้อความด่วน (Gajim)"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:97
-msgid "Existing CD/DVD"
-msgstr "ซีดี/ดีวีดี ที่มีอยู่"
+#~ msgid "New CD/DVD"
+#~ msgstr "ซีดี/ดีวีดี แผ่นใหม่"
 
-#: ../src/plugins/nautilus-burn/nautilus-burn.c:176
-msgid "CD/DVD Creator"
-msgstr "เครื่องมือเขียนซีดี/ดีวีดี"
+#~ msgid "Existing CD/DVD"
+#~ msgstr "ซีดี/ดีวีดี ที่มีอยู่"
 
-#: ../src/plugins/pidgin/pidgin.c:464
-msgid "Instant Message (Pidgin)"
-msgstr "ข้อความด่วน (Pidgin)"
+#~ msgid "CD/DVD Creator"
+#~ msgstr "เครื่องมือเขียนซีดี/ดีวีดี"
 
-#: ../src/plugins/removable-devices/removable-devices.c:274
-msgid "Removable disks and shares"
-msgstr "ดิสก์ถอดเสียบและแหล่งใช้ร่วม"
+#~ msgid "Instant Message (Pidgin)"
+#~ msgstr "ข้อความด่วน (Pidgin)"
 
-#: ../src/plugins/socialweb/socialweb.c:186
-#, c-format
-msgid "Uploading '%s'"
-msgstr "กำลังอัปโหลด '%s'"
+#~ msgid "Removable disks and shares"
+#~ msgstr "ดิสก์ถอดเสียบและแหล่งใช้ร่วม"
 
-#: ../src/plugins/socialweb/socialweb.c:256
-msgid "Preparing upload"
-msgstr "กำลังเตรียมอัปโหลด"
+#~ msgid "Uploading '%s'"
+#~ msgstr "กำลังอัปโหลด '%s'"
 
-#: ../src/plugins/socialweb/socialweb.c:316
-#, c-format
-msgid "Service '%s' is not configured."
-msgstr "บริการ '%s' ยังไม่ได้ตั้งค่า"
+#~ msgid "Preparing upload"
+#~ msgstr "กำลังเตรียมอัปโหลด"
 
-#: ../src/plugins/socialweb/socialweb.c:319
-#: ../src/plugins/socialweb/socialweb.c:336
-msgid "_Configure"
-msgstr "_ตั้งค่า"
+#~ msgid "Service '%s' is not configured."
+#~ msgstr "บริการ '%s' ยังไม่ได้ตั้งค่า"
 
-#: ../src/plugins/socialweb/socialweb.c:323
-#: ../src/plugins/socialweb/socialweb.c:343
-#, c-format
-msgid "Logged in to service '%s'."
-msgstr "เข้าระบบบริการ '%s' แล้ว"
+#~ msgid "_Configure"
+#~ msgstr "_ตั้งค่า"
 
-#: ../src/plugins/socialweb/socialweb.c:333
-#, c-format
-msgid "Could not log in to service '%s'."
-msgstr "ไม่สามารถเข้าระบบบริการ '%s'"
+#~ msgid "Logged in to service '%s'."
+#~ msgstr "เข้าระบบบริการ '%s' แล้ว"
 
-#: ../src/plugins/upnp/upnp.c:309
-msgid "UPnP Media Server"
-msgstr "เซิร์ฟเวอร์สื่อ UPnP"
+#~ msgid "Could not log in to service '%s'."
+#~ msgstr "ไม่สามารถเข้าระบบบริการ '%s'"
+
+#~ msgid "UPnP Media Server"
+#~ msgstr "เซิร์ฟเวอร์สื่อ UPnP"
 
 #~ msgid "Last plugin used to send"
 #~ msgstr "ปลั๊กอินล่าสุดที่ใช้ส่ง"
@@ -366,15 +310,6 @@ msgstr "เซิร์ฟเวอร์สื่อ UPnP"
 
 #~ msgid "Nautilus Sendto"
 #~ msgstr "Nautilus Sendto"
-
-#~ msgid ""
-#~ ".zip\n"
-#~ ".tar.gz\n"
-#~ ".tar.bz2"
-#~ msgstr ""
-#~ ".zip\n"
-#~ ".tar.gz\n"
-#~ ".tar.bz2"
 
 #~ msgid "Email (Balsa)"
 #~ msgstr "อีเมล (Balsa)"
