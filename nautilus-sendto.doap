@@ -5,7 +5,7 @@
 	 xmlns="http://usefulinc.com/ns/doap#">
 	<name xml:lang="en">nautilus-sendto</name>
 	<shortdesc xml:lang="en">Easily send files via mail</shortdesc>
-	<homepage rdf:resource="http://projects.gnome.org/totem/" />
+	<homepage rdf:resource="http://wiki.gnome.org/" />
 	<category rdf:resource="http://api.gnome.org/doap-extensions#desktop" />
 	<maintainer>
 		<foaf:Person>
