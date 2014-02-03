@@ -2,23 +2,23 @@
 # Kannada translation of nautilus-sendto.
 # Copyright (C) 2009 nautilus-sendto's COPYRIGHT HOLDER
 # This file is distributed under the same license as the nautilus-sendto package.
-#
+# 
 # Shankar Prasad <svenkate@redhat.com>, 2009, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto.po.master.kn\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-06-13 15:08+0000\n"
-"PO-Revision-Date: 2013-07-03 14:56+0530\n"
-"Last-Translator: Shankar Prasad <svenkte@redhat.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product="
+"nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-03-20 14:12+0000\n"
+"PO-Revision-Date: 2013-03-24 09:54-0400\n"
+"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
 "Language-Team: Kannada <en@li.org>\n"
-"Language: kn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.5\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: kn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Zanata 3.2.3\n"
 
 #: ../src/nautilus-sendto.c:53
 msgid "Run from build directory (ignored)"
@@ -38,225 +38,16 @@ msgstr "ಆವೃತ್ತಿಯ ಮಾಹಿತಿಯನ್ನು ತೋರಿ�
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
-#: ../src/nautilus-sendto.c:244
+#: ../src/nautilus-sendto.c:253
 msgid "Archive"
 msgstr "ಸಂಗ್ರಹ"
 
-#: ../src/nautilus-sendto.c:511
+#: ../src/nautilus-sendto.c:520
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "ಆಜ್ಞಾ-ಸಾಲಿನ ಆಯ್ಕೆಗಳನ್ನು ಪಾರ್ಸ್ ಮಾಡಲಾಗಿಲ್ಲ: %s\n"
 
-#: ../src/nautilus-sendto.c:524
-#, c-format
-msgid "No mail client installed, not sending files\n"
-msgstr ""
-"ಯಾವುದೆ ಅಂಚೆ ಕ್ಲೈಂಟ್ ಅನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ, ಕಡತಗಳನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತಿಲ್ಲ\n"
-
-#: ../src/nautilus-sendto.c:530
+#: ../src/nautilus-sendto.c:535
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "URIಗಳ ಅಥವ ಕಡತದ ಹೆಸರುಗಳನ್ನು ಆಯ್ಕೆಗಳಾಗಿ ನೀಡುವಂತೆ ಅಪೇಕ್ಷಿಸುತ್ತದೆ\n"
-
-#~ msgid "Last plugin used to send"
-#~ msgstr "ಕಳುಹಿಸಲು ಬಳಸಲಾದ ಕೊನೆಯ ಪ್ಲಗ್‌ಇನ್"
-
-#~ msgid "Last type of archive used"
-#~ msgstr "ಕೊನೆಯಲ್ಲಿ ಬಳಸಲಾದ ಅರ್ಕೈವ್‌ನ ಬಗೆ"
-
-#~ msgid ""
-#~ "Used to store which plugin was used the last time files were sent using "
-#~ "nautilus-sendto."
-#~ msgstr ""
-#~ "ಕಳೆದ ಬಾರಿ nautilus-sendto ಅನ್ನು ಬಳಸಿಕೊಂಡು ಕಡತಗಳನ್ನು ಕಳುಹಿಸುವಾಗ ಯಾವ ಪ್ಲಗ್‌ಇನ್ "
-#~ "ಅನ್ನು ಬಳಸಲಾಗಿತ್ತು ಎನ್ನುವುದನ್ನು ಶೇಖರಿಸಿಡಲು ಬಳಸಲಾಗುತ್ತದೆ."
-
-#~ msgid ""
-#~ "Used to store which type of archive was used the last time (0: zip, 1: "
-#~ "tar.gz, 2: tar.bz2)."
-#~ msgstr ""
-#~ "ಕಳೆದ ಬಾರಿಗೆ ಯಾವ ಬಗೆಯ ಆರ್ಕೈವನ್ನು ಬಳಸಲಾಗಿತ್ತು ಎನ್ನುವುದನ್ನು ಶೇಖರಿಸಿಡಲು "
-#~ "ಬಳಸಲಾಗುತ್ತದೆ (0: zip, 1: tar.gz, 2: tar.bz2)."
-
-#~ msgid "_Send to..."
-#~ msgstr "ಇಲ್ಲಿಗೆ ಕಳುಹಿಸು(_S)..."
-
-#~ msgid "Send files to remote devices, or people"
-#~ msgstr "ಕಡತಗಳನ್ನು ದೂರದಲ್ಲಿನ ಸಾಧನಗಳಿಗೆ, ಅಥವ ಜನರಿಗೆ ಕಳುಹಿಸಿ"
-
-#~ msgid "Send to..."
-#~ msgstr "ಇಲ್ಲಿಗೆ ಕಳುಹಿಸು..."
-
-#~ msgid "Nautilus Integration"
-#~ msgstr "ನಾಟಿಲಸ್ ಸಂಯೋಜನೆ"
-
-#~ msgid "Provides integration with Nautilus"
-#~ msgstr "ನಾಟಿಲಸ್‌ನೊಂದಿಗೆ ಸಂಯೋಜಿಸುತ್ತದೆ"
-
-#~ msgid "Send To..."
-#~ msgstr "ಇಲ್ಲಿಗೆ ಕಳುಹಿಸು..."
-
-#~ msgid "Send file by mail, instant message..."
-#~ msgstr "ಕಡತವನ್ನು ಮೇಲ್‌ನ ಮೂಲಕ, ಕ್ಷಿಪ್ರ ಸಂದೇಶದ ಮೂಲಕ ಕಳುಹಿಸಿ..."
-
-#~ msgid "Send files by mail, instant message..."
-#~ msgstr "ಕಡತಗಳನ್ನು ಮೇಲ್‌ನ ಮೂಲಕ, ಕ್ಷಿಪ್ರ ಸಂದೇಶದ ಮೂಲಕ ಕಳುಹಿಸಿ..."
-
-#~ msgid "Files"
-#~ msgstr "ಕಡತಗಳು"
-
-#~ msgid "Nautilus Sendto"
-#~ msgstr "Nautilus Sendto"
-
-#~ msgid "Could not load any plugins."
-#~ msgstr "ಯಾವುದೆ ಪ್ಲಗ್‌ಇನ್‌ಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ."
-
-#~ msgid "Please verify your installation"
-#~ msgstr "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಅನುಸ್ಥಾಪನೆಯನ್ನು ಪರಿಶೀಲಿಸಿ"
-
-#~ msgid "<b>Compression</b>"
-#~ msgstr "<b>ಸಂಕುಚನ</b>"
-
-#~ msgid "<b>Destination</b>"
-#~ msgstr "<b>ಗುರಿ</b>"
-
-#~ msgid "Send _as:"
-#~ msgstr "ಹೀಗೆ ಕಳುಹಿಸು(_a):"
-
-#~ msgid "Send _packed in:"
-#~ msgstr "ಪ್ಯಾಕ್‌ ಮಾಡಿದ್ದನ್ನು ಇಲ್ಲಿ ಕಳುಹಿಸು(_p):"
-
-#~ msgid "Send t_o:"
-#~ msgstr "ಇಲ್ಲಿಗೆ ಕಳುಹಿಸು(_o):"
-
-#~ msgid "_Send"
-#~ msgstr "ಕಳುಹಿಸು(_S)"
-
-#~ msgid "Programming error, could not find the device in the list"
-#~ msgstr "ಪ್ರೊಗ್ರಾಮಿಂಗ್ ದೋಷ, ಪಟ್ಟಿಯಲ್ಲಿನ ಸಾಧನವು ಕಂಡುಬಂದಿಲ್ಲ"
-
-#~ msgid "Obex Push file transfer unsupported"
-#~ msgstr "Obex ಪುಶ್ ಕಡತ ವರ್ಗಾವಣೆಯು ಬೆಂಬಲಿತವಾಗಿಲ್ಲ"
-
-#~ msgid "Bluetooth (OBEX Push)"
-#~ msgstr "ಬ್ಲೂಟೂತ್ (OBEX ಪುಶ್)"
-
-#~ msgid "The contact selected cannot receive files."
-#~ msgstr "ಆಯ್ಕೆ ಮಾಡಲಾದ ಸಂಪರ್ಕ ವಿಳಾಸವು ಕಡತಗಳನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ."
-
-#~ msgid "The contact selected is offline."
-#~ msgstr "ಆಯ್ಕೆ ಮಾಡಲಾದ ಸಂಪರ್ಕ ವಿಳಾಸವು ಆಫ್‌ಲೈನಿನಲ್ಲಿದೆ."
-
-#~ msgid "No error message"
-#~ msgstr "ಯಾವುದೆ ದೋಷ ಸಂದೇಶವಿಲ್ಲ"
-
-#~ msgid "Instant Message (Empathy)"
-#~ msgstr "ಕ್ಷಿಪ್ರ ಸಂದೇಶ (Empathy)"
-
-#~ msgid "Email"
-#~ msgstr "ಇಮೇಲ್"
-
-#~ msgid "Cannot get contact: %s"
-#~ msgstr "ಸಂಪರ್ಕ ವಿಳಾಸವು ಪಡೆಯಲಾಗಿಲ್ಲ: %s"
-
-#~ msgid "Could not find contact: %s"
-#~ msgstr "ಸಂಪರ್ಕ ವಿಳಾಸವು ಕಂಡುಬಂದಿಲ್ಲ: %s"
-
-#~ msgid "Cannot create searchable view."
-#~ msgstr "ಹುಡುಕಬಹುದಾದ ನೋಟವನ್ನು ರಚಿಸಲಾಗಿಲ್ಲ."
-
-#~ msgid "Success"
-#~ msgstr "ಯಶಸ್ವಿಯಾಗಿದೆ"
-
-#~ msgid "An argument was invalid."
-#~ msgstr "ಒಂದು ಆರ್ಗುಮೆಂಟ್ ಅಮಾನ್ಯವಾಗಿದೆ."
-
-#~ msgid "The address book is busy."
-#~ msgstr "ವಿಳಾಸ ಪುಸ್ತಕವು ಕಾರ್ಯನಿರತವಾಗಿದೆ."
-
-#~ msgid "The address book is offline."
-#~ msgstr "ವಿಳಾಸ ಪುಸ್ತಕವು ಆಫ್‌ಲೈನಿನಲ್ಲಿದೆ."
-
-#~ msgid "The address book does not exist."
-#~ msgstr "ವಿಳಾಸಪುಸ್ತಕವು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ."
-
-#~ msgid "The \"Me\" contact does not exist."
-#~ msgstr "\"ನಾನು\" ಸಂಪರ್ಕವಿಳಾಸವು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ."
-
-#~ msgid "The address book is not loaded."
-#~ msgstr "ವಿಳಾಸಪುಸ್ತಕವನ್ನು ಈಗಾಗಲೆ ಲೋಡ್ ಮಾಡಲಾಗಿಲ್ಲ."
-
-#~ msgid "The address book is already loaded."
-#~ msgstr "ವಿಳಾಸಪುಸ್ತಕವನ್ನು ಈಗಾಗಲೆ ಲೋಡ್ ಮಾಡಲಾಗಿದೆ."
-
-#~ msgid "Permission was denied when accessing the address book."
-#~ msgstr "ವಿಳಾಸಪುಸ್ತಕವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವಾಗ ಅನುಮತಿಯನ್ನು ನಿರಾಕರಿಸಲಾಗಿದೆ."
-
-#~ msgid "The contact was not found."
-#~ msgstr "ಸಂಪರ್ಕವಿಳಾಸವು ಕಂಡುಬಂದಿಲ್ಲ."
-
-#~ msgid "This contact ID already exists."
-#~ msgstr "ಈ ಸಂಪರ್ಕ ID ಯು ಈಗಾಗಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ."
-
-#~ msgid "The protocol is not supported."
-#~ msgstr "ಪ್ರೊಟೊಕಾಲ್ ಬೆಂಬಲಿತವಾಗಿಲ್ಲ."
-
-#~ msgid "The operation was cancelled."
-#~ msgstr "ಕಾರ್ಯವನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ."
-
-#~ msgid "The operation could not be cancelled."
-#~ msgstr "ಕಾರ್ಯವನ್ನು ರದ್ದುಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
-
-#~ msgid "The address book authentication failed."
-#~ msgstr "ವಿಳಾಸಪುಸ್ತಕದ ದೃಢೀಕರಣವು ವಿಫಲಗೊಂಡಿದೆ."
-
-#~ msgid ""
-#~ "Authentication is required to access the address book and was not given."
-#~ msgstr ""
-#~ "ವಿಳಾಸಪುಸ್ತಕವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಒಂದು ದೃಢೀಕರಣದ ಅಗತ್ಯವಿದೆ ಆದರೆ ಅದನ್ನು "
-#~ "ಒದಗಿಸಲಾಗಿಲ್ಲ."
-
-#~ msgid "A secure connection is not available."
-#~ msgstr "ಒಂದು ಸುರಕ್ಷಿತ ಸಂಪರ್ಕವು ಲಭ್ಯವಿಲ್ಲ."
-
-#~ msgid "A CORBA error occurred whilst accessing the address book."
-#~ msgstr "ವಿಳಾಸ ಪುಸ್ತಕವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವಾಗ ಒಂದು CORBA ದೋಷವು ಎದುರಾಗಿದೆ."
-
-#~ msgid "The address book source does not exist."
-#~ msgstr "ವಿಳಾಸ ಪುಸ್ತಕದ ಮೂಲವು ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ."
-
-#~ msgid "An unknown error occurred."
-#~ msgstr "ಒಂದು ಅಜ್ಞಾತ ದೋಷವು ಎದುರಾಗಿದೆ."
-
-#~ msgid "There is no connection to gajim remote service."
-#~ msgstr "gajim ದೂರಸ್ಥ ಸೇವೆಗೆ ಯಾವುದೆ ಸಂಪರ್ಕವಿಲ್ಲ."
-
-#~ msgid "Sending file failed"
-#~ msgstr "ಕಡತವನ್ನು ಕಳುಹಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
-
-#~ msgid "Recipient is missing."
-#~ msgstr "ಸ್ವೀಕರಿಸುವವರ ವಿಳಾಸವಿಲ್ಲ."
-
-#~ msgid "Unknown recipient."
-#~ msgstr "ಸ್ವೀಕರಿಸುವವರ ಬಗೆಗೆ ತಿಳಿದಿಲ್ಲ."
-
-#~ msgid "Instant Message (Gajim)"
-#~ msgstr "ಕ್ಷಿಪ್ರ ಸಂದೇಶ (Gajim)"
-
-#~ msgid "New CD/DVD"
-#~ msgstr "ಹೊಸ CD/DVD"
-
-#~ msgid "Existing CD/DVD"
-#~ msgstr "ಈಗಿರುವ CD/DVD"
-
-#~ msgid "CD/DVD Creator"
-#~ msgstr "CD/DVD ನಿರ್ಮಾಣಗಾರ"
-
-#~ msgid "Instant Message (Pidgin)"
-#~ msgstr "ಕ್ಷಿಪ್ರ ಸಂದೇಶ (Pidgin)"
-
-#~ msgid "Removable disks and shares"
-#~ msgstr "ತೆಗೆಯಬಹುದಾದ ಡಿಸ್ಕುಗಳು ಹಾಗು ಹಂಚಿಕೆಗಳು"
-
-#~ msgid "UPnP Media Server"
-#~ msgstr "UPnP ಮಾಧ್ಯಮ ಪರಿಚಾರಕ"
