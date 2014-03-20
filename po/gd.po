@@ -1,0 +1,249 @@
+# Scottish Gaelic translation for nautilus-sendto.
+# Copyright (C) 2014 nautilus-sendto's COPYRIGHT HOLDER
+# This file is distributed under the same license as the nautilus-sendto package.
+# GunChleoc <fios@foramnagaidhlig.net>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-sendto master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product"
+"=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-03-20 11:06+0000\n"
+"PO-Revision-Date: 2014-03-20 21:10+0200\n"
+"Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
+"Language-Team: Fòram na Gàidhlig http://www.foramnagaidhlig.net\n"
+"Language: gd\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 || n==11) ? 0 : (n==2 || n==12) ? 1 : "
+"(n > 2 && n < 20) ? 2 : 3;\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
+
+#: ../src/nautilus-nste.c:90 ../src/nautilus-nste.c:95
+#: ../src/nautilus-sendto.ui.h:1
+msgid "Send To..."
+msgstr "Cuir gu..."
+
+#: ../src/nautilus-nste.c:91
+msgid "Send file by mail, instant message..."
+msgstr "Cuir am faidhle air a' phost-d, mar ghrad-theachdaireachd..."
+
+#: ../src/nautilus-nste.c:96
+msgid "Send files by mail, instant message..."
+msgstr "Cuir faidhlichean air a' phost-d, mar ghrad-theachdaireachd..."
+
+#: ../src/nautilus-sendto-command.c:592
+msgid "Files"
+msgstr "Faidhlichean"
+
+#: ../src/nautilus-sendto-command.c:802
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "Tha dùil aige ri URIean no ainmean fhaidhle mar roghainnean\n"
+
+#: ../src/nautilus-sendto-command.c:824
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "Cha b' urrainn dhuinn roghainnean na loidhne-àithne a pharsadh: %s\n"
+
+#: ../src/nautilus-sendto-command.c:839
+msgid "Could not load any plugins."
+msgstr "Cha deach leinn plugan sam bith a luchdadh."
+
+#: ../src/nautilus-sendto-command.c:842
+msgid "Please verify your installation"
+msgstr "An dearbhaich thu an stàladh agad?"
+
+#: ../src/nautilus-sendto.ui.h:2
+msgid "_Send"
+msgstr "_Cuir"
+
+#: ../src/nautilus-sendto.ui.h:3
+msgid "<b>Destination</b>"
+msgstr "<b>Ceann-uidhe</b>"
+
+#: ../src/nautilus-sendto.ui.h:4
+msgid "Send _as:"
+msgstr "Cuir m_ar:"
+
+#: ../src/nautilus-sendto.ui.h:5
+msgid "Send t_o:"
+msgstr "Cuir _gu:"
+
+#: ../src/nautilus-sendto.ui.h:6
+msgid "<b>Compression</b>"
+msgstr "<b>Dùmhlachadh</b>"
+
+#: ../src/nautilus-sendto.ui.h:7
+msgid "Send _packed in:"
+msgstr "Cuir _dùmhlaichte e ann an:"
+
+#: ../src/plugins/evolution/evolution.c:381
+msgid "Email"
+msgstr "Post-d"
+
+#: ../src/plugins/evolution/e-contact-entry.c:148
+#, c-format
+msgid "Cannot get contact: %s"
+msgstr "Chan urrainn dhuinn an neach-aithne fhaighinn: %s"
+
+#: ../src/plugins/evolution/e-contact-entry.c:181
+#, c-format
+msgid "Could not find contact: %s"
+msgstr "Cha b' urrainn dhuinn an neach-aithne a lorg: %s"
+
+#: ../src/plugins/evolution/e-contact-entry.c:400
+msgid "Cannot create searchable view."
+msgstr "Chan urrainn dhuinn sealladh a chruthachadh a ghabhas lorg."
+
+#: ../src/plugins/evolution/e-contact-entry.c:862
+msgid "Success"
+msgstr "Shoirbhich leis"
+
+#: ../src/plugins/evolution/e-contact-entry.c:864
+msgid "An argument was invalid."
+msgstr "Bha argamaid mhì-dhligheach ann."
+
+#: ../src/plugins/evolution/e-contact-entry.c:866
+msgid "The address book is busy."
+msgstr "Tha leabhar nan seòladh trang."
+
+#: ../src/plugins/evolution/e-contact-entry.c:868
+msgid "The address book is offline."
+msgstr "Tha leabhar nan seòladh far loidhne."
+
+#: ../src/plugins/evolution/e-contact-entry.c:870
+msgid "The address book does not exist."
+msgstr "Chan eil leabhar nan seòladh ann."
+
+#: ../src/plugins/evolution/e-contact-entry.c:872
+msgid "The \"Me\" contact does not exist."
+msgstr "Chan eil an neach-aithne \"Mise\" ann."
+
+#: ../src/plugins/evolution/e-contact-entry.c:874
+msgid "The address book is not loaded."
+msgstr "Cha deach leabhar nan seòladh a luchdadh."
+
+#: ../src/plugins/evolution/e-contact-entry.c:876
+msgid "The address book is already loaded."
+msgstr "Chaidh leabhar nan seòladh a luchdadh mu thràth."
+
+#: ../src/plugins/evolution/e-contact-entry.c:878
+msgid "Permission was denied when accessing the address book."
+msgstr "Chaidh cead a dhiùltadh gus leabhar nan seòladh inntrigeadh."
+
+#: ../src/plugins/evolution/e-contact-entry.c:880
+msgid "The contact was not found."
+msgstr "Cha deach an neach-aithne a lorg."
+
+#: ../src/plugins/evolution/e-contact-entry.c:882
+msgid "This contact ID already exists."
+msgstr "Tha aID an neach-aithne seo ann mu thràth."
+
+#: ../src/plugins/evolution/e-contact-entry.c:884
+msgid "The protocol is not supported."
+msgstr "Cha chuirear taic ris a' phròtacal."
+
+#: ../src/plugins/evolution/e-contact-entry.c:886
+msgid "The operation was cancelled."
+msgstr "Chaidh sgur dhen obrachadh."
+
+#: ../src/plugins/evolution/e-contact-entry.c:888
+msgid "The operation could not be cancelled."
+msgstr "Cha b' urrainn dhuinn sgur dhen obrachadh."
+
+#: ../src/plugins/evolution/e-contact-entry.c:890
+msgid "The address book authentication failed."
+msgstr "Dh'fhàillig le dearbhadh leabhar nan seòladh."
+
+#: ../src/plugins/evolution/e-contact-entry.c:892
+msgid ""
+"Authentication is required to access the address book and was not given."
+msgstr ""
+"Tha dearbhadh a dhìth ach am faigh thu inntrigeadh dha leabhar nan seòladh "
+"'s cha deach a thoirt seachad."
+
+#: ../src/plugins/evolution/e-contact-entry.c:894
+msgid "A secure connection is not available."
+msgstr "Chan eil ceangal tèarainte ri fhaighinn."
+
+#: ../src/plugins/evolution/e-contact-entry.c:896
+msgid "A CORBA error occurred whilst accessing the address book."
+msgstr ""
+"Thachair mearachd CORBA fhad 's a bhathar ag inntrigeadh leabhar nan "
+"seòladh."
+
+#: ../src/plugins/evolution/e-contact-entry.c:898
+msgid "The address book source does not exist."
+msgstr "Chan eil tùs leabhar nan seòladh ann."
+
+#: ../src/plugins/evolution/e-contact-entry.c:900
+#: ../src/plugins/evolution/e-contact-entry.c:903
+msgid "An unknown error occurred."
+msgstr "Thachair mearachd neo-aithnichte."
+
+#: ../src/plugins/gajim/gajim.c:418
+#| msgid "Files to send"
+msgid "Unable to send file"
+msgstr "Chan urrainn dhuinn am faidhle a chur"
+
+#: ../src/plugins/gajim/gajim.c:419
+msgid "There is no connection to gajim remote service."
+msgstr "Chan eil ceangal ris an t-seirbheis gajim chèin ann."
+
+#: ../src/plugins/gajim/gajim.c:443 ../src/plugins/gajim/gajim.c:483
+msgid "Sending file failed"
+msgstr "Dh'fhàillig le cur an fhaidhle"
+
+#: ../src/plugins/gajim/gajim.c:444
+msgid "Recipient is missing."
+msgstr "Cha am faightear a dhìth."
+
+#: ../src/plugins/gajim/gajim.c:483
+msgid "Unknown recipient."
+msgstr "Faightear neo-aithnichte."
+
+#: ../src/plugins/gajim/gajim.c:506
+msgid "Instant Message (Gajim)"
+msgstr "Grad-theachdaireachd (Gajim)"
+
+#: ../src/plugins/nautilus-burn/nautilus-burn.c:92
+msgid "New CD/DVD"
+msgstr "CD/DVD ùr"
+
+#: ../src/plugins/nautilus-burn/nautilus-burn.c:99
+msgid "Existing CD/DVD"
+msgstr "CD/DVD a tha ann"
+
+#: ../src/plugins/nautilus-burn/nautilus-burn.c:178
+msgid "CD/DVD Creator"
+msgstr "Cruthadair CD/DVD"
+
+#: ../src/plugins/pidgin/pidgin.c:464
+msgid "Instant Message (Pidgin)"
+msgstr "Grad-theachdaireachd (Pidgin)"
+
+#: ../src/plugins/removable-devices/removable-devices.c:248
+msgid "Removable disks and shares"
+msgstr "Diosgan so-ghiùlan 's nithean co-roinnte"
+
+#: ../src/plugins/upnp/upnp.c:309
+msgid "UPnP Media Server"
+msgstr "Frithealaiche mheadhanan UPnP"
+
+#~ msgid "Run from build directory (ignored)"
+#~ msgstr "Ruith o phasgan an togail (air a leigeil seachad)"
+
+#~ msgid "Use XID as parent to the send dialogue (ignored)"
+#~ msgstr "Cleachd XID mar phàrant a' chòmhraidh cuir (air a leigeil seachad)"
+
+#~ msgid "Output version information and exit"
+#~ msgstr "Seall fiosrachadh an tionndaidh is fàg an-seo"
+
+#~ msgid "Archive"
+#~ msgstr "Tasg-lann"
+
+#~ msgid "No mail client installed, not sending files\n"
+#~ msgstr ""
+#~ "Chan eil cliant puist stàlaichte ann 's cha chuir sinn na faidhlichean\n"
