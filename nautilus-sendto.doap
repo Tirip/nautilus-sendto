@@ -6,6 +6,8 @@
 	<name xml:lang="en">nautilus-sendto</name>
 	<shortdesc xml:lang="en">Easily send files via mail</shortdesc>
 	<homepage rdf:resource="http://wiki.gnome.org/" />
+	<download-page rdf:resource="http://download.gnome.org/sources/nautilus-sendto/" />
+	<bug-database rdf:resource="https://bugzilla.gnome.org/browse.cgi?product=nautilus-sendto" />
 	<category rdf:resource="http://api.gnome.org/doap-extensions#desktop" />
 	<maintainer>
 		<foaf:Person>
