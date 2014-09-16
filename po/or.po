@@ -5,14 +5,14 @@
 # $Id: or.po,v 1.2 2006/04/07 13:53:03 hadess Exp $
 #
 # Gora Mohanty <gora_mohanty@yahoo.co.in>, 2006.
-# Manoj Kumar Giri <mgiri@redhat.com>, 2009, 2013.
+# Manoj Kumar Giri <mgiri@redhat.com>, 2009, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: or\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-03-20 14:12+0000\n"
-"PO-Revision-Date: 2013-03-22 18:00+0530\n"
+"POT-Creation-Date: 2014-09-15 10:06+0000\n"
+"PO-Revision-Date: 2014-09-16 17:16+0530\n"
 "Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
 "Language-Team: Oriya <oriya-it@googlegroups.com>\n"
 "Language: or\n"
@@ -32,7 +32,6 @@ msgid "Use XID as parent to the send dialogue (ignored)"
 msgstr "ପଠା ହୋଇଥିବା ସଂଳାପରେ XID କୁ ମୂଖ୍ୟ ଭାବରେ ବ୍ୟବହାର କରନ୍ତୁ (ଅଗ୍ରହଣୀୟ)"
 
 #: ../src/nautilus-sendto.c:55
-#| msgid "Unable to send file"
 msgid "Files to send"
 msgstr "ପଠାଇବାକୁ ଥିବା ଫାଇଲ"
 
@@ -42,16 +41,21 @@ msgstr "ସଂସ୍କରଣ ସୂଚନା ଫଳାଫଳ ଦିଅନ୍ତ
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
-#: ../src/nautilus-sendto.c:253
+#: ../src/nautilus-sendto.c:244
 msgid "Archive"
 msgstr "ଅଭିଲେଖ"
 
-#: ../src/nautilus-sendto.c:520
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "ନିର୍ଦ୍ଦେଶ ନାମା ବିକଳ୍ପଗୁଡ଼ିକୁ ବିଶ୍ଳେଷଣ କରିପାରିଲା ନାହିଁ: %s\n"
 
-#: ../src/nautilus-sendto.c:535
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "କୌଣସି ମେଲ କ୍ଲାଏଣ୍ଟ ସ୍ଥାପିତ ନାହିଁ, ଫାଇଲଗୁଡ଼ିକୁ ପଠାଉ ନାହିଁ\n"
+
+#: ../src/nautilus-sendto.c:530
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "URIs କିମ୍ବା ଫାଇଲନାମଗୁଡ଼ିକୁ ବିକଳ୍ପ ଭାବରେ ପଠାଯାଇଥାଏ\n"
