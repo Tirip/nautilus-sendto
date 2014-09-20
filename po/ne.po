@@ -13,189 +13,165 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto.HEAD.ne\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-08-22 17:20+0100\n"
-"PO-Revision-Date: 2007-11-14 14:03+0545\n"
-"Last-Translator: Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2013-12-19 15:53+0000\n"
+"PO-Revision-Date: 2014-09-20 16:44+0400\n"
+"Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
+"Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=n !=1\n"
 
-#: ../nst.schemas.in.h:1
-msgid "Last plugin used to send"
-msgstr "पठाउनका लागि प्रयोग गरिएको अन्तिम प्लगइन"
+#: ../src/nautilus-sendto.c:53
+msgid "Run from build directory (ignored)"
+msgstr "बनेको फोल्डरबाट चलाउनुहोस (ignored)"
 
-#: ../nst.schemas.in.h:2
-msgid "Last type of archive used"
-msgstr "अन्तिम प्रकारको सङ्ग्रह प्रयोग गरियो"
+#: ../src/nautilus-sendto.c:54
+msgid "Use XID as parent to the send dialogue (ignored)"
+msgstr "सम्बाद पठाउन XID प्यारेन्टको प्रयोग गर्नुहोस् (ignored)"
 
-#: ../nst.schemas.in.h:3
-msgid ""
-"Used to store which plugin was used the last time files were sent using "
-"nautilus-sendto."
-msgstr "नउटिलस-मा पठाउनुहोस् प्रयोग गरेर अन्तिम पटक फाइल पठाउन प्रयोग गरिएको प्लगइन भण्डारण गर्न प्रयोग गरियो ।"
+#: ../src/nautilus-sendto.c:55
+#| msgid "Unable to send file"
+msgid "Files to send"
+msgstr "फाइल पठाउन असक्षम भयो"
 
-#: ../nst.schemas.in.h:4
-msgid ""
-"Used to store which type of archive was used the last time (0: zip, 1: tar."
-"gz, 2: tar.bz2)."
-msgstr ""
-"अन्तिम पटक प्रयोग गरिएको सङ्ग्रहको प्रकार भण्डारण गर्न प्रयोग गरियो (0: zip, 1: tar."
-"gz, 2: tar.bz2) ।"
+#: ../src/nautilus-sendto.c:56
+msgid "Output version information and exit"
+msgstr "संस्करण सूचना देखाउनुहोस् र निस्कनुहोस्"
 
-#. type
-#. ui requirement
-#. flags
-#. dependencies
-#. priority
-#. id
-#: ../gaim_plugin/nautilus-sendto-plugin.c:308
-#: ../pidgin_plugin/nautilus-sendto-plugin.c:308
-msgid "Nautilus Integration"
-msgstr "नउटिलस इन्टिग्रेसन"
+#. Translators: the default archive name if it
+#. * could not be deduced from the provided files
+#: ../src/nautilus-sendto.c:244
+msgid "Archive"
+msgstr "सङ्ग्रहित"
 
-#. name
-#. version
-#. summary
-#. name
-#. version
-#. summary
-#: ../gaim_plugin/nautilus-sendto-plugin.c:310
-#: ../gaim_plugin/nautilus-sendto-plugin.c:311
-#: ../pidgin_plugin/nautilus-sendto-plugin.c:310
-#: ../pidgin_plugin/nautilus-sendto-plugin.c:311
-msgid "Provides integration with Nautilus"
-msgstr "नउटिलससँग इन्टिग्रेसन प्रदान गर्दछ"
-
-#: ../src/nautilus-nste.c:95 ../src/nautilus-nste.c:100
-msgid "Send to..."
-msgstr "यसमा पठाउनुहोस्..."
-
-#: ../src/nautilus-nste.c:96
-msgid "Send file by mail, instant message..."
-msgstr "फाइल मेल, शीघ्र सन्देश मार्फत पठाउनुहोस्..."
-
-#: ../src/nautilus-nste.c:101
-msgid "Send files by mail, instant message..."
-msgstr "फाइलहरू मेल, शीघ्र सन्देश मार्फत पठाउनुहोस्..."
-
-#: ../src/nautilus-sendto-command.c:73
-msgid "Default folder to use"
-msgstr "प्रयोग गर्नका लागि पूर्वनिर्धारित फोल्डर"
-
-#: ../src/nautilus-sendto-command.c:248
-msgid "You don't insert the package name"
-msgstr "तपाईँले प्याकेज नाम राख्नु भएन"
-
-#: ../src/nautilus-sendto-command.c:509
-msgid "Files"
-msgstr "फाइल"
-
-#: ../src/nautilus-sendto-command.c:699
-msgid "Expects URIs or filenames to be passed as options\n"
-msgstr "विकल्पको रूपमा पास गर्न यूआरआईहरू वा फाइलनामहरू अपेक्षा गर्दछ\n"
-
-#: ../src/nautilus-sendto-command.c:716
-msgid "Nautilus Sendto"
-msgstr "नउटिलस पठाउनुहोस्"
-
-#: ../src/nautilus-sendto-command.c:720
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "आदेश-रेखा विकल्प पद वर्णन गर्न सकेन: %s\n"
 
-#: ../src/nautilus-sendto-command.c:735
-msgid "Could not load any plugins."
-msgstr "कुनै प्लगइनहरू लोड गर्न सकेन ।"
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "मेल अनुप्रयोग नभएकोले फाईल पठाईएन \n"
 
-#: ../src/nautilus-sendto-command.c:738
-msgid "Please verify your installation"
-msgstr "कृपया तपाईँको स्थापना रूजु गर्नुहोस्"
+#: ../src/nautilus-sendto.c:530
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "विकल्पको रूपमा पास गर्न यूआरआईहरू वा फाइलनामहरू अपेक्षा गर्दछ\n"
 
-#: ../src/nautilus-sendto.glade.h:1
-msgid "<b>Compression</b>"
-msgstr "<b>सङ्कुचन</b>"
+#~ msgid "Last plugin used to send"
+#~ msgstr "पठाउनका लागि प्रयोग गरिएको अन्तिम प्लगइन"
 
-#: ../src/nautilus-sendto.glade.h:2
-msgid "<b>Destination</b>"
-msgstr "<b>गन्तब्य</b>"
+#~ msgid "Last type of archive used"
+#~ msgstr "अन्तिम प्रकारको सङ्ग्रह प्रयोग गरियो"
 
-#: ../src/nautilus-sendto.glade.h:3
-msgid "Send To..."
-msgstr "यसलाई पठाउनुहोस्..."
+#~ msgid ""
+#~ "Used to store which plugin was used the last time files were sent using "
+#~ "nautilus-sendto."
+#~ msgstr ""
+#~ "नउटिलस-मा पठाउनुहोस् प्रयोग गरेर अन्तिम पटक फाइल पठाउन प्रयोग गरिएको प्लगइन "
+#~ "भण्डारण गर्न प्रयोग गरियो ।"
 
-#: ../src/nautilus-sendto.glade.h:4
-msgid "Send _as:"
-msgstr "यस रूपमा पठाउनुहोस्:"
+#~ msgid ""
+#~ "Used to store which type of archive was used the last time (0: zip, 1: "
+#~ "tar.gz, 2: tar.bz2)."
+#~ msgstr ""
+#~ "अन्तिम पटक प्रयोग गरिएको सङ्ग्रहको प्रकार भण्डारण गर्न प्रयोग गरियो (0: zip, 1: "
+#~ "tar.gz, 2: tar.bz2) ।"
 
-#: ../src/nautilus-sendto.glade.h:5
-msgid "Send t_o:"
-msgstr "यसलाई पठाउनुहोस्:"
+#~ msgid "Nautilus Integration"
+#~ msgstr "नउटिलस इन्टिग्रेसन"
 
-#: ../src/nautilus-sendto.glade.h:6
-msgid "_Send"
-msgstr "पठाउनुहोस्"
+#~ msgid "Provides integration with Nautilus"
+#~ msgstr "नउटिलससँग इन्टिग्रेसन प्रदान गर्दछ"
 
-#: ../src/nautilus-sendto.glade.h:7
-msgid "_Send packed in:"
-msgstr "प्याक गरिएको पठाउनुहोस्:"
+#~ msgid "Send to..."
+#~ msgstr "यसमा पठाउनुहोस्..."
 
-#: ../src/plugins/balsa.c:103
-msgid "Email (Balsa)"
-msgstr "इमेल (बाल्सा)"
+#~ msgid "Send file by mail, instant message..."
+#~ msgstr "फाइल मेल, शीघ्र सन्देश मार्फत पठाउनुहोस्..."
 
-#: ../src/plugins/bluetooth.c:421
-msgid "Programming error, could not find the device in the list"
-msgstr "प्रोग्रामिङ त्रुटि, सूचीमा यन्त्र फेला पार्न सकेन"
+#~ msgid "Send files by mail, instant message..."
+#~ msgstr "फाइलहरू मेल, शीघ्र सन्देश मार्फत पठाउनुहोस्..."
 
-#: ../src/plugins/bluetooth.c:442
-msgid "Device does not support Obex File Transfer"
-msgstr "यन्त्रले अबेक्स फाइल स्थानान्तरण समर्थन गर्न सक्दैन"
+#~ msgid "Default folder to use"
+#~ msgstr "प्रयोग गर्नका लागि पूर्वनिर्धारित फोल्डर"
 
-#: ../src/plugins/bluetooth.c:457
-msgid "Bluetooth (OBEX Push)"
-msgstr "ब्लुटुथ् (OBEX पुस)"
+#~ msgid "You don't insert the package name"
+#~ msgstr "तपाईँले प्याकेज नाम राख्नु भएन"
 
-#: ../src/plugins/evolution.c:273
-msgid "Email"
-msgstr "इमेल"
+#~ msgid "Files"
+#~ msgstr "फाइल"
 
-#: ../src/plugins/gaim.c:228
-msgid "Instant Message (Gaim)"
-msgstr "शीघ्र सन्देश (गाइम)"
+#~ msgid "Nautilus Sendto"
+#~ msgstr "नउटिलस पठाउनुहोस्"
 
-#: ../src/plugins/gajim.c:402
-msgid "Unable to send file"
-msgstr "फाइल पठाउन असक्षम भयो"
+#~ msgid "Could not load any plugins."
+#~ msgstr "कुनै प्लगइनहरू लोड गर्न सकेन ।"
 
-#: ../src/plugins/gajim.c:403
-msgid "There is no connection to gajim remote service."
-msgstr "त्यहाँ गाजिम टाढाको सेवामा जडान छैन ।"
+#~ msgid "Please verify your installation"
+#~ msgstr "कृपया तपाईँको स्थापना रूजु गर्नुहोस्"
 
-#: ../src/plugins/gajim.c:427 ../src/plugins/gajim.c:466
-msgid "Sending file failed"
-msgstr "पठाइरहेको फाइल असफल भयो"
+#~ msgid "<b>Compression</b>"
+#~ msgstr "<b>सङ्कुचन</b>"
 
-#: ../src/plugins/gajim.c:428
-msgid "Recipient is missing."
-msgstr "प्रापक हराइरहेको छ ।"
+#~ msgid "<b>Destination</b>"
+#~ msgstr "<b>गन्तब्य</b>"
 
-#: ../src/plugins/gajim.c:466
-msgid "Unknown recipient."
-msgstr "अज्ञात प्रापक ।"
+#~ msgid "Send To..."
+#~ msgstr "यसलाई पठाउनुहोस्..."
 
-#: ../src/plugins/gajim.c:488
-msgid "Instant Message (Gajim)"
-msgstr "शीघ्र सन्देश (गाजिम)"
+#~ msgid "Send _as:"
+#~ msgstr "यस रूपमा पठाउनुहोस्:"
 
-#: ../src/plugins/sylpheed-claws.c:131
-msgid "Email (Claws Mail)"
-msgstr "इमेल (क्लज मेल)"
+#~ msgid "Send t_o:"
+#~ msgstr "यसलाई पठाउनुहोस्:"
 
-#: ../src/plugins/thunderbird.c:102
-msgid "Email (Thunderbird)"
-msgstr "इमेल (थन्डरबर्ड)"
+#~ msgid "_Send"
+#~ msgstr "पठाउनुहोस्"
 
+#~ msgid "_Send packed in:"
+#~ msgstr "प्याक गरिएको पठाउनुहोस्:"
+
+#~ msgid "Email (Balsa)"
+#~ msgstr "इमेल (बाल्सा)"
+
+#~ msgid "Programming error, could not find the device in the list"
+#~ msgstr "प्रोग्रामिङ त्रुटि, सूचीमा यन्त्र फेला पार्न सकेन"
+
+#~ msgid "Device does not support Obex File Transfer"
+#~ msgstr "यन्त्रले अबेक्स फाइल स्थानान्तरण समर्थन गर्न सक्दैन"
+
+#~ msgid "Bluetooth (OBEX Push)"
+#~ msgstr "ब्लुटुथ् (OBEX पुस)"
+
+#~ msgid "Email"
+#~ msgstr "इमेल"
+
+#~ msgid "Instant Message (Gaim)"
+#~ msgstr "शीघ्र सन्देश (गाइम)"
+
+#~ msgid "There is no connection to gajim remote service."
+#~ msgstr "त्यहाँ गाजिम टाढाको सेवामा जडान छैन ।"
+
+#~ msgid "Sending file failed"
+#~ msgstr "पठाइरहेको फाइल असफल भयो"
+
+#~ msgid "Recipient is missing."
+#~ msgstr "प्रापक हराइरहेको छ ।"
+
+#~ msgid "Unknown recipient."
+#~ msgstr "अज्ञात प्रापक ।"
+
+#~ msgid "Instant Message (Gajim)"
+#~ msgstr "शीघ्र सन्देश (गाजिम)"
+
+#~ msgid "Email (Claws Mail)"
+#~ msgstr "इमेल (क्लज मेल)"
+
+#~ msgid "Email (Thunderbird)"
+#~ msgstr "इमेल (थन्डरबर्ड)"
