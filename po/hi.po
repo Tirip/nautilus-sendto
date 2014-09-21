@@ -4,15 +4,15 @@
 # This file is distributed under the same license as the nautilus-sendto package.
 #
 # Rajesh Ranjan <rajesh672@gmail.com>, 2009.
-# rajesh <rajesh>, 2012, 2013.
+# rajesh <rajesh>, 2012, 2013, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-sendto.po.master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus-sendto&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-03-20 14:12+0000\n"
-"PO-Revision-Date: 2013-03-22 14:42+0530\n"
-"Last-Translator: raj <raj>\n"
+"POT-Creation-Date: 2014-09-19 22:12+0000\n"
+"PO-Revision-Date: 2014-09-21 07:48+0630\n"
+"Last-Translator: rajesh <rajesh>\n"
 "Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -23,12 +23,10 @@ msgstr ""
 "\n"
 
 #: ../src/nautilus-sendto.c:53
-#| msgid "Run from build directory"
 msgid "Run from build directory (ignored)"
 msgstr "बिल्ड निर्देशिका से चलाएँ (अगर अनदेखा किया जाता है)"
 
 #: ../src/nautilus-sendto.c:54
-#| msgid "Use XID as parent to the send dialogue"
 msgid "Use XID as parent to the send dialogue (ignored)"
 msgstr ""
 "XID को बतौर जनक प्रेषित संवाद भेजने के लिए उपयोग करें (अनदेखा किया गया)"
@@ -43,16 +41,21 @@ msgstr "आउटपुट संस्करण सूचना और नि�
 
 #. Translators: the default archive name if it
 #. * could not be deduced from the provided files
-#: ../src/nautilus-sendto.c:253
+#: ../src/nautilus-sendto.c:244
 msgid "Archive"
 msgstr "अभिलेख"
 
-#: ../src/nautilus-sendto.c:520
+#: ../src/nautilus-sendto.c:511
 #, c-format
 msgid "Could not parse command-line options: %s\n"
 msgstr "कमांड लाइन विकल्प विश्लेषित नहीं कर सका: %s\n"
 
-#: ../src/nautilus-sendto.c:535
+#: ../src/nautilus-sendto.c:524
+#, c-format
+msgid "No mail client installed, not sending files\n"
+msgstr "कोई मेल क्लायंट संस्थापित नहीं, फ़ाइल भेजना नहीं\n"
+
+#: ../src/nautilus-sendto.c:530
 #, c-format
 msgid "Expects URIs or filenames to be passed as options\n"
 msgstr "URI या फ़ाइलनाम की आशा करता है जिसे बतौर विकल्प भेजा जाना है\n"
