@@ -261,10 +261,10 @@ pack_files (GList *file_list)
 
 	g_assert (filename != NULL && *filename != '\0');
 
-	tmp_work_dir = g_strdup_printf ("%s/nautilus-sendto-%s/%li",
-					g_get_tmp_dir (), g_get_user_name (),
-					time (NULL));
-	g_mkdir_with_parents (tmp_work_dir, 0700);
+	tmp_work_dir = g_build_filename (g_get_tmp_dir (),
+					 "nautilus-sendto-XXXXXX",
+					 NULL);
+	tmp_work_dir = g_mkdtemp (tmp_work_dir);
 
 	pack_type = g_strdup (".zip");
 
