@@ -254,21 +254,17 @@ pack_files (GList *file_list)
 	const char *filename;
 	GList *l;
 	GString *cmd, *tmp;
-	char *pack_type, *tmp_dir, *tmp_work_dir, *packed_file;
+	char *pack_type, *tmp_work_dir, *packed_file;
 
 	file_roller_cmd = g_find_program_in_path ("file-roller");
 	filename = pack_filename_from_names (file_list);
 
 	g_assert (filename != NULL && *filename != '\0');
 
-	tmp_dir = g_strdup_printf ("%s/nautilus-sendto-%s",
-				   g_get_tmp_dir (), g_get_user_name ());
-	g_mkdir (tmp_dir, 0700);
 	tmp_work_dir = g_strdup_printf ("%s/nautilus-sendto-%s/%li",
 					g_get_tmp_dir (), g_get_user_name (),
 					time (NULL));
-	g_mkdir (tmp_work_dir, 0700);
-	g_free (tmp_dir);
+	g_mkdir_with_parents (tmp_work_dir, 0700);
 
 	pack_type = g_strdup (".zip");
 
